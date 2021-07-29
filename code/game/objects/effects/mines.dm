@@ -28,8 +28,8 @@
 	arming_time = 5 SECONDS
 
 /obj/item/deployablemine/shrapnel
-	name = "deployable Sharpnel  mine"
-	desc = "An unarmed sharpnel  mine designed to spray lead everywhere and  be hard to disarm."
+	name = "deployable shrapnel mine"
+	desc = "An unarmed shrapnel mine designed to spray lead everywhere and be hard to disarm."
 	mine_type = /obj/effect/mine/shrapnel
 	arming_time = 5 SECONDS
 
@@ -54,6 +54,8 @@
 
 /obj/item/deployablemine/afterattack(atom/plant_spot, mob/user, proximity)
 	. = ..()
+	if(!proximity)
+		return
 	if(!isturf(plant_spot))
 		return
 	var/turf/plant_turf = plant_spot
@@ -61,7 +63,7 @@
 		to_chat(user, "<span class='warning'>You can't plant the mine here!</span>")
 		return
 	to_chat(user, "<span class='notice'>You start arming the [src]...</span>")
-	if(!do_after(user, arming_time, target = src))
+	if(!do_after(user, arming_time, target = plant_turf))
 		return
 	new mine_type(plant_turf)
 	to_chat(user, "<span class='notice'>You plant and arm the [src].</span>")
@@ -181,7 +183,7 @@
 	disarm_product = /obj/item/deployablemine/shrapnel
 	var/shrapnel_type = /obj/item/projectile/bullet/shrapnel
 	var/shrapnel_magnitude = 3
-	var/explosive = FALSE
+	var/explosive = TRUE
 
 /obj/effect/mine/shrapnel/mineEffect(mob/victim)
 	AddComponent(/datum/component/pellet_cloud, projectile_type=shrapnel_type, magnitude=shrapnel_magnitude)
