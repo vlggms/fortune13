@@ -140,7 +140,7 @@
 
 /datum/crafting_recipe/shrapnelmine
 	name = "Shrapnel Mine"
-	result = /obj/item/deployablemine/sharpnel
+	result = /obj/item/deployablemine/shrapnel
 	reqs = list(/obj/item/grenade/homemade/firebomb = 1,
 				/obj/item/stack/tile = 1,
 				/obj/item/ammo_casing/a22 = 5

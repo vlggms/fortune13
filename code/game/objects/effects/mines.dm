@@ -178,7 +178,7 @@
 /obj/effect/mine/shrapnel
 	name = "shrapnel mine"
 	disarm_time = 30
-	disarm_product = /obj/item/deployablemine/sharpnel
+	disarm_product = /obj/item/deployablemine/shrapnel
 	var/shrapnel_type = /obj/item/projectile/bullet/shrapnel
 	var/shrapnel_magnitude = 3
 	var/explosive = FALSE
