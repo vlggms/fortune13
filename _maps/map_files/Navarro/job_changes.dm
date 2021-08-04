@@ -1,62 +1,91 @@
-#define JOB_MODIFICATION_MAP_NAME "Navarro"
+#define IF_NAVARRO if(SSmapping.config.map_name == "Navarro")
+
 /* Removed jobs */
-/datum/job/CaesarsLegion/config_check()
-	return 0
+/datum/job/CaesarsLegion/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
-/datum/job/oasis/config_check()
-	return 0
+/datum/job/oasis/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
-/datum/job/wasteland/f13detective/config_check()
-	return 0
+/datum/job/wasteland/f13detective/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
-/datum/job/wasteland/f13mobboss/config_check()
-	return 0
+/datum/job/wasteland/f13mobboss/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
-/datum/job/wasteland/f13enforcer/config_check()
-	return 0
+/datum/job/wasteland/f13enforcer/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
-/datum/job/bos/f13initiate/config_check()
-	return 0
+/datum/job/bos/f13initiate/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
 
 /* Modified jobs */
 // Enclave
-/datum/job/enclave/drill
+/datum/job/enclave/drill/New()
 	..()
-	total_positions = 1
-	spawn_positions = 1
+	IF_NAVARRO
+		total_positions = 1
+		spawn_positions = 1
 
 /datum/job/enclave/sergeant/New()
 	..()
-	total_positions = 2
-	spawn_positions = 2
+	IF_NAVARRO
+		total_positions = 2
+		spawn_positions = 2
 
 /datum/job/enclave/scientist/New()
 	..()
-	total_positions = 3
-	spawn_positions = 3
+	IF_NAVARRO
+		total_positions = 3
+		spawn_positions = 3
 
 /datum/job/enclave/private/New()
 	..()
-	total_positions = 5
-	spawn_positions = 5
+	IF_NAVARRO
+		total_positions = 5
+		spawn_positions = 5
 
 /datum/job/enclave/recruit/New()
 	..()
-	total_positions = 3
-	spawn_positions = 3
+	IF_NAVARRO
+		total_positions = 3
+		spawn_positions = 3
 
 // Brotherhood
 /datum/job/bos/f13paladin/New()
 	..()
-	total_positions = 2
-	spawn_positions = 2
+	IF_NAVARRO
+		total_positions = 2
+		spawn_positions = 2
 
 /datum/job/bos/f13seniorknight/New()
 	..()
-	total_positions = 2
-	spawn_positions = 2
+	IF_NAVARRO
+		total_positions = 2
+		spawn_positions = 2
 
 /datum/job/bos/f13knight/New()
 	..()
-	total_positions = 4
-	spawn_positions = 4
+	IF_NAVARRO
+		total_positions = 4
+		spawn_positions = 4
+
+#undef IF_NAVARRO

@@ -7,7 +7,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/caves)
+/area/f13/ncr)
 "ap" = (
 /obj/structure/railing{
 	dir = 1
@@ -18,7 +18,7 @@
 "ar" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "aD" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
@@ -56,6 +56,12 @@
 /obj/structure/ore_box,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"by" = (
+/obj/structure/barricade/bars,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plating,
+/area/f13/caves)
 "bA" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -83,12 +89,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
+"bV" = (
+/obj/structure/toilet/secret/prison,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "bW" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "cd" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -105,7 +115,7 @@
 /obj/structure/table/wood,
 /obj/item/pda,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "cA" = (
 /obj/structure/closet/crate{
 	anchored = 1;
@@ -138,7 +148,7 @@
 /obj/structure/rack,
 /obj/item/card/id/dogtag/ncrsergeant,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "da" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -197,6 +207,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"eb" = (
+/turf/closed/wall/r_wall/rust,
+/area/f13/caves)
 "en" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/spray/cleaner,
@@ -263,6 +276,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"fn" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress4"
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "fo" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -271,6 +291,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"fp" = (
+/obj/structure/girder,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "fw" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -281,6 +305,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"fT" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/advcrafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "fU" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
@@ -290,7 +320,7 @@
 /obj/item/bedsheet/rd,
 /obj/effect/landmark/start/f13/ncrcaptain,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "fZ" = (
 /obj/structure/railing{
 	dir = 6
@@ -302,17 +332,21 @@
 /obj/item/bedsheet/hos,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"go" = (
+/mob/living/simple_animal/hostile/raider/ranged,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "gp" = (
 /obj/effect/landmark/start/f13/ncrlieutenant,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "gD" = (
-/turf/closed/wall/f13/supermart,
+/turf/closed/wall/rust,
 /area/f13/caves)
 "gF" = (
 /obj/machinery/computer/card/ncr,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "gO" = (
 /obj/machinery/light/small,
 /obj/machinery/button/door{
@@ -324,6 +358,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"gZ" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "hd" = (
 /obj/structure/chair/wood,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -331,13 +371,19 @@
 "he" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "hg" = (
 /obj/machinery/door/airlock/grunge{
 	req_access_txt = "134"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/enclave)
+"hj" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress6"
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "hk" = (
 /obj/machinery/light{
 	dir = 1
@@ -390,7 +436,7 @@
 "iE" = (
 /obj/machinery/door/unpowered/wooddoor,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/caves)
+/area/f13/ncr)
 "iI" = (
 /obj/machinery/blackbox_recorder,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -414,7 +460,7 @@
 	req_access_txt = "121"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "kg" = (
 /obj/machinery/telecomms/server/presets/common,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -461,7 +507,7 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/cups,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "lW" = (
 /obj/structure/closet/secure{
 	anchored = 1;
@@ -500,7 +546,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/enclave)
 "nk" = (
-/turf/open/floor/f13/wood,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
 /area/f13/caves)
 "no" = (
 /obj/machinery/chem_dispenser,
@@ -537,6 +585,10 @@
 	icon_state = "supermart0"
 	},
 /area/f13/tcoms)
+"oA" = (
+/mob/living/simple_animal/hostile/raider/biker,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "oC" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/enclave)
@@ -553,7 +605,7 @@
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "oO" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
@@ -587,7 +639,7 @@
 	},
 /obj/effect/landmark/start/f13/ncrveteranranger,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "pT" = (
 /turf/closed/mineral/random/high_chance,
 /area/f13/caves)
@@ -619,6 +671,12 @@
 "qX" = (
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
+"qZ" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/blueprintMid,
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "rh" = (
 /obj/structure/table/wood,
 /obj/item/paper,
@@ -632,6 +690,10 @@
 "rw" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood,
+/area/f13/ncr)
+"ry" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "rD" = (
 /obj/structure/table,
@@ -659,6 +721,10 @@
 "sw" = (
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/tcoms)
+"sU" = (
+/mob/living/simple_animal/hostile/raider/firefighter,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "sX" = (
 /obj/machinery/telecomms/server/presets/legion,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -668,7 +734,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "th" = (
 /obj/machinery/light{
 	dir = 1
@@ -694,7 +760,7 @@
 "tS" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "tT" = (
 /obj/machinery/light,
 /obj/structure/table/wood,
@@ -756,6 +822,10 @@
 /obj/item/bedsheet/brown,
 /obj/effect/landmark/start/f13/ncrveteranranger,
 /turf/open/floor/f13/wood,
+/area/f13/ncr)
+"vh" = (
+/obj/structure/simple_door/metal/dirtystore,
+/turf/open/floor/plasteel/dark,
 /area/f13/caves)
 "vm" = (
 /obj/machinery/suit_storage_unit/enclave,
@@ -819,7 +889,7 @@
 "wT" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "wZ" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -864,6 +934,11 @@
 /obj/item/bedsheet/brown,
 /obj/effect/landmark/start/f13/ncrranger,
 /turf/open/floor/f13/wood,
+/area/f13/ncr)
+"yf" = (
+/obj/structure/table,
+/obj/item/flashlight/lamp,
+/turf/open/floor/plasteel/dark,
 /area/f13/caves)
 "yi" = (
 /obj/structure/table/wood,
@@ -882,12 +957,19 @@
 	},
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/ncr)
+"yC" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "den"
+	},
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "yD" = (
 /obj/structure/table/reinforced,
 /obj/item/documents,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "yF" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -898,6 +980,11 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/enclave)
+"yI" = (
+/obj/structure/barricade/bars,
+/obj/structure/table/reinforced,
+/turf/open/floor/plating,
+/area/f13/caves)
 "yN" = (
 /obj/structure/bed/old,
 /obj/item/bedsheet/brown,
@@ -920,7 +1007,7 @@
 /area/f13/enclave)
 "zw" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "zz" = (
 /obj/machinery/camera{
 	c_tag = "Bunker Entrance";
@@ -955,7 +1042,7 @@
 /obj/structure/table/reinforced,
 /obj/item/flashlight/seclite,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "Au" = (
 /obj/machinery/suit_storage_unit/enclave,
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -974,6 +1061,15 @@
 "AY" = (
 /turf/closed/wall/r_wall/f13/vault,
 /area/f13/enclave)
+"Bm" = (
+/mob/living/simple_animal/hostile/raider/ranged/legendary{
+	name = "John Doe"
+	},
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "BB" = (
 /obj/machinery/telecomms/server/presets/den,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -996,6 +1092,12 @@
 /obj/item/pen/fountain,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/enclave)
+"BT" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Ca" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -1011,7 +1113,7 @@
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "Cv" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical,
@@ -1051,7 +1153,7 @@
 	},
 /obj/effect/landmark/start/f13/ncrcaptain,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "DG" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/blue{
@@ -1062,7 +1164,7 @@
 	pixel_x = -7
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "DN" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -1135,7 +1237,7 @@
 "EZ" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "Fp" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -1159,21 +1261,21 @@
 	req_access_txt = "121"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "Gf" = (
 /obj/structure/toilet,
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/caves)
+/area/f13/ncr)
 "Gi" = (
 /obj/machinery/shower{
 	dir = 4
 	},
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "Gj" = (
 /obj/machinery/door/airlock/security{
 	name = "Armory and Quartermaster";
@@ -1187,11 +1289,17 @@
 	},
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "Gx" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
+"GK" = (
+/obj/structure/table,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/turf/open/floor/plasteel/dark,
 /area/f13/caves)
 "GR" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -1205,7 +1313,7 @@
 	pixel_y = 30
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "Hb" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -1232,7 +1340,7 @@
 "HU" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "HW" = (
 /obj/machinery/telecomms/broadcaster/preset_left,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -1273,7 +1381,7 @@
 	req_access_txt = "121"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "IP" = (
 /obj/machinery/telecomms/server/presets/supply,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -1282,6 +1390,12 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/cigarettes/cigars/havana,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
+"Jh" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen/red,
+/turf/open/floor/plasteel/dark,
 /area/f13/caves)
 "Jv" = (
 /obj/structure/table,
@@ -1295,11 +1409,11 @@
 /area/f13/ncr)
 "Jy" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "JE" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "JI" = (
 /obj/structure/closet/cabinet/anchored,
 /obj/item/clothing/glasses/sunglasses,
@@ -1326,6 +1440,10 @@
 /obj/structure/rack,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
+"Ky" = (
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "KB" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
@@ -1341,13 +1459,35 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/enclave)
+"Li" = (
+/obj/structure/table,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Lr" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"Lz" = (
+/obj/structure/table,
+/obj/item/lock_construct,
+/obj/item/key,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "LA" = (
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/enclave)
+"LI" = (
+/obj/structure/rack,
+/obj/item/clothing/gloves/f13/military,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
+"LP" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "LT" = (
 /obj/machinery/telecomms/server/presets/town,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -1357,6 +1497,10 @@
 /obj/effect/landmark/start/f13/ncrrearechelon,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"Mr" = (
+/obj/item/pickaxe,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "MB" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -1376,7 +1520,7 @@
 /obj/item/card/id/dogtag/ncrtrooper,
 /obj/item/card/id/dogtag/ncrtrooper,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "MW" = (
 /obj/structure/curtain,
 /obj/machinery/shower{
@@ -1384,7 +1528,7 @@
 	},
 /obj/structure/decoration/vent,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "Nc" = (
 /obj/structure/rack,
 /obj/item/gun/energy/laser/aer12,
@@ -1422,7 +1566,7 @@
 "NI" = (
 /obj/machinery/door/unpowered/wooddoor,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/caves)
+/area/f13/ncr)
 "NJ" = (
 /obj/machinery/camera{
 	c_tag = "R&D - Research Lab";
@@ -1515,6 +1659,10 @@
 	pixel_x = -8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
+"OT" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/dark,
 /area/f13/caves)
 "OU" = (
 /obj/structure/barricade/bars,
@@ -1536,6 +1684,10 @@
 /obj/item/flag/enclave,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
+"PM" = (
+/mob/living/simple_animal/hostile/raider/baseball,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "PQ" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Quartermaster";
@@ -1560,11 +1712,16 @@
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/ncr)
 "Qm" = (
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/water,
 /area/f13/caves)
 "QB" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/enclave)
+"QF" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/cash_random_low,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "QM" = (
 /obj/machinery/camera{
 	c_tag = "R&D - Medical Lab";
@@ -1585,7 +1742,7 @@
 "Rc" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "Rd" = (
 /obj/machinery/light{
 	dir = 8
@@ -1630,7 +1787,7 @@
 "Sc" = (
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/caves)
+/area/f13/ncr)
 "Sd" = (
 /obj/machinery/camera{
 	c_tag = "Prison Cells";
@@ -1650,7 +1807,7 @@
 "SO" = (
 /obj/effect/landmark/start/f13/ncrranger,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/caves)
+/area/f13/ncr)
 "SP" = (
 /obj/structure/bed/old,
 /obj/item/bedsheet/brown,
@@ -1691,6 +1848,10 @@
 /obj/machinery/chem_master/advanced,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/enclave)
+"TK" = (
+/obj/structure/dresser,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "TL" = (
 /obj/machinery/light{
 	dir = 8
@@ -1727,12 +1888,16 @@
 /obj/item/folder/red,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/enclave)
+"UM" = (
+/obj/structure/simple_door/metal/barred,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "UN" = (
 /obj/machinery/door/unpowered/wooddoor{
 	name = "Veteran Ranger's Room"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "UU" = (
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
@@ -1749,18 +1914,31 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "Vn" = (
 /obj/machinery/door/airlock/vault{
 	req_access_txt = "134"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"Vq" = (
+/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged{
+	name = "Raider"
+	},
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "VE" = (
 /obj/item/kirbyplants/random,
 /obj/structure/railing,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"VO" = (
+/obj/structure/table,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/under/rank/prisoner,
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "Wj" = (
 /obj/structure/closet/secure{
 	anchored = 1;
@@ -1801,6 +1979,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/enclave)
+"XC" = (
+/turf/open/floor/plasteel/dark,
+/area/f13/caves)
 "XE" = (
 /obj/machinery/light{
 	dir = 8
@@ -1912,13 +2093,13 @@
 	desc = "Documents and maps concerning the local NCR presence."
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "ZE" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/caves)
+/area/f13/ncr)
 "ZH" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/patriot,
@@ -2428,15 +2609,15 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 OO
 "}
 (3,1,1) = {"
@@ -2674,6 +2855,7 @@ KB
 KB
 KB
 KB
+pT
 KB
 KB
 KB
@@ -2686,14 +2868,13 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 OO
 "}
 (4,1,1) = {"
@@ -2929,6 +3110,12 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+KB
+pT
 KB
 KB
 KB
@@ -2939,18 +3126,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 OO
 "}
 (5,1,1) = {"
@@ -3187,6 +3368,13 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -3198,16 +3386,9 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
 OO
 "}
 (6,1,1) = {"
@@ -3445,10 +3626,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -3464,7 +3645,7 @@ oO
 oO
 oO
 KB
-KB
+pT
 OO
 "}
 (7,1,1) = {"
@@ -3701,13 +3882,13 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -3957,16 +4138,16 @@ KB
 KB
 KB
 KB
+pT
+pT
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -4214,18 +4395,18 @@ KB
 KB
 KB
 KB
+pT
 KB
 KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -4472,18 +4653,18 @@ KB
 KB
 KB
 KB
+pT
+pT
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 oO
@@ -4735,9 +4916,9 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
+pT
+pT
+pT
 KB
 KB
 KB
@@ -4993,7 +5174,7 @@ KB
 KB
 KB
 KB
-KB
+pT
 KB
 KB
 KB
@@ -5233,10 +5414,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -5491,11 +5672,11 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -5750,6 +5931,11 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -5762,18 +5948,13 @@ KB
 KB
 KB
 KB
+pT
+pT
 KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -6009,6 +6190,12 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -6017,22 +6204,16 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
 KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
 KB
 KB
 OO
@@ -6267,6 +6448,9 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
 KB
 KB
 KB
@@ -6276,21 +6460,18 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+pT
+KB
+pT
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
 KB
 OO
 "}
@@ -6535,15 +6716,15 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -6794,13 +6975,13 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -7053,12 +7234,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -7311,12 +7492,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -7542,10 +7723,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 OO
 OO
 OO
@@ -7553,6 +7734,7 @@ OO
 OO
 OO
 OO
+pT
 KB
 KB
 KB
@@ -7569,11 +7751,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -7796,20 +7977,22 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 OO
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
 OO
+pT
+pT
 KB
 KB
 KB
@@ -7826,10 +8009,8 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
 KB
 KB
 KB
@@ -8061,12 +8242,16 @@ OO
 OO
 OO
 OO
-gD
+hO
 ae
-gD
+hO
 ae
-gD
+hO
 OO
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -8082,11 +8267,7 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -8307,7 +8488,7 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
 hO
 hO
@@ -8320,10 +8501,15 @@ hO
 hO
 hO
 iE
-gD
+hO
 iE
-gD
+hO
 OO
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -8338,12 +8524,7 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -8561,10 +8742,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 OO
 hO
 Kw
@@ -8579,15 +8760,15 @@ hO
 zw
 tc
 zw
-gD
+hO
 OO
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -8817,11 +8998,11 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
 OO
 hO
 UU
@@ -8836,16 +9017,16 @@ hO
 MW
 zw
 ys
-gD
+hO
 OO
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -9093,7 +9274,7 @@ hO
 MW
 zw
 ys
-gD
+hO
 OO
 OO
 OO
@@ -9102,7 +9283,7 @@ OO
 OO
 OO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -9329,14 +9510,14 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
-gD
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
+hO
 hO
 dE
 hO
@@ -9347,20 +9528,20 @@ hO
 hO
 hO
 hO
-gD
+hO
 NI
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+hO
 OO
-KB
-KB
+pT
+pT
 KB
 KB
 KB
@@ -9585,10 +9766,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-gD
+pT
+pT
+pT
+hO
 Gf
 iE
 zw
@@ -9604,20 +9785,20 @@ wl
 ap
 FH
 VE
-Qm
-Qm
+GR
+GR
 SO
-gD
+hO
 ar
 Vf
 ar
-gD
+hO
 Zz
 pP
-gD
+hO
 OO
-KB
-KB
+pT
+pT
 KB
 KB
 KB
@@ -9842,12 +10023,12 @@ KB
 KB
 KB
 KB
-KB
-KB
+pT
+pT
 OO
-gD
-gD
-gD
+hO
+hO
+hO
 bW
 zw
 zw
@@ -9861,20 +10042,20 @@ GR
 GR
 Zv
 GR
-Qm
-Qm
-Qm
+GR
+GR
+GR
 FK
-nk
-nk
-nk
+UU
+UU
+UU
 UN
-nk
-nk
-gD
+UU
+UU
+hO
 OO
-KB
-KB
+pT
+pT
 KB
 KB
 KB
@@ -10098,11 +10279,11 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
+pT
+pT
+pT
 OO
-gD
+hO
 Gf
 iE
 zw
@@ -10118,20 +10299,20 @@ GR
 RH
 dY
 fZ
-Qm
-Qm
-Qm
-gD
+GR
+GR
+GR
+hO
 xY
 oK
 xY
-gD
+hO
 Cq
 uX
-gD
+hO
 OO
-KB
-KB
+pT
+pT
 KB
 KB
 KB
@@ -10356,15 +10537,15 @@ KB
 KB
 KB
 KB
-KB
-KB
+pT
+pT
 OO
-gD
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
+hO
 hO
 HK
 wx
@@ -10375,19 +10556,19 @@ GR
 Lr
 hO
 hO
-gD
+hO
 IG
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+hO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -10613,8 +10794,8 @@ KB
 KB
 KB
 KB
-KB
-KB
+pT
+pT
 OO
 OO
 OO
@@ -10635,7 +10816,7 @@ he
 lT
 Jy
 JE
-gD
+hO
 OO
 OO
 OO
@@ -10644,7 +10825,7 @@ OO
 OO
 OO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -10871,14 +11052,14 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 hO
 HK
 jc
@@ -10892,16 +11073,16 @@ Jy
 Jy
 Jy
 Jy
-gD
+hO
 OO
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -11131,10 +11312,10 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
 OO
 hO
 th
@@ -11149,15 +11330,15 @@ Jy
 Rc
 OP
 wT
-gD
+hO
 OO
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -11390,8 +11571,8 @@ KB
 KB
 KB
 KB
-KB
-KB
+pT
+pT
 OO
 hO
 GR
@@ -11406,13 +11587,13 @@ Jy
 yD
 Gx
 gp
-gD
+hO
 OO
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -11647,8 +11828,8 @@ KB
 KB
 KB
 KB
-KB
-KB
+pT
+pT
 OO
 hO
 dI
@@ -11663,10 +11844,10 @@ Jy
 Af
 DG
 Jy
-gD
-KB
-KB
-KB
+hO
+pT
+pT
+pT
 KB
 KB
 KB
@@ -11905,7 +12086,7 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
 hO
 Rp
@@ -11920,9 +12101,9 @@ gp
 IX
 Rc
 wT
-gD
+hO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -12162,7 +12343,7 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
 hO
 Rp
@@ -12177,9 +12358,9 @@ Jy
 Jy
 Jy
 Jy
-gD
+hO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -12434,9 +12615,9 @@ EZ
 Sc
 Jy
 HU
-gD
+hO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -12687,13 +12868,13 @@ hO
 hO
 hO
 hO
-gD
-gD
+hO
+hO
 jG
-gD
-gD
+hO
+hO
 OO
-KB
+pT
 KB
 KB
 KB
@@ -12941,14 +13122,14 @@ OO
 OO
 OO
 OO
-KB
+pT
 OO
-gD
+hO
 gF
-nk
-nk
+UU
+UU
 tS
-gD
+hO
 OO
 KB
 KB
@@ -13193,19 +13374,19 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 OO
-gD
+hO
 GV
-nk
-nk
+UU
+UU
 cR
-gD
+hO
 OO
 KB
 KB
@@ -13451,18 +13632,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
 OO
-gD
+hO
 rw
 Dw
-nk
+UU
 MS
-gD
+hO
 OO
 KB
 KB
@@ -13710,16 +13891,16 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
+pT
+pT
+pT
 OO
-gD
+hO
 cv
 ZE
-nk
+UU
 fW
-gD
+hO
 OO
 KB
 KB
@@ -13969,14 +14150,14 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
-gD
-gD
-gD
-gD
-gD
-gD
+hO
+hO
+hO
+hO
+hO
+hO
 OO
 KB
 KB
@@ -14226,7 +14407,7 @@ KB
 KB
 KB
 KB
-KB
+pT
 OO
 OO
 OO
@@ -26869,12 +27050,12 @@ KB
 KB
 KB
 KB
+gD
 KB
 KB
 KB
 KB
-KB
-KB
+gD
 KB
 KB
 KB
@@ -27126,12 +27307,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -27383,12 +27564,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -27640,12 +27821,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -27897,12 +28078,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -28154,12 +28335,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -28411,12 +28592,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -28668,12 +28849,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -28925,19 +29106,19 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
 KB
 KB
 KB
@@ -29182,18 +29363,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+nk
+nk
+nk
+nk
+nk
+nk
+nk
 KB
 KB
 KB
@@ -29439,18 +29620,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
 KB
 KB
 KB
@@ -29696,18 +29877,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
+Qm
 KB
 KB
 KB
@@ -29953,18 +30134,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+nk
+nk
+nk
+nk
+nk
+nk
+nk
 KB
 KB
 KB
@@ -30210,19 +30391,19 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
 KB
 KB
 KB
@@ -30467,12 +30648,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -30724,12 +30905,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -30981,12 +31162,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -31238,12 +31419,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -31495,12 +31676,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -31752,12 +31933,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -32009,12 +32190,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -32266,12 +32447,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -32523,12 +32704,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -32780,12 +32961,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -33037,12 +33218,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -33294,12 +33475,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -33551,12 +33732,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -33808,12 +33989,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -34065,6 +34246,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -34076,18 +34263,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+eb
+eb
+eb
+eb
+eb
+eb
 KB
 KB
 KB
@@ -34322,6 +34503,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -34333,18 +34520,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+eb
+bV
+XC
+XC
+LP
+eb
 KB
 KB
 KB
@@ -34579,6 +34760,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -34590,18 +34777,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+eb
+gZ
+fn
+hj
+XC
+eb
 KB
 KB
 KB
@@ -34836,6 +35017,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -34847,18 +35034,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+eb
+yI
+by
+yI
+UM
+eb
 KB
 KB
 KB
@@ -35093,6 +35274,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -35104,24 +35291,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+eb
+XC
+XC
+XC
+XC
+eb
+eb
+eb
+eb
+eb
+eb
+eb
 KB
 KB
 KB
@@ -35350,35 +35531,35 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+eb
+Lz
+go
+XC
+XC
+eb
+TK
+XC
+XC
+XC
+BT
+eb
 KB
 KB
 KB
@@ -35607,35 +35788,35 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+oO
+oO
+oO
+oO
+oO
+oO
+oO
 KB
 KB
+ry
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+PM
+eb
+VO
+XC
+go
+XC
+eb
+Ky
+XC
+yf
+XC
+qZ
+eb
 KB
 KB
 KB
@@ -35864,35 +36045,35 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+oO
+yC
+oO
+oO
+oO
+Mr
 KB
 KB
 KB
+ry
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+oO
+vh
+XC
+XC
+XC
+XC
+vh
+XC
+XC
+QF
+Bm
+eb
+eb
 KB
 KB
 KB
@@ -36121,34 +36302,34 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+fp
+oO
+oO
+oO
+oO
 KB
 KB
 KB
 KB
+ry
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+sU
+eb
+XC
+XC
+XC
+oA
+eb
+XC
+XC
+Jh
+XC
+eb
 KB
 KB
 KB
@@ -36378,34 +36559,34 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+eb
+OT
+OT
+XC
+GK
+eb
+LI
+fT
+eb
+eb
+eb
 KB
 KB
 KB
@@ -36635,6 +36816,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -36645,22 +36832,16 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+eb
+Vq
+XC
+XC
+Li
+eb
+eb
+eb
+eb
 KB
 KB
 KB
@@ -36892,30 +37073,30 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
 KB
 KB
 KB
+pT
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+eb
+eb
+eb
+vh
+eb
+eb
+pT
 KB
 KB
 KB
@@ -37149,6 +37330,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -37156,23 +37343,17 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+oO
+oO
+oO
+oO
+oO
+pT
 KB
 KB
 KB
@@ -37406,6 +37587,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -37413,27 +37600,21 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+KB
+pT
+pT
+oO
+oO
+oO
+pT
+KB
+pT
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -37663,6 +37844,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -37671,25 +37858,19 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
+pT
+pT
+pT
+oO
+oO
+pT
+pT
+pT
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -37920,6 +38101,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -37929,24 +38116,18 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -38177,6 +38358,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -38187,22 +38374,16 @@ KB
 KB
 KB
 KB
+pT
+pT
 KB
+pT
+pT
+pT
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
 KB
 KB
 KB
@@ -38434,6 +38615,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -38444,21 +38631,15 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -38691,6 +38872,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -38703,18 +38890,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
+pT
+pT
+pT
 KB
 KB
 KB
@@ -38948,6 +39129,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -38960,17 +39147,11 @@ KB
 KB
 KB
 KB
+pT
+pT
+pT
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
 KB
 KB
 KB
@@ -39205,6 +39386,12 @@ KB
 KB
 KB
 KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -39218,15 +39405,9 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
-KB
+pT
+pT
+pT
 KB
 KB
 KB
@@ -39462,12 +39643,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -39719,12 +39900,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -39976,12 +40157,12 @@ KB
 KB
 KB
 KB
-KB
-KB
-KB
-KB
-KB
-KB
+gD
+nk
+Qm
+Qm
+nk
+gD
 KB
 KB
 KB
@@ -40233,12 +40414,12 @@ KB
 KB
 KB
 KB
+gD
 KB
 KB
 KB
 KB
-KB
-KB
+gD
 KB
 KB
 KB

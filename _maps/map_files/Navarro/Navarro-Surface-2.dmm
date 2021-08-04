@@ -18,6 +18,14 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"as" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "az" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
@@ -30,6 +38,12 @@
 	},
 /turf/open/floor/wood,
 /area/f13/enclave)
+"aH" = (
+/obj/structure/window/spawner,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "aJ" = (
 /obj/structure/rack,
 /obj/item/weldingtool/mini,
@@ -37,6 +51,7 @@
 /area/f13/enclave)
 "aP" = (
 /obj/structure/barricade/wooden,
+/obj/machinery/light/floor,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft0"
 	},
@@ -80,6 +95,11 @@
 /obj/structure/fence/end,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"br" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "bw" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -240,6 +260,14 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/building)
+"dO" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
 /area/f13/building)
 "dY" = (
 /obj/structure/barricade/sandbags,
@@ -533,6 +561,13 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"iz" = (
+/obj/structure/simple_door/metal/dirtystore,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "iE" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outerbordercorner"
@@ -619,12 +654,7 @@
 	c_tag = "Outside - Bunker Entrance";
 	network = list("navarro")
 	},
-/obj/item/clothing/suit/hooded/cultrobes/eldritch{
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 30, "bomb" = 35, "bio" = 20, "rad" = 0, "fire" = 20, "acid" = 20);
-	color = "#AF77FF";
-	desc = "A ragged, dusty set of purple robes. Strange eyes line the inside.";
-	item_color = "#AF77FF"
-	},
+/obj/item/clothing/suit/hooded/cultrobes/eldritch/purple,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "kr" = (
@@ -760,7 +790,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "mH" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/trash,
@@ -824,6 +854,7 @@
 /area/f13/ncr)
 "nt" = (
 /obj/structure/barricade/wooden,
+/obj/machinery/light/floor,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright0"
 	},
@@ -875,7 +906,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "og" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -1035,7 +1066,7 @@
 /area/f13/enclave)
 "pR" = (
 /turf/closed/wall/rust,
-/area/f13/wasteland)
+/area/f13/ncr)
 "qm" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -1083,6 +1114,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"qI" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "qN" = (
 /obj/item/clothing/head/cone{
 	pixel_x = -2
@@ -1105,6 +1142,12 @@
 /obj/structure/chair/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"qS" = (
+/obj/structure/window/spawner/north,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "qZ" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/glass/fifty,
@@ -1126,7 +1169,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "rh" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -1205,6 +1248,14 @@
 	icon_state = "outerbordercorner"
 	},
 /area/f13/wasteland)
+"st" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "sH" = (
 /obj/machinery/button/door{
 	id = "ncrrgatehouse";
@@ -1240,6 +1291,9 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"ta" = (
+/turf/closed/wall/r_wall,
+/area/f13/caves)
 "tc" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/f13/oakbroken,
@@ -1382,6 +1436,14 @@
 "uO" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"uS" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "uW" = (
 /obj/effect/turf_decal/trimline/white/line,
 /obj/effect/turf_decal/trimline/white/line{
@@ -1439,7 +1501,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg2"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "vX" = (
 /obj/machinery/sleeper{
 	density = 1;
@@ -1646,6 +1708,14 @@
 /obj/item/clothing/head/f13/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"zw" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "zC" = (
 /obj/structure/simple_door/metal/fence{
 	door_type = "fence_wood";
@@ -1814,6 +1884,8 @@
 /area/f13/wasteland)
 "BY" = (
 /obj/machinery/workbench/advanced,
+/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
+/obj/effect/spawner/lootdrop/f13/blueprintHigh,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
 "Cd" = (
@@ -1842,6 +1914,12 @@
 /obj/item/bedsheet/brown,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"Cw" = (
+/mob/living/simple_animal/hostile/handy,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "CF" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "ncrmedlock";
@@ -1880,14 +1958,6 @@
 	c_tag = "R&D - Entrance";
 	dir = 1;
 	network = list("navarro")
-	},
-/obj/machinery/turretid{
-	ailock = 1;
-	icon_state = "control_kill";
-	lethal = 1;
-	name = "minigun turret control panel";
-	pixel_y = -28;
-	req_access = list(134)
 	},
 /turf/open/floor/wood,
 /area/f13/enclave)
@@ -2115,7 +2185,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg3"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "Gf" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/construction,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -2175,6 +2245,14 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"HZ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "Ig" = (
 /obj/machinery/door/airlock/vault{
 	req_access_txt = "134"
@@ -2188,7 +2266,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "Iq" = (
 /turf/closed/indestructible/f13/matrix,
 /area/f13/tunnel)
@@ -2319,6 +2397,9 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"JN" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/building)
 "JR" = (
 /obj/machinery/light{
 	dir = 8
@@ -2365,6 +2446,15 @@
 	icon_state = "innershade"
 	},
 /area/f13/ncr)
+"KN" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "den"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "KR" = (
 /obj/structure/simple_door/house{
 	icon_state = "interior"
@@ -2486,6 +2576,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13,
 /area/f13/enclave)
+"MF" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "MH" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -2861,7 +2959,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "Sy" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2914,7 +3012,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "SR" = (
 /obj/machinery/button/door{
 	id = "ncrlgatehouse";
@@ -3071,7 +3169,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "UL" = (
 /obj/machinery/seed_extractor,
 /turf/open/indestructible/ground/outside/dirt,
@@ -3153,6 +3251,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
+"VQ" = (
+/obj/structure/simple_door/metal/dirtystore,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "VS" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -3249,7 +3353,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "Xa" = (
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
@@ -3295,7 +3399,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg2"
 	},
-/area/f13/wasteland)
+/area/f13/ncr)
 "XA" = (
 /obj/structure/bed/mattress/pregame,
 /turf/open/floor/f13/wood{
@@ -3961,7 +4065,7 @@ Sz
 Sz
 FF
 FF
-kr
+ta
 FF
 FF
 FF
@@ -13745,7 +13849,7 @@ WS
 WS
 dY
 dY
-WS
+dY
 WS
 WS
 WS
@@ -14755,7 +14859,7 @@ Sz
 Sz
 Sz
 Sz
-kr
+CJ
 cG
 cG
 cG
@@ -14795,7 +14899,7 @@ cG
 cG
 cG
 cG
-kr
+ta
 fk
 "}
 (45,1,1) = {"
@@ -16044,7 +16148,7 @@ FF
 fk
 fk
 FF
-fk
+FF
 FF
 FF
 FF
@@ -16329,7 +16433,7 @@ fk
 fk
 fk
 fk
-fk
+FF
 FF
 FF
 FF
@@ -16556,7 +16660,7 @@ FF
 FF
 FF
 FF
-fk
+FF
 FF
 fk
 fk
@@ -36919,13 +37023,13 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+JN
+JN
+JN
+JN
+JN
+JN
 Sz
 Sz
 Sz
@@ -37176,13 +37280,13 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+dO
+zw
+uS
+br
+br
+JN
 Sz
 Sz
 Sz
@@ -37433,13 +37537,13 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+HZ
+KN
+br
+br
+br
+VQ
 Sz
 Sz
 Sz
@@ -37690,13 +37794,13 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+st
+as
+MF
+br
+br
+JN
 Sz
 Sz
 Sz
@@ -37947,15 +38051,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+JN
+JN
+JN
+iz
+JN
+JN
+JN
+JN
 Sz
 Sz
 Sz
@@ -38204,15 +38308,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+qI
+Cw
+qS
+br
+aH
+Cw
+qI
+JN
 Sz
 Sz
 Sz
@@ -38461,15 +38565,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+qI
+Cw
+qS
+br
+aH
+Cw
+qI
+JN
 Sz
 Sz
 Sz
@@ -38718,15 +38822,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+qI
+Cw
+qS
+br
+aH
+Cw
+qI
+JN
 Sz
 Sz
 Sz
@@ -38975,15 +39079,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+qI
+Cw
+qS
+br
+aH
+Cw
+qI
+JN
 Sz
 Sz
 Sz
@@ -39232,15 +39336,15 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+JN
+JN
+JN
+JN
+JN
+JN
+JN
+JN
+JN
 Sz
 Sz
 Sz
