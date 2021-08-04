@@ -34,10 +34,4 @@
 		}
 	],
 	"minetype": "none",
-	"job_changes": {
-		"prisoner": {
-			"total_positions": 0,
-			"spawn_positions": 0
-		},
-	}
 }

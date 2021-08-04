@@ -1,3 +1,4 @@
+#define JOB_MODIFICATION_MAP_NAME "Navarro"
 /* Removed jobs */
 /datum/job/CaesarsLegion/config_check()
 	return 0
