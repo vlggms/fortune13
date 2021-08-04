@@ -228,10 +228,12 @@ GLOBAL_LIST_INIT(wasteland_positions, list(
 ))
 
 GLOBAL_LIST_INIT(enclave_positions, list(
-	"Enclave Private",
+	"Enclave Lieutenant",
+	"Enclave Drill Instructor",
 	"Enclave Sergeant",
 	"Enclave Scientist",
-	"Enclave Lieutenant",
+	"Enclave Private",
+	"Enclave Recruit",
 ))
 
 GLOBAL_LIST_INIT(security_positions, list(
@@ -270,6 +272,7 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
 	EXP_TYPE_TRIBAL = list("jobs" = tribal_positions, "color" = "#006666"),
 	EXP_TYPE_OASIS = list("jobs" = oasis_positions, "color" = "#d7b088"),
+	EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#323232"),
 ))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(

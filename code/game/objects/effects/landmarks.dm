@@ -807,32 +807,29 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Detective"
 
 // Enclave
-/obj/effect/landmark/start/f13/usspy
+/obj/effect/landmark/start/f13/enclave_recruit
+	name = "Enclave Recruit"
+	icon_state = "Settler"
+
+/obj/effect/landmark/start/f13/enclave_private
 	name = "Enclave Private"
+	icon_state = "Enclave Private"
 
-/obj/effect/landmark/start/f13/uslt
-	name = "Enclave Lieutenant"
-
-/obj/effect/landmark/start/f13/ussgt
-	name = "Enclave Sergeant"
-
-/obj/effect/landmark/start/f13/uscommander
-	name = "US Commander"
-
-/obj/effect/landmark/start/f13/usmedic
-	name = "US Medic"
-
-/obj/effect/landmark/start/f13/usprivate
-	name = "US Private"
-
-/obj/effect/landmark/start/f13/usscientist
+/obj/effect/landmark/start/f13/enclave_scientist
 	name = "Enclave Scientist"
+	icon_state = "Enclave Scientist"
 
-/obj/effect/landmark/start/f13/usengineer
-	name = "US Engineer"
+/obj/effect/landmark/start/f13/enclave_sergeant
+	name = "Enclave Sergeant"
+	icon_state = "Enclave Sergeant"
 
-/obj/effect/landmark/start/f13/uscolonist
-	name = "US Colonist"
+/obj/effect/landmark/start/f13/enclave_drill_instructor
+	name = "Enclave Drill Instructor"
+	icon_state = "Enclave Drill Instructor"
+
+/obj/effect/landmark/start/f13/enclave_lieutenant
+	name = "Enclave Lieutenant"
+	icon_state = "Enclave Lieutenant"
 
 //Tribal
 

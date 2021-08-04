@@ -10,7 +10,7 @@ JHP (jacketed hollow point)	=	+15% damage. AP reduced by 0.2 (not below zero). W
 SWC (semi wadcutter)		=	AP reduced by 0.1. Wound bonus +50%
 P+ (overpressure)			=	extra speed 500. AP +25%
 Match						=	extra speed 200. AP +10%. Wound bonus -10%
-Civilian round				=	-10% damage for .223. AP reduced by 50% 
+Civilian round				=	-10% damage for .223. AP reduced by 50%
 */
 
 // Explanation: Two major ammo stats, AP and Damage. Bullets placed in classes. Light rounds for example balanced with each other, one more AP, one more Damage.
@@ -95,7 +95,7 @@ Civilian round				=	-10% damage for .223. AP reduced by 50%
 	var/extra_speed = 200
 
 //.308 Winchester
-/obj/item/projectile/bullet/a762/sport 
+/obj/item/projectile/bullet/a762/sport
 	name = ".308 bullet"
 	damage = 39
 	armour_penetration = 0.15
@@ -161,6 +161,11 @@ Civilian round				=	-10% damage for .223. AP reduced by 50%
 	damage = 19
 	armour_penetration = 0.5
 
+// Turrets at Navarro use it
+/obj/item/projectile/bullet/c5mm/turret
+	damage = 14
+	armour_penetration = 0.35
+	pixels_per_second = TILES_TO_PIXELS(45)
 
 /////////////////////////
 //2 MM ELECTROMAGNETIC //

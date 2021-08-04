@@ -847,21 +847,34 @@
 	uses_overlays = FALSE
 
 /obj/item/card/id/dogtag/enclave
-	desc = "An advanced holographic dogtag, that shows the duty of a BoS member. This one seems a bit off somewhow..."
+	desc = "An advanced holographic dogtag, that shows the rank of an Enclave member."
 
 /obj/item/card/id/dogtag/enclave/recruit
 	access = list(ACCESS_ENCLAVE)
+	var/set_assignment = "Enclave Recruit"
+	var/change_one_use = FALSE // Can it be used once or more?
+	var/change_used = FALSE // For variable above
+	var/set_faction // Sets your faction to that, if not empty
 
 /obj/item/card/id/dogtag/enclave/recruit/attack_self(mob/user)
-	if(isliving(user))
+	if(isliving(user) && !change_used)
 		var/mob/living/living_user = user
 		if(alert(user, "Action", "Agent ID", "Show", "Forge") == "Forge")
 			registered_name = living_user.real_name
-			assignment = "Enclave Recruit"
+			assignment = set_assignment
 			update_label()
 			to_chat(user, "<span class='notice'>You successfully update your holotag.</span>")
+			if(set_faction && !(set_faction in user.faction))
+				user.faction |= set_faction
+			if(change_one_use)
+				change_used = TRUE
 			return
 	..()
+
+/obj/item/card/id/dogtag/enclave/recruit/navarro
+	desc = "An advanced holographic dogtag, that shows the rank of an Enclave member. This one can only be used once."
+	change_one_use = TRUE
+	set_faction = "Enclave" // So turrets ignore you
 
 /obj/item/card/id/selfassign/attack_self(mob/user)
 	if(isliving(user))

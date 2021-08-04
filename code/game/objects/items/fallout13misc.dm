@@ -214,6 +214,13 @@
 	name = "High Valley Hills flag"
 	desc = "A flag with two white stripes, blue border and a red centre with a white Vault-Tec logo, turned on its side and stretched out."
 
+/obj/item/flag/enclave
+	name = "Enclave flag"
+	desc = "A grey flag with a big \"E\" in the center with stars surrounding it."
+	icon_state = "enclaveflag"
+	item_state = "enclaveflag"
+	faction = "Enclave"
+
 /obj/item/flag/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/stack/sheet/leather) && item_state == "emptyflag")
 		visible_message("<span class='notice'>[user] begins to make a flag.</span>")
