@@ -333,11 +333,11 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	name = "Enclave Private"
 	jobtype = /datum/job/enclave/private
 	backpack = 		/obj/item/storage/backpack/satchel/leather
-	head = 			/obj/item/clothing/head/helmet/f13/combat/enclave
+	head = 			/obj/item/clothing/head/helmet/f13/combat/mk2/enclave
 	ears = 			/obj/item/radio/headset/headset_enclave
 	glasses = 		/obj/item/clothing/glasses/night
 	uniform =		/obj/item/clothing/under/f13/enclave/peacekeeper
-	suit = 			/obj/item/clothing/suit/armor/f13/combat/enclave
+	suit = 			/obj/item/clothing/suit/armor/f13/combat/mk2/enclave
 	belt = 			/obj/item/storage/belt/military/army
 	shoes = 		/obj/item/clothing/shoes/combat/swat
 	id = 			/obj/item/card/id/dogtag/enclave/trooper

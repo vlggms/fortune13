@@ -18,3 +18,17 @@
 	force = 5
 	selfcharge = EGUN_SELFCHARGE
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
+
+/obj/item/gun/energy/laser/plasma/mounted
+	name = "mounted plasma-caster"
+	desc = "An arm mounted cannon that fires streams of plasma."
+	icon = 'icons/obj/items_cyborg.dmi'
+	icon_state = "laser_cyborg"
+	item_state = "armcannonplasma"
+	force = 12
+	burst_size = 3
+	burst_shot_delay = 4
+	selfcharge = EGUN_SELFCHARGE
+	can_charge = 0
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/scatter)
+	trigger_guard = TRIGGER_GUARD_ALLOW_ALL

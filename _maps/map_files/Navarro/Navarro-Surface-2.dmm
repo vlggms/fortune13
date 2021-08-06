@@ -225,9 +225,8 @@
 /turf/open/floor/wood,
 /area/f13/enclave)
 "cR" = (
-/obj/effect/turf_decal/bot_red/right,
-/obj/machinery/porta_turret/syndicate/navarro,
-/turf/open/indestructible/ground/outside/sidewalk,
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "cU" = (
 /obj/structure/table/reinforced,
@@ -311,7 +310,7 @@
 "dt" = (
 /mob/living/simple_animal/hostile/raider/ranged,
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/area/f13/wasteland)
 "dw" = (
 /obj/structure/bed/old,
 /turf/open/floor/f13/wood{
@@ -738,15 +737,10 @@
 /turf/open/floor/wood,
 /area/f13/enclave)
 "ji" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/handy/gutsy{
-	color = "#CCCCCC";
-	desc = "A pre-war combat robot based off the Mr. Handy design, armed with plasma weaponry and a deadly close-range flamer. This one has an Enclave logotype on the back.";
-	faction = list("wastebot", "Enclave");
-	name = "Shopkeeper"
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain0"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/building)
+/area/f13/wasteland)
 "jk" = (
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland33"
@@ -911,7 +905,7 @@
 "lH" = (
 /mob/living/simple_animal/hostile/raider/biker,
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/area/f13/wasteland)
 "lL" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plating,
@@ -956,6 +950,16 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"mr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/handy/gutsy{
+	color = "#CCCCCC";
+	desc = "A pre-war combat robot based off the Mr. Handy design, armed with plasma weaponry and a deadly close-range flamer. This one has an Enclave logotype on the back.";
+	faction = list("wastebot", "Enclave");
+	name = "Shopkeeper"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/building)
 "mu" = (
 /obj/structure/wreck/trash/five_tires,
 /turf/open/indestructible/ground/outside/desert,
@@ -965,8 +969,10 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "my" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain1"
+	},
+/area/f13/wasteland)
 "mA" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -1305,10 +1311,15 @@
 "pR" = (
 /turf/closed/wall/rust,
 /area/f13/ncr)
+"pW" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft2top"
+	},
+/area/f13/wasteland)
 "pY" = (
 /mob/living/simple_animal/hostile/raider/ranged/boss,
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/area/f13/wasteland)
 "qg" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1580,10 +1591,11 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "tv" = (
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland32"
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "tx" = (
 /obj/structure/railing{
 	dir = 1
@@ -1920,6 +1932,23 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"xC" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/crate,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/obj/item/ammo_casing/shotgun/laserslug,
+/turf/open/floor/wood,
+/area/f13/enclave)
 "xL" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2"
@@ -2122,9 +2151,9 @@
 	},
 /area/f13/wasteland)
 "Ah" = (
-/obj/effect/turf_decal/bot_red/left,
-/obj/machinery/porta_turret/syndicate/navarro,
-/turf/open/indestructible/ground/outside/sidewalk,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain2left"
+	},
 /area/f13/wasteland)
 "Ap" = (
 /obj/structure/closet,
@@ -2189,6 +2218,10 @@
 "AW" = (
 /obj/structure/table/wood,
 /obj/machinery/cell_charger,
+/obj/item/paper/enclave_password/at_base{
+	pixel_x = 6;
+	pixel_y = 8
+	},
 /turf/open/floor/wood,
 /area/f13/enclave)
 "AY" = (
@@ -2277,9 +2310,10 @@
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "BU" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft3"
+	},
+/area/f13/wasteland)
 "BY" = (
 /obj/machinery/workbench/advanced,
 /obj/effect/spawner/lootdrop/f13/blueprintVHigh,
@@ -2316,7 +2350,7 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/area/f13/wasteland)
 "Cv" = (
 /obj/structure/bed/old,
 /obj/item/bedsheet/brown,
@@ -2713,6 +2747,11 @@
 	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
+	},
+/area/f13/wasteland)
+"HS" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermainbottom"
 	},
 /area/f13/wasteland)
 "HZ" = (
@@ -3356,9 +3395,10 @@
 /turf/closed/wall/f13/store,
 /area/f13/building)
 "Pu" = (
+/obj/structure/barricade/sandbags,
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/building)
+/area/f13/wasteland)
 "Py" = (
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
@@ -3411,6 +3451,15 @@
 /obj/item/melee/classic_baton/telescopic,
 /obj/item/clothing/glasses/night,
 /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch,
+/obj/item/clothing/suit/armor/vest/warden{
+	armor = list("tier" = 6, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 10);
+	desc = "A navy-blue armored jacket with blue shoulder designations and '/Sergeant/' stitched into one of the chest pockets.";
+	name = "sergeant's jacket"
+	},
+/obj/item/clothing/head/warden/drill{
+	armor = list("tier" = 6, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60);
+	name = "sergeant's campaign hat"
+	},
 /turf/open/floor/wood,
 /area/f13/enclave)
 "PZ" = (
@@ -3421,8 +3470,18 @@
 /area/f13/ncr)
 "Qj" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
+/obj/item/paper_bin{
+	pixel_x = 4
+	},
+/obj/item/pen/fountain{
+	pixel_x = 4
+	},
+/obj/item/toy/figure/warden{
+	desc = "An action figure, meant to represent a drill sergeant of the US military.";
+	name = "Drill Instructor action figure";
+	pixel_x = -10;
+	toysay = "Where is your power armor?!!"
+	},
 /turf/open/floor/wood,
 /area/f13/enclave)
 "Qq" = (
@@ -3648,6 +3707,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"SJ" = (
+/obj/structure/guncase/shotgun,
+/obj/item/gun/ballistic/shotgun/police,
+/turf/open/floor/wood,
+/area/f13/enclave)
 "SO" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermaintop"
@@ -11314,7 +11378,7 @@ Ep
 Ep
 Ep
 XQ
-Ah
+XQ
 vE
 CN
 rR
@@ -11828,7 +11892,7 @@ Ep
 Ep
 Ep
 XQ
-cR
+XQ
 Ep
 kG
 lR
@@ -12659,7 +12723,7 @@ KX
 KX
 KX
 KX
-KX
+mr
 mA
 hf
 IF
@@ -13426,7 +13490,7 @@ tY
 SE
 AQ
 AQ
-ji
+KX
 KX
 tY
 XE
@@ -14163,7 +14227,7 @@ kO
 Hd
 UQ
 Ep
-UQ
+SJ
 UQ
 cP
 Qj
@@ -14420,7 +14484,7 @@ tx
 ow
 UQ
 Ep
-QO
+xC
 UQ
 cP
 AW
@@ -24968,10 +25032,10 @@ Sz
 Sz
 Sz
 Pu
-BU
-BU
-BU
-BU
+LE
+LE
+LE
+LE
 Pu
 Sz
 Sz
@@ -25224,12 +25288,12 @@ Sz
 nc
 Sz
 Sz
-BU
+LE
 Cu
-my
-my
+Sz
+Sz
 lH
-BU
+LE
 Sz
 Sz
 Sz
@@ -25481,12 +25545,12 @@ Sz
 Sz
 Sz
 Sz
-BU
-my
-my
-tv
-my
-BU
+LE
+Sz
+Sz
+nc
+Sz
+LE
 Sz
 Sz
 Sz
@@ -25738,12 +25802,12 @@ Sz
 Sz
 Sz
 Sz
-BU
-tv
-my
-my
-my
-my
+LE
+nc
+Sz
+Sz
+Sz
+Sz
 Sz
 Sz
 Sz
@@ -25995,12 +26059,12 @@ Sz
 Sz
 Sz
 Sz
-BU
+LE
 pY
-my
-my
+Sz
+Sz
 dt
-BU
+LE
 Sz
 Sz
 Sz
@@ -26253,10 +26317,10 @@ Sz
 Sz
 Sz
 Pu
-BU
-BU
-BU
-BU
+LE
+LE
+LE
+LE
 Pu
 Sz
 Sz
@@ -30636,7 +30700,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+co
 Sz
 Sz
 Sz
@@ -33952,7 +34016,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+co
 Sz
 Sz
 Sz
@@ -35020,7 +35084,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+vG
 Sz
 Sz
 Sz
@@ -35255,7 +35319,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+vG
 Sz
 Sz
 Sz
@@ -36007,7 +36071,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+vG
 Sz
 Sz
 Sz
@@ -37799,7 +37863,7 @@ JN
 JN
 JN
 JN
-Sz
+cR
 Sz
 Sz
 Sz
@@ -38056,6 +38120,28 @@ uS
 br
 br
 JN
+Kt
+Kt
+hL
+OU
+JP
+OU
+jH
+Sz
+nc
+Sz
+Sz
+Sz
+Sz
+nc
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+nc
 Sz
 Sz
 Sz
@@ -38069,6 +38155,7 @@ Sz
 Sz
 Sz
 Sz
+jk
 Sz
 Sz
 Sz
@@ -38077,30 +38164,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+jk
 Sz
 Sz
 Sz
@@ -38313,6 +38377,13 @@ br
 br
 br
 VQ
+ji
+tv
+my
+wP
+wP
+wP
+HS
 Sz
 Sz
 Sz
@@ -38323,6 +38394,7 @@ Sz
 Sz
 Sz
 Sz
+jk
 Sz
 Sz
 Sz
@@ -38333,6 +38405,7 @@ Sz
 Sz
 Sz
 Sz
+jk
 Sz
 Sz
 Sz
@@ -38342,16 +38415,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+nc
 Sz
 Sz
 Sz
@@ -38367,7 +38431,7 @@ SO
 ct
 Fy
 wP
-XQ
+tv
 hf
 zb
 rt
@@ -38570,6 +38634,17 @@ MF
 br
 br
 JN
+my
+Ah
+OS
+BU
+pW
+IN
+vY
+Sz
+Sz
+Sz
+jk
 Sz
 Sz
 Sz
@@ -38583,6 +38658,14 @@ Sz
 Sz
 Sz
 Sz
+jk
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+nc
 Sz
 Sz
 Sz
@@ -38591,33 +38674,14 @@ Sz
 Sz
 Sz
 Sz
+nc
 Sz
 Sz
 Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+nc
 Sz
 Sz
 Lk
@@ -38831,7 +38895,7 @@ JN
 JN
 Sz
 Sz
-Sz
+cR
 Sz
 Sz
 Sz
@@ -43995,7 +44059,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+vG
 Sz
 Sz
 Sz
@@ -48085,7 +48149,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+vG
 Sz
 Sz
 Sz
@@ -49095,7 +49159,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+co
 Sz
 Sz
 Sz
@@ -53000,7 +53064,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+co
 Sz
 Sz
 Sz

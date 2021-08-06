@@ -139,6 +139,7 @@
 /obj/item/clothing/head/hooded/cult_hoodie/eldritch/purple
 	name = "purple hood"
 	desc = "A weird purple hood, probably related to some old cult, or worse..."
+	color = "#AF77FF"
 	flash_protect = 0
 
 /obj/item/clothing/suit/hooded/cultrobes/eldritch/purple
