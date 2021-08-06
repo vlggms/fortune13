@@ -788,6 +788,27 @@
 	icon_state = "blueprint2"
 	crafting_recipe_types = list(/datum/crafting_recipe/scoutcarbine)
 
+/* Armor blueprints */
+/obj/item/book/granter/crafting_recipe/blueprint/armor
+	name = "armor blueprint"
+	desc = "A detailed schematic for crafting an armor set."
+	icon_state = "blueprint_orange_empty"
+
+// Tier 5
+/obj/item/book/granter/crafting_recipe/blueprint/armor/combat
+	name = "combat armor blueprint"
+	desc = "A detailed schematic for crafting a set of combat armor."
+	icon_state = "blueprint_orange1"
+	crafting_recipe_types = list(/datum/crafting_recipe/combat_armor, /datum/crafting_recipe/combat_helmet)
+
+// Tier 6
+/obj/item/book/granter/crafting_recipe/blueprint/armor/combatmk2
+	name = "combat armor reinforcement blueprint"
+	desc = "A detailed schematic for reinforcing a set of combat armor."
+	icon_state = "blueprint_orange2"
+	crafting_recipe_types = list(/datum/crafting_recipe/combat_armor_mk2, /datum/crafting_recipe/combat_helmet_mk2)
+
+/* Traits */
 /obj/item/book/granter/trait/chemistry
 	name = "Big Book of Science"
 	desc = "This heavy textbook can teach basic chemistry, but saw more use as a blunt weapon shortly after the Collapse."
@@ -804,7 +825,7 @@
 	granted_trait = TRAIT_BIG_LEAGUES
 	traitname = "big_leagues"
 	remarks = list("Grognak hit the Death Knight only once, but that was enough.", "Grognak is surprisingly agile, never committing too heavily on an attack, dancing between his enemies.", "Grognak isn't good at talking, but he knows it has its place. He has friends to talk for him.", "Other barbarians might change their weapons, but Grognak could never leave his beloved axe.")
-	
+
 /obj/item/book/granter/trait/lowsurgery
 	name = "First Aid Pamphlet"
 	desc = "A flimsy collection of vital tips and tricks for the average American with a sudden injury."

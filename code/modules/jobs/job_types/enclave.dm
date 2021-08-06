@@ -21,15 +21,23 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 		/datum/matchmaking_pref/protegee = list(),
 	)
 
+/datum/outfit/job/enclave/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/enclavecombatarmor)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/enclavecombathelmet)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tailor/enclaveuniform)
+
 /* LIEUTENANT */
 /datum/job/enclave/lieutenant
 	title = "Enclave Lieutenant"
 	flag = F13ENCLAVELT
 	total_positions = 1
 	spawn_positions = 1
-	description = "You are the Lieutenant in charge of commanding the remnants of the Enclave forces in the area. You are to recruit all those interested to your cause."
+	description = "You are the Lieutenant in charge of commanding the remnants of the Enclave forces in the area."
 	supervisors = "colonel of the Enclave and its Government."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_requirements = 2400
 	exp_type = EXP_TYPE_ENCLAVE
 
@@ -100,7 +108,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	spawn_positions = 0
 	description = "You are the Drill Sergeant within the ranks of Enclave. You are in charge of training the troopers and maintaing order in the army."
 	supervisors = "lieutenant of the Enclave."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_requirements = 1800
 	exp_type = EXP_TYPE_ENCLAVE
 
@@ -163,7 +171,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	spawn_positions = 1
 	description = "You are a second in command in those lands, and as such, you directly answer for training and maintaining order within the ranks of privates and new recruits."
 	supervisors = "lieutenant of the Enclave."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_requirements = 1200
 	exp_type = EXP_TYPE_FALLOUT
 
@@ -230,7 +238,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	spawn_positions = 1
 	description = "You're responsible for the maintenance of the base, the knowledge you've accumulated over the years is the only thing keeping the remnants alive. You've dabbled in enough to be considered a Professor in proficiency, but they call you Doctor. Support your dwindling forces and listen to the Lieutenant."
 	supervisors = "lieutenant of the Enclave."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_requirements = 1800
 	exp_type = EXP_TYPE_FALLOUT
 	access = list(ACCESS_ENCLAVE)
@@ -295,7 +303,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	spawn_positions = 1
 	description = "You are a soldier within the ranks of Enclave. You must follow all and any legitimate orders issued to you by command, including scientists."
 	supervisors = "officers and scientists of the Enclave."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_type = EXP_TYPE_ENCLAVE
 	exp_requirements = 600
 
@@ -328,7 +336,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	head = 			/obj/item/clothing/head/helmet/f13/combat/enclave
 	ears = 			/obj/item/radio/headset/headset_enclave
 	glasses = 		/obj/item/clothing/glasses/night
-	uniform =		/obj/item/clothing/under/f13/navy
+	uniform =		/obj/item/clothing/under/f13/enclave/peacekeeper
 	suit = 			/obj/item/clothing/suit/armor/f13/combat/enclave
 	belt = 			/obj/item/storage/belt/military/army
 	shoes = 		/obj/item/clothing/shoes/combat/swat
@@ -357,7 +365,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	spawn_positions = 1
 	description = "You are a new recruit within the ranks of the Enclave. You have been sent out to reach the local outpost and finally begin your duties. To enter the base, you've been given a secret password you may find in your backpack."
 	supervisors = "officers and scientists of the Enclave."
-	selection_color = "#323232"
+	selection_color = "#525252"
 	exp_type = EXP_TYPE_FALLOUT
 	exp_requirements = 1800
 
