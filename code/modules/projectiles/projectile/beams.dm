@@ -276,6 +276,12 @@
 	is_reflectable = TRUE
 	pixels_per_second = TILES_TO_PIXELS(50)
 
+// For the mounted plasma gun
+/obj/item/projectile/f13plasma/plasmacaster/repeater
+	damage = 25
+	armour_penetration = 0.5
+	pixels_per_second = TILES_TO_PIXELS(30)
+
 //Alrem's plasmacaster
 /obj/item/projectile/f13plasma/plasmacaster/arlem
 	name = "plasma bolt"

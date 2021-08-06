@@ -170,7 +170,7 @@
 /datum/export/gear/wardenhat
 	cost = 90
 	unit_name = "warden hat"
-	export_types = list(/obj/item/clothing/head/warden, /obj/item/clothing/head/warden/drill, /obj/item/clothing/head/beret/sec/navywarden)
+	export_types = list(/obj/item/clothing/head/helmet/warden, /obj/item/clothing/head/helmet/warden/drill, /obj/item/clothing/head/beret/sec/navywarden)
 
 /datum/export/gear/sechats
 	cost = 60

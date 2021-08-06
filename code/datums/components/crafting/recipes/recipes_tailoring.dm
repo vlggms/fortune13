@@ -188,7 +188,7 @@
 /datum/crafting_recipe/ncrcombatarmor
 	name = "NCR combat armor"
 	result = /obj/item/clothing/suit/armor/f13/combat/ncr
-	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -199,7 +199,7 @@
 /datum/crafting_recipe/ncrcombathelmet
 	name = "NCR combat helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat/ncr
-	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -210,7 +210,6 @@
 /datum/crafting_recipe/ncrcombatarmormk2
 	name = "reinforced NCR combat armor"
 	result = /obj/item/clothing/suit/armor/f13/combat/mk2/ncr
-	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -221,7 +220,6 @@
 /datum/crafting_recipe/ncrcombathelmetmk2
 	name = "reinforced NCR combat helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat/mk2/ncr
-	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -232,7 +230,7 @@
 /datum/crafting_recipe/legioncombatarmor
 	name = "Legion Combat Armor"
 	result = /obj/item/clothing/suit/armor/f13/combat/legion
-	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -243,7 +241,7 @@
 /datum/crafting_recipe/legioncombathelmet
 	name = "Legion Combat Helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat/legion
-	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -254,7 +252,6 @@
 /datum/crafting_recipe/legioncombatarmormk2
 	name = "Legion Combat Armor, reinforced"
 	result = /obj/item/clothing/suit/armor/f13/combat/mk2/legion
-	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -265,7 +262,6 @@
 /datum/crafting_recipe/legioncombathelmetmk2
 	name = "Legion Combat Helmet, reinforced"
 	result = /obj/item/clothing/head/helmet/f13/combat/mk2/legion
-	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -276,7 +272,7 @@
 /datum/crafting_recipe/boscombatarmor
 	name = "knight armor"
 	result = /obj/item/clothing/suit/armor/f13/combat/brotherhood
-	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -287,7 +283,7 @@
 /datum/crafting_recipe/boscombathelmet
 	name = "knight helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat/brotherhood
-	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
+	blacklist = typesof(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -412,16 +408,6 @@
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 
-/datum/crafting_recipe/salvecomb
-	name = "Combat Helmet (waster)"
-	result = /obj/item/clothing/head/helmet/f13/raidercombathelmet
-	time = 600
-	reqs = list(/obj/item/stack/sheet/metal = 30,
-				/obj/item/stack/sheet/cloth = 5)
-	tools = list(TOOL_FORGE)
-	category = CAT_CLOTHING
-	subcategory = CAT_ARMOR
-
 /datum/crafting_recipe/durathread_helmet
 	name = "Makeshift Durathread Helmet"
 	result = /obj/item/clothing/head/helmet/durathread
@@ -459,7 +445,7 @@
 /* Blueprint-locked armor */
 // Combat Armor
 /datum/crafting_recipe/combat_armor
-	name = "combat armor"
+	name = "Combat armor"
 	result = /obj/item/clothing/suit/armor/f13/combat
 	reqs = list(/obj/item/stack/sheet/mineral/titanium = 8,
 				/obj/item/stack/crafting/goodparts = 6,
@@ -467,13 +453,13 @@
 				/obj/item/advanced_crafting_components/alloys = 2,
 				)
 	tools = list(TOOL_WORKBENCH)
-	time = 600
+	time = 400
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/combat_helmet
-	name = "combat helmet"
+	name = "Combat helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat
 	reqs = list(/obj/item/stack/sheet/mineral/titanium = 4,
 				/obj/item/stack/crafting/goodparts = 3,
@@ -481,36 +467,38 @@
 				/obj/item/advanced_crafting_components/alloys = 1,
 				)
 	tools = list(TOOL_WORKBENCH)
-	time = 600
+	time = 400
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 // Reinforced Combat Armor
 /datum/crafting_recipe/combat_armor_mk2
-	name = "reinforced combat armor"
+	name = "Reinforced combat armor"
 	result = /obj/item/clothing/suit/armor/f13/combat/mk2
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
 				/obj/item/stack/crafting/goodparts = 5,
 				/obj/item/stack/sheet/prewar = 2,
 				/obj/item/advanced_crafting_components/alloys = 2,
 				)
+	blacklist = typesof(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	tools = list(TOOL_WORKBENCH)
-	time = 600
+	time = 400
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/combat_helmet_mk2
-	name = "reinforced combat helmet"
+	name = "Reinforced combat helmet"
 	result = /obj/item/clothing/head/helmet/f13/combat/mk2
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
 				/obj/item/stack/crafting/goodparts = 3,
 				/obj/item/stack/sheet/prewar = 1,
 				/obj/item/advanced_crafting_components/alloys = 1,
 				)
+	blacklist = typesof(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	tools = list(TOOL_WORKBENCH)
-	time = 600
+	time = 400
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE

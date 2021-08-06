@@ -1046,6 +1046,13 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
+"nn" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "dungeon_enclave1"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "np" = (
 /obj/machinery/shower{
 	pixel_y = 23
@@ -1318,6 +1325,7 @@
 /area/f13/wasteland)
 "pY" = (
 /mob/living/simple_animal/hostile/raider/ranged/boss,
+/obj/structure/chair/bench,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "qg" = (
@@ -1566,6 +1574,10 @@
 	dir = 1;
 	icon_state = "outerpavement"
 	},
+/area/f13/wasteland)
+"sZ" = (
+/obj/structure/campfire,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "ta" = (
 /turf/closed/wall/r_wall,
@@ -2527,6 +2539,12 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"ED" = (
+/obj/structure/chair/bench,
+/turf/open/indestructible/ground/outside/desert{
+	icon_state = "wasteland32"
+	},
+/area/f13/wasteland)
 "EE" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/ncr_facewrap,
@@ -3456,7 +3474,7 @@
 	desc = "A navy-blue armored jacket with blue shoulder designations and '/Sergeant/' stitched into one of the chest pockets.";
 	name = "sergeant's jacket"
 	},
-/obj/item/clothing/head/warden/drill{
+/obj/item/clothing/head/helmet/warden/drill{
 	armor = list("tier" = 6, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60);
 	name = "sergeant's campaign hat"
 	},
@@ -25546,7 +25564,7 @@ Sz
 Sz
 Sz
 LE
-Sz
+nn
 Sz
 nc
 Sz
@@ -25803,8 +25821,8 @@ Sz
 Sz
 Sz
 LE
-nc
-Sz
+ED
+sZ
 Sz
 Sz
 Sz

@@ -13,7 +13,7 @@
 	name = "mounted laser"
 	desc = "An arm mounted cannon that fires lethal lasers."
 	icon = 'icons/obj/items_cyborg.dmi'
-	icon_state = "laser"
+	icon_state = "laser_cyborg"
 	item_state = "armcannonlase"
 	force = 5
 	selfcharge = EGUN_SELFCHARGE
@@ -25,10 +25,11 @@
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "laser_cyborg"
 	item_state = "armcannonplasma"
-	force = 12
+	force = 8
 	burst_size = 3
-	burst_shot_delay = 4
+	burst_shot_delay = 2
 	selfcharge = EGUN_SELFCHARGE
 	can_charge = 0
-	ammo_type = list(/obj/item/ammo_casing/energy/plasma/scatter)
+	cell_type = /obj/item/stock_parts/cell/ammo/internal
+	ammo_type = list(/obj/item/projectile/f13plasma/plasmacaster/repeater)
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
