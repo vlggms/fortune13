@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/structure/wreck/trash/one_tire,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "ac" = (
 /obj/machinery/chem_heater,
 /obj/structure/window/spawner/north,
@@ -32,20 +36,20 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "as" = (
-/obj/structure/railing{
-	dir = 4
+/mob/living/simple_animal/hostile/handy/sentrybot{
+	armour_penetration = 0.1;
+	color = "#FFBCBC";
+	desc = "An old pre-war military robot that was once a part of the American assault force, but got stranded on the mainland instead.";
+	faction = list("oldworld");
+	health = 350;
+	maxHealth = 350;
+	melee_damage_lower = 60;
+	name = "Lieutenant Arkhem"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "az" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
+/turf/closed/wall/f13/supermart,
 /area/f13/building)
 "aB" = (
 /obj/structure/railing{
@@ -61,7 +65,12 @@
 	},
 /area/f13/wasteland)
 "aH" = (
-/obj/structure/window/spawner,
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/sign/poster/prewar/vault_tec{
+	pixel_x = -32
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -79,12 +88,18 @@
 	},
 /area/f13/wasteland)
 "aS" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"aT" = (
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "aW" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -96,6 +111,11 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"ba" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier6,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "be" = (
 /obj/structure/rack,
 /obj/item/clothing/under/f13/ncr,
@@ -112,6 +132,17 @@
 /obj/item/clothing/shoes/f13/military/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"bh" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/cig_packs,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
+"bi" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/water,
+/area/f13/caves)
 "bm" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -120,6 +151,9 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "br" = (
+/obj/structure/railing{
+	dir = 5
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -128,6 +162,15 @@
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/building)
+"bx" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/obj/effect/spawner/lootdrop/f13/resourcespawner,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
 /area/f13/building)
 "by" = (
 /obj/structure/rack,
@@ -139,6 +182,12 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"bB" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress5"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "bE" = (
 /obj/item/trash/f13/rotten,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -152,9 +201,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "bN" = (
-/obj/machinery/autolathe/ammo,
+/obj/machinery/autolathe/ammo/unlocked,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"bO" = (
+/turf/open/water,
+/area/f13/caves)
 "bS" = (
 /obj/structure/sink/kitchen{
 	dir = 8;
@@ -162,6 +214,29 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"bV" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
+"cd" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/f13/canned/dog{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/snacks/f13/canned/ncr/molerat_stew{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "cf" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
@@ -189,13 +264,31 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/f13/wasteland)
+/area/f13/building)
+"cn" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress3"
+	},
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "co" = (
 /obj/structure/flora/tree/tall{
 	icon_state = "tree_3"
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"cp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/cocoon,
+/turf/open/water,
+/area/f13/caves)
+"cs" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/nurse,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "ct" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain3"
@@ -207,6 +300,11 @@
 	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
+"cF" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/cocoon,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "cG" = (
 /obj/structure/fence{
 	dir = 1
@@ -219,15 +317,19 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "cP" = (
 /obj/structure/chair/wood,
 /turf/open/floor/wood,
 /area/f13/enclave)
 "cR" = (
-/mob/living/simple_animal/hostile/ghoul,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "cU" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -254,11 +356,13 @@
 	},
 /area/f13/wasteland)
 "cW" = (
-/obj/structure/sign/poster/ripped{
-	pixel_x = -32
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/area/f13/building)
 "cX" = (
 /obj/machinery/button/door{
 	id = "ncr_gate";
@@ -316,11 +420,17 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "dA" = (
 /obj/structure/reagent_dispensers/barrel/three,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
+"dM" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "dN" = (
 /obj/machinery/camera{
 	c_tag = "Outside - Shop";
@@ -331,21 +441,28 @@
 /area/f13/building)
 "dO" = (
 /obj/structure/railing{
-	dir = 9
-	},
-/obj/structure/sign/poster/prewar/vault_tec{
-	pixel_x = -32
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"dT" = (
+/obj/structure/barricade/bars,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "dY" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "innershade"
 	},
 /area/f13/wasteland)
+"eb" = (
+/obj/structure/table/wood,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/building)
 "ec" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier,
@@ -373,9 +490,15 @@
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
+"eq" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/water,
+/area/f13/caves)
 "es" = (
-/obj/structure/sign/poster/prewar/protectron{
-	pixel_x = 32
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "den"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
@@ -407,7 +530,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "eL" = (
 /obj/structure/window/spawner/north,
 /obj/effect/decal/cleanable/dirt{
@@ -447,6 +570,18 @@
 /obj/structure/flora/grass/wasteland,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"fd" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/mattress{
+	icon_state = "mattress3"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/building)
 "fi" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/indestructible/ground/outside/dirt,
@@ -466,6 +601,11 @@
 	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
+"fp" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/pill/patch/jet,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "fu" = (
 /obj/structure/railing{
 	dir = 4
@@ -502,9 +642,15 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"fL" = (
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "fN" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -543,8 +689,15 @@
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"gh" = (
+/obj/structure/wreck/trash/five_tires,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 1;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland)
 "gk" = (
-/mob/living/simple_animal/hostile/handy/gutsy,
+/mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -558,12 +711,20 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
 "gx" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/mob/living/simple_animal/hostile/handy/gutsy,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"gz" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"gB" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/water,
+/area/f13/caves)
 "gC" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -600,6 +761,14 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
+"gN" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "gV" = (
 /obj/structure/ladder/unbreakable{
 	height = 2;
@@ -618,8 +787,6 @@
 	},
 /area/f13/wasteland)
 "hg" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -647,6 +814,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
+"hz" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/building)
 "hA" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/road{
@@ -660,17 +833,15 @@
 	},
 /area/f13/wasteland)
 "hD" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/structure/railing{
+	dir = 6
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
 "hF" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
-/obj/effect/spawner/lootdrop/f13/seedspawner,
+/obj/structure/window/spawner/north,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -680,10 +851,21 @@
 	icon_state = "verticalrightborderright1"
 	},
 /area/f13/wasteland)
+"hP" = (
+/obj/structure/simple_door/tent,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "hS" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"hW" = (
+/obj/structure/flora/rock/jungle,
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/cocoon,
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/turf/open/water,
+/area/f13/caves)
 "hX" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/building)
@@ -692,6 +874,16 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"il" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier1,
+/turf/open/floor/f13/wood,
+/area/f13/building)
+"in" = (
+/mob/living/simple_animal/hostile/poison/giant_spider,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "iv" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -736,11 +928,24 @@
 /obj/machinery/computer/rdconsole/core,
 /turf/open/floor/wood,
 /area/f13/enclave)
+"jc" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
+/turf/open/floor/f13/wood,
+/area/f13/building)
+"jg" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "ji" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
+/obj/structure/sign/poster/prewar/protectron{
+	pixel_x = 32
 	},
-/area/f13/wasteland)
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "jk" = (
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland33"
@@ -755,6 +960,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"jv" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "jx" = (
 /obj/structure/car/rubbish1,
 /obj/effect/decal/cleanable/dirt,
@@ -800,7 +1010,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "kk" = (
 /obj/structure/railing{
 	dir = 5
@@ -822,6 +1032,10 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"kx" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/turf/open/water,
+/area/f13/caves)
 "kz" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2"
@@ -832,6 +1046,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"kC" = (
+/obj/structure/barricade/bars,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/water,
+/area/f13/caves)
 "kG" = (
 /obj/structure/railing{
 	dir = 4
@@ -839,6 +1058,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/f13/enclave)
+"kK" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/caves)
+"kM" = (
+/obj/item/shard{
+	icon_state = "medium";
+	pixel_x = -4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "kO" = (
 /obj/structure/railing{
 	dir = 9
@@ -857,7 +1086,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "lc" = (
 /obj/structure/bed/old,
 /obj/item/bedsheet/brown,
@@ -869,8 +1098,8 @@
 	},
 /area/f13/wasteland)
 "lh" = (
-/obj/effect/turf_decal/trimline/yellow/filled/line{
-	dir = 4
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
@@ -896,6 +1125,13 @@
 /obj/item/storage/belt/military/assault/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"lv" = (
+/obj/machinery/door/airlock/grunge{
+	req_access_txt = "134"
+	},
+/obj/structure/timeddoor,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "lw" = (
 /obj/structure/fence{
 	dir = 4
@@ -961,18 +1197,21 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "mu" = (
-/obj/structure/wreck/trash/five_tires,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/obj/structure/window/spawner,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "mv" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "my" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain1"
+/obj/structure/simple_door/metal/dirtystore,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "mA" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -1065,7 +1304,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "nt" = (
 /obj/structure/barricade/wooden,
 /obj/machinery/light/floor,
@@ -1097,7 +1336,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "nG" = (
 /obj/effect/landmark/start/f13/ncrheavytrooper,
 /obj/machinery/light{
@@ -1122,11 +1361,8 @@
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "nN" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "nT" = (
 /obj/structure/bed/roller,
@@ -1145,6 +1381,16 @@
 	icon_state = "plating"
 	},
 /area/f13/ncr)
+"oc" = (
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"oe" = (
+/obj/structure/car/rubbish1,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
+	},
+/area/f13/wasteland)
 "og" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -1158,6 +1404,15 @@
 	icon_state = "verticalrightborderright0"
 	},
 /area/f13/wasteland)
+"on" = (
+/obj/structure/chair/stool,
+/obj/item/flashlight/flare/torch,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
+"ot" = (
+/obj/structure/wreck/trash/machinepile,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "ou" = (
 /obj/structure/window/spawner/north,
 /obj/structure/window/spawner/east{
@@ -1177,12 +1432,31 @@
 /mob/living/simple_animal/hostile/raider/baseball,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"oz" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain0"
+	},
+/area/f13/wasteland)
+"oG" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
+"oI" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain1"
+	},
+/area/f13/wasteland)
 "oJ" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"oM" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "oN" = (
 /obj/machinery/camera{
 	c_tag = "Outside - Gas Station";
@@ -1256,7 +1530,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "pk" = (
 /obj/item/radio/intercom{
 	freqlock = 1;
@@ -1319,10 +1593,13 @@
 /turf/closed/wall/rust,
 /area/f13/ncr)
 "pW" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft2top"
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "pY" = (
 /mob/living/simple_animal/hostile/raider/ranged/boss,
 /obj/structure/chair/bench,
@@ -1384,8 +1661,8 @@
 /area/f13/ncr)
 "qI" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
-/obj/effect/spawner/lootdrop/f13/resourcespawner,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -1413,7 +1690,19 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
 "qS" = (
-/obj/structure/window/spawner/north,
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
+"qY" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/obj/effect/spawner/lootdrop/f13/seedspawner,
+/obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -1451,8 +1740,8 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "rt" = (
-/obj/effect/turf_decal/trimline/yellow/filled/line{
-	icon_state = "singlehorizontal"
+/obj/effect/decal/marking{
+	icon_state = "doublehorizontal"
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
@@ -1468,6 +1757,12 @@
 	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
+	},
+/area/f13/building)
+"rC" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 9;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland)
 "rE" = (
@@ -1493,6 +1788,14 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"rN" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"rO" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/water,
+/area/f13/caves)
 "rR" = (
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_x = -29
@@ -1500,6 +1803,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/f13/enclave)
+"rX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
 "sd" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/indestructible/ground/outside/desert,
@@ -1533,13 +1841,11 @@
 	},
 /area/f13/wasteland)
 "st" = (
-/obj/structure/railing{
-	dir = 5
+/obj/structure/sign/poster/ripped{
+	pixel_x = -32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "sH" = (
 /obj/machinery/button/door{
 	id = "ncrrgatehouse";
@@ -1587,6 +1893,11 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/oakbroken,
 /area/f13/building)
+"ti" = (
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "tk" = (
 /obj/structure/ore_box,
 /obj/machinery/light/small{
@@ -1635,6 +1946,16 @@
 /obj/item/screwdriver/nuke,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"tH" = (
+/obj/structure/campfire,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
+"tN" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 5;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "tP" = (
 /obj/structure/car/rubbish3,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -1653,7 +1974,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "tX" = (
 /obj/structure/car/rubbish3,
 /obj/effect/decal/cleanable/dirt,
@@ -1683,6 +2004,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/f13/enclave)
+"un" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "uq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/road{
@@ -1754,13 +2081,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "uS" = (
-/obj/structure/railing{
-	dir = 10
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain2left"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/area/f13/wasteland)
 "uW" = (
 /obj/effect/turf_decal/trimline/white/line,
 /obj/effect/turf_decal/trimline/white/line{
@@ -1792,6 +2116,17 @@
 /obj/item/hatchet,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"vs" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 10;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
+"vv" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft3"
+	},
+/area/f13/wasteland)
 "vx" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -1808,8 +2143,8 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "vI" = (
-/obj/effect/turf_decal/trimline/yellow/filled/line{
-	dir = 4
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalbottombordertop0"
@@ -1834,6 +2169,14 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"vV" = (
+/obj/machinery/porta_turret/syndicate/navarro{
+	color = "#CCCCCC";
+	faction = list("oldworld");
+	name = "old minigun turret"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "vX" = (
 /obj/machinery/sleeper{
 	density = 1;
@@ -1844,6 +2187,11 @@
 "vY" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleftbottom"
+	},
+/area/f13/wasteland)
+"wc" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft2top"
 	},
 /area/f13/wasteland)
 "we" = (
@@ -1859,6 +2207,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain1"
+	},
+/area/f13/wasteland)
+"wo" = (
+/obj/structure/fence/corner{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
 "wt" = (
@@ -1887,6 +2244,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"wI" = (
+/obj/structure/lattice/catwalk,
+/turf/open/water,
+/area/f13/caves)
 "wJ" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 9
@@ -1899,6 +2260,18 @@
 	icon_state = "horizontaloutermain2"
 	},
 /area/f13/wasteland)
+"wU" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/mattress{
+	icon_state = "mattress1"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/building)
 "wV" = (
 /obj/machinery/light/lampost{
 	dir = 1;
@@ -1948,7 +2321,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/closet/crate,
 /obj/item/ammo_casing/shotgun/laserslug,
 /obj/item/ammo_casing/shotgun/laserslug,
 /obj/item/ammo_casing/shotgun/laserslug,
@@ -1956,9 +2328,10 @@
 /obj/item/ammo_casing/shotgun/laserslug,
 /obj/item/ammo_casing/shotgun/laserslug,
 /obj/item/ammo_casing/shotgun/laserslug,
-/obj/item/ammo_casing/shotgun/laserslug,
-/obj/item/ammo_casing/shotgun/laserslug,
-/obj/item/ammo_casing/shotgun/laserslug,
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
 /turf/open/floor/wood,
 /area/f13/enclave)
 "xL" = (
@@ -1987,11 +2360,11 @@
 /area/f13/wasteland)
 "xT" = (
 /obj/structure/car/rubbish1,
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 4;
-	icon_state = "outerborder"
-	},
+/turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
+"xV" = (
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "xW" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/random,
@@ -2061,6 +2434,12 @@
 /obj/item/seeds/soya,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"yM" = (
+/obj/structure/car/rubbish2,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
+	},
+/area/f13/wasteland)
 "yV" = (
 /obj/structure/closet/fridge/standard,
 /turf/open/floor/wood/f13/oak,
@@ -2089,6 +2468,12 @@
 	},
 /turf/open/floor/wood,
 /area/f13/enclave)
+"zg" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/turf/open/water,
+/area/f13/caves)
 "zn" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/plating,
@@ -2109,14 +2494,26 @@
 /obj/item/clothing/head/f13/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"zt" = (
+/obj/structure/barricade/wooden,
+/obj/effect/decal/marking{
+	icon_state = "dottedvertical"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "innershade"
+	},
+/area/f13/wasteland)
 "zw" = (
-/obj/structure/railing{
-	dir = 8
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermainbottom"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
+/area/f13/wasteland)
+"zB" = (
+/obj/effect/decal/marking{
+	icon_state = "dottedhorizontal"
 	},
-/area/f13/building)
+/turf/open/indestructible/ground/outside/road,
+/area/f13/wasteland)
 "zC" = (
 /obj/structure/simple_door/metal/fence{
 	door_type = "fence_wood";
@@ -2163,9 +2560,11 @@
 	},
 /area/f13/wasteland)
 "Ah" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2left"
+/obj/structure/barricade/wooden,
+/obj/effect/decal/marking{
+	icon_state = "dottedhorizontal"
 	},
+/turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "Ap" = (
 /obj/structure/closet,
@@ -2245,7 +2644,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "AZ" = (
 /obj/structure/fence{
 	dir = 4
@@ -2266,6 +2665,13 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
+/area/f13/building)
+"Bg" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern{
+	pixel_y = 6
+	},
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "Bi" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
@@ -2311,19 +2717,28 @@
 /area/f13/wasteland)
 "BK" = (
 /obj/structure/rack,
-/obj/item/screwdriver/power,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"BR" = (
+/obj/effect/decal/marking{
+	icon_state = "dottedvertical"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "innershade"
+	},
+/area/f13/wasteland)
 "BS" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
-/obj/effect/turf_decal/trimline/yellow/filled/line{
-	icon_state = "singlehorizontal"
+/obj/effect/decal/marking{
+	icon_state = "dottedhorizontal"
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "BU" = (
+/mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft3"
+	dir = 4;
+	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
 "BY" = (
@@ -2369,11 +2784,18 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "Cw" = (
-/mob/living/simple_animal/hostile/handy,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
+/obj/item/shard{
+	pixel_x = 9;
+	pixel_y = 4
 	},
-/area/f13/building)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"CC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter/viper,
+/turf/open/water,
+/area/f13/caves)
 "CF" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "ncrmedlock";
@@ -2454,6 +2876,15 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"Dw" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "Dx" = (
 /obj/machinery/light,
 /obj/structure/ladder/unbreakable{
@@ -2518,7 +2949,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Em" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/road{
@@ -2534,6 +2965,10 @@
 "Ep" = (
 /turf/closed/wall/r_wall,
 /area/f13/enclave)
+"Eq" = (
+/obj/structure/chair/stool,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "Eu" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -2585,6 +3020,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"EU" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "EV" = (
 /obj/structure/simple_door/tent,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2618,6 +3059,12 @@
 /obj/structure/window/fulltile/wood/broken,
 /turf/open/floor/plating,
 /area/f13/building)
+"Fm" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
 "Fq" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4
@@ -2632,7 +3079,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Fx" = (
 /turf/open/floor/wood/f13/oakbroken,
 /area/f13/building)
@@ -2641,8 +3088,26 @@
 	icon_state = "verticaloutermain2bottom"
 	},
 /area/f13/wasteland)
+"Fz" = (
+/turf/open/floor/f13/wood{
+	icon_state = "housebase"
+	},
+/area/f13/building)
+"FD" = (
+/obj/item/shard{
+	icon_state = "small";
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housebase"
+	},
+/area/f13/building)
 "FF" = (
 /turf/closed/mineral/random/low_chance,
+/area/f13/caves)
+"FH" = (
+/turf/closed/wall/r_wall/rust,
 /area/f13/caves)
 "FX" = (
 /obj/structure/fence/corner/wooden{
@@ -2667,7 +3132,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Gb" = (
 /obj/machinery/camera{
 	c_tag = "Inner Gates";
@@ -2699,6 +3164,11 @@
 /obj/effect/spawner/lootdrop/food,
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"Gi" = (
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "Gr" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_3"
@@ -2710,6 +3180,9 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/f13/ncr)
+"Gx" = (
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "GH" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/wood/f13/oak,
@@ -2766,18 +3239,36 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
+"HK" = (
+/mob/living/simple_animal/hostile/handy/protectron{
+	color = "#CCCCCC";
+	faction = list("oldworld");
+	harm_intent_damage = 20;
+	melee_damage_lower = 20;
+	melee_damage_upper = 24;
+	name = "old protectron"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
+"HN" = (
+/obj/structure/flora/rock/jungle,
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
 "HS" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticaloutermainbottom"
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "HZ" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
 "Ig" = (
@@ -2791,7 +3282,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Ik" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2811,6 +3302,12 @@
 "Iq" = (
 /turf/closed/indestructible/f13/matrix,
 /area/f13/tunnel)
+"Iu" = (
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 6;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "Iy" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/f13/ncrarmor/facewrap,
@@ -2868,6 +3365,17 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"IX" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter/viper,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"IY" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
 "Ja" = (
 /obj/structure/reagent_dispensers/barrel/four,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -2901,6 +3409,11 @@
 /obj/structure/simple_door/brokenglass,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"Js" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "Jv" = (
 /obj/machinery/light,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -2911,6 +3424,12 @@
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"Jy" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/cocoon,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "JC" = (
 /obj/structure/railing{
 	dir = 10
@@ -2950,7 +3469,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "JN" = (
-/turf/closed/wall/f13/supermart,
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "JP" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -2964,7 +3485,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "JR" = (
 /obj/machinery/light{
 	dir = 8
@@ -2996,6 +3517,9 @@
 "Ks" = (
 /obj/effect/landmark/start/f13/enclave_recruit,
 /obj/effect/landmark/start/f13/wastelander,
+/obj/effect/decal/marking{
+	icon_state = "dottedhorizontal"
+	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "Kt" = (
@@ -3022,16 +3546,14 @@
 /area/f13/building)
 "KM" = (
 /turf/closed/wall/f13/wood/interior,
-/area/f13/wasteland)
-"KN" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "den"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
 /area/f13/building)
+"KN" = (
+/obj/structure/fence,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "KR" = (
 /obj/structure/simple_door/house{
 	icon_state = "interior"
@@ -3039,10 +3561,8 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "KW" = (
-/obj/structure/car/rubbish2,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom0"
-	},
+/obj/structure/car/rubbish3,
+/turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "KX" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3054,7 +3574,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Lk" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderlefttop"
@@ -3071,10 +3591,24 @@
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland)
+"Ly" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/machinery/light/small,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "LE" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"LF" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "LJ" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray,
@@ -3100,7 +3634,10 @@
 	color = "000000"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/bed/mattress/pregame,
+/obj/structure/bed/mattress{
+	icon_state = "mattress2";
+	pixel_y = 5
+	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
@@ -3121,6 +3658,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"LX" = (
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
 "Md" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -3135,9 +3677,23 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"Mg" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/spider/stickyweb,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/turf/open/water,
+/area/f13/caves)
 "Mh" = (
 /turf/closed/wall/f13/wood,
 /area/f13/ncr)
+"Ml" = (
+/obj/item/seeds/poppy/broc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/seeds/xander,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "Mm" = (
 /obj/structure/wreck/trash/machinepile,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -3179,13 +3735,9 @@
 /turf/open/floor/f13,
 /area/f13/enclave)
 "MF" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "MH" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -3196,6 +3748,10 @@
 /area/f13/enclave)
 "MN" = (
 /obj/machinery/workbench,
+/obj/item/book/granter/crafting_recipe/blueprint/armor/combat{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /obj/item/book/granter/crafting_recipe/blueprint/armor/combat{
 	pixel_x = 4;
 	pixel_y = 4
@@ -3213,6 +3769,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"MQ" = (
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "MU" = (
 /obj/structure/closet/crate/bin,
 /turf/open/indestructible/ground/outside/dirt{
@@ -3232,10 +3791,24 @@
 /obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"Nj" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/tarantula,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "Nk" = (
 /obj/structure/chair/office,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
+"Nm" = (
+/obj/structure/flora/grass/jungle/b,
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/turf/open/water,
+/area/f13/caves)
+"Np" = (
+/obj/structure/sink/well,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "Nr" = (
 /obj/structure/window/spawner/north,
 /obj/structure/rack,
@@ -3277,6 +3850,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"NI" = (
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "NJ" = (
 /obj/structure/sign/departments/medbay,
 /turf/closed/wall/r_wall/rust,
@@ -3288,6 +3866,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"NQ" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "NX" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/brews,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -3299,7 +3881,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Og" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/wood/f13/oakbroken,
@@ -3344,7 +3926,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "OD" = (
 /obj/structure/table/wood,
 /obj/item/storage/toolbox/mechanical/old,
@@ -3356,10 +3938,22 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"OF" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "OG" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"OI" = (
+/obj/structure/car/rubbish4,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
+	},
+/area/f13/wasteland)
 "OP" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -3418,10 +4012,16 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "Py" = (
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2"
-	},
+/obj/structure/legion_extractor,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"Pz" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress2";
+	pixel_y = 5
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "PA" = (
 /obj/structure/closet,
 /obj/effect/turf_decal/vg_decals/numbers/two,
@@ -3438,6 +4038,10 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"PL" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "PM" = (
 /obj/structure/fence/corner{
 	dir = 6
@@ -3512,13 +4116,18 @@
 /obj/structure/window/spawner/north,
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/f13/ncr)
+"Qs" = (
+/obj/item/reagent_containers/glass/bucket/wood,
+/obj/item/cultivator,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "Qt" = (
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "QE" = (
 /obj/structure/fence{
 	dir = 1
@@ -3567,10 +4176,24 @@
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"Ra" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/spawner/lootdrop/f13/armor/random_high,
+/obj/effect/spawner/lootdrop/f13/armor/random,
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "Rg" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/f13/ncr)
+"Rh" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "Rj" = (
 /obj/structure/fence/wooden,
 /turf/open/indestructible/ground/outside/dirt{
@@ -3647,6 +4270,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"Se" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "Sh" = (
 /obj/structure/barricade/bars,
 /obj/structure/table/reinforced,
@@ -3777,12 +4407,21 @@
 	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
+"SY" = (
+/obj/structure/spider/cocoon,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "Tc" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"Te" = (
+/obj/structure/wreck/trash/one_barrel,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "Tn" = (
 /obj/structure/table/wood,
 /obj/item/binoculars,
@@ -3794,13 +4433,13 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Ts" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Tt" = (
 /obj/structure/chair/wood/modern{
 	dir = 4
@@ -3828,6 +4467,17 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"TF" = (
+/mob/living/simple_animal/hostile/handy/protectron{
+	color = "#CCCCCC";
+	faction = list("oldworld");
+	harm_intent_damage = 20;
+	melee_damage_lower = 20;
+	melee_damage_upper = 24;
+	name = "old protectron"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "TL" = (
 /obj/machinery/button/door{
 	id = "ncr_gate";
@@ -3849,9 +4499,17 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/wasteland)
+"TR" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/caves)
 "TT" = (
-/turf/closed/wall/f13/wood/house,
-/area/f13/wasteland)
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "TU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -3868,6 +4526,10 @@
 /obj/structure/barricade/bars,
 /turf/open/floor/plating,
 /area/f13/ncr)
+"Ud" = (
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
 "Uj" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -3933,6 +4595,9 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"Uy" = (
+/turf/closed/wall/f13/tentwall,
+/area/f13/wasteland)
 "UG" = (
 /obj/structure/fence/corner/wooden,
 /turf/open/indestructible/ground/outside/dirt{
@@ -3967,7 +4632,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "UT" = (
 /obj/structure/table/wood,
 /obj/item/flashlight,
@@ -4009,6 +4674,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/enclave)
+"Vq" = (
+/obj/structure/flora/rock/jungle,
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider/tarantula,
+/turf/open/water,
+/area/f13/caves)
 "Vr" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4033,7 +4704,7 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "VG" = (
 /turf/closed/wall/f13/tunnel,
 /area/f13/tunnel)
@@ -4045,9 +4716,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "VQ" = (
-/obj/structure/simple_door/metal/dirtystore,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken"
 	},
 /area/f13/building)
 "VS" = (
@@ -4065,6 +4736,15 @@
 /obj/item/locked_box/misc/money/all/medium,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"Wl" = (
+/obj/structure/timeddoor,
+/turf/closed/wall/r_wall/rust,
+/area/f13/caves)
+"Wm" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/obj/structure/spider/stickyweb,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "Wo" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -4075,6 +4755,15 @@
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
 	icon_state = "outerturn"
+	},
+/area/f13/wasteland)
+"Wq" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland)
 "Wt" = (
@@ -4133,6 +4822,11 @@
 /obj/item/stack/ore/blackpowder/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/enclave)
+"WR" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/spider/stickyweb,
+/turf/open/water,
+/area/f13/caves)
 "WS" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "innershade"
@@ -4190,7 +4884,15 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
+"Xo" = (
+/obj/structure/spider/stickyweb,
+/mob/living/simple_animal/hostile/poison/giant_spider/nurse,
+/turf/open/water,
+/area/f13/caves)
+"Xs" = (
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "Xu" = (
 /obj/machinery/light/lampost,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -4259,6 +4961,10 @@
 /obj/structure/simple_door/metal/barred,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/ncr)
+"XZ" = (
+/obj/structure/wreck/trash/two_barrels,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "Ya" = (
 /obj/structure/car/rubbish2,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4287,13 +4993,13 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Yt" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Yu" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
@@ -4327,11 +5033,27 @@
 	icon_state = "innershade"
 	},
 /area/f13/ncr)
+"YH" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "YI" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
 	},
 /turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"YM" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"YN" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "YP" = (
 /obj/machinery/light{
@@ -4347,7 +5069,15 @@
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
-/area/f13/wasteland)
+/area/f13/building)
+"YS" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
 "YV" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
@@ -4367,6 +5097,12 @@
 /obj/machinery/smartfridge/bottlerack/lootshelf/cooking,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"Zi" = (
+/obj/machinery/door/airlock/grunge{
+	req_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/caves)
 "Zk" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4785,7 +5521,7 @@ VG
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -5042,7 +5778,7 @@ VG
 zG
 hf
 zb
-rt
+zB
 CM
 TV
 ND
@@ -5154,7 +5890,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+co
 Sz
 Sz
 Sz
@@ -5299,7 +6035,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -5556,7 +6292,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -5813,7 +6549,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -5827,11 +6563,11 @@ Sz
 Sz
 Sz
 hB
-TT
-TT
-TT
-TT
-TT
+uH
+uH
+uH
+uH
+uH
 KM
 KM
 KM
@@ -5930,11 +6666,11 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+hX
+hX
+hX
+hX
+hX
 Sz
 Sz
 Sz
@@ -6070,7 +6806,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -6084,13 +6820,13 @@ Sz
 Sz
 Sz
 hB
-TT
+uH
 AY
 cm
 Oz
-Py
+ic
 Ts
-Py
+ic
 HI
 Li
 KM
@@ -6178,21 +6914,21 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+aT
+af
+af
+af
+un
+aT
+af
+af
+hX
+hX
+jc
+OF
+il
+hX
+hX
 Sz
 Sz
 Sz
@@ -6327,7 +7063,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -6341,14 +7077,14 @@ Sz
 Sz
 DF
 hB
-TT
+uH
 KM
 KM
-Py
+ic
 VA
 KM
 Ih
-Py
+ic
 rA
 KM
 mf
@@ -6432,25 +7168,25 @@ Sz
 Sz
 Sz
 Sz
+De
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+YN
+Eq
+fG
+on
+tN
+Iu
+fG
+fG
+hP
+Hr
+Hr
+Hr
+Hr
+Bg
+hX
+Uy
 Sz
 Sz
 Sz
@@ -6584,7 +7320,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 Vy
@@ -6598,14 +7334,14 @@ iv
 iv
 iv
 Oy
-TT
+uH
 np
 cm
-Py
+ic
 US
 KM
 JQ
-Py
+ic
 Xm
 KM
 mf
@@ -6692,21 +7428,21 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+cd
+fG
+tH
+fG
+fG
+fG
+fG
+rC
+hX
+hX
+Pz
+cn
+bB
+hX
+hX
 Sz
 Sz
 Sz
@@ -6841,7 +7577,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -6855,14 +7591,14 @@ Pi
 Pi
 Pi
 hr
-TT
-TT
-TT
-Py
-Py
+uH
+uH
+uH
+ic
+ic
 KM
 YR
-Py
+ic
 dw
 KM
 mf
@@ -6949,26 +7685,26 @@ Sz
 Sz
 Sz
 Sz
+bh
+Eq
+fG
+Eq
+rC
+vs
+fG
+Eo
+Sz
+hX
+hX
+hX
+hX
+hX
 Sz
 Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+De
 Sz
 Sz
 Sz
@@ -7098,7 +7834,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 XQ
@@ -7113,9 +7849,9 @@ aj
 Pi
 XQ
 AR
-TT
+uH
 Of
-Py
+ic
 Yt
 KM
 KM
@@ -7206,14 +7942,14 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+EU
+yX
+yX
+yX
+LS
+fL
+fG
+Eo
 Sz
 Sz
 Sz
@@ -7355,7 +8091,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -7370,10 +8106,10 @@ Xz
 Pi
 XQ
 em
-TT
-nN
+uH
+mH
 kh
-Py
+ic
 Ts
 Fv
 HI
@@ -7468,9 +8204,9 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
+fL
+fG
+Eo
 Sz
 Sz
 Sz
@@ -7612,7 +8348,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 XQ
@@ -7627,13 +8363,13 @@ Zr
 Pi
 PV
 XQ
-TT
+uH
 Qt
-Py
-Py
+ic
+ic
 KM
-Py
-Py
+ic
+ic
 rA
 KM
 mf
@@ -7725,9 +8461,9 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
+fL
+fG
+Eo
 Sz
 Sz
 Sz
@@ -7869,7 +8605,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -7884,13 +8620,13 @@ uP
 Pi
 fv
 XQ
-TT
+uH
 tV
-Py
+ic
 US
 KM
-Py
-Py
+ic
+ic
 Tp
 KM
 mf
@@ -7983,8 +8719,8 @@ hX
 hX
 hX
 hX
-Sz
-Sz
+fG
+Eo
 Sz
 Sz
 Sz
@@ -8126,7 +8862,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 tP
 XQ
@@ -8141,13 +8877,13 @@ wy
 Pi
 XQ
 XQ
-TT
+uH
 cJ
-Py
-Py
+ic
+ic
 KM
 YR
-Py
+ic
 kZ
 KM
 mf
@@ -8240,8 +8976,8 @@ JL
 Ow
 OD
 hX
-Sz
-Sz
+fG
+Eo
 Sz
 Sz
 Sz
@@ -8383,7 +9119,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -8398,10 +9134,10 @@ Hr
 Pi
 fS
 XQ
-TT
-TT
-Py
-Py
+uH
+uH
+ic
+ic
 KM
 KM
 KM
@@ -8497,6 +9233,8 @@ Bf
 Bf
 Bf
 hX
+fG
+Eo
 Sz
 Sz
 Sz
@@ -8504,9 +9242,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -8640,7 +9376,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 XQ
@@ -8656,16 +9392,15 @@ Pi
 XQ
 XQ
 mv
-TT
+uH
 nF
-Py
+ic
 Ts
-Py
+ic
 HI
-nN
+mH
 KM
-mf
-mu
+gh
 Sz
 Sz
 Sz
@@ -8746,6 +9481,7 @@ Sz
 Sz
 Sz
 Sz
+Ek
 Sz
 Sz
 hX
@@ -8754,19 +9490,19 @@ Bf
 Bf
 Bf
 hX
+fG
+Eo
 Sz
 Sz
 Sz
 Sz
+Ek
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -8897,7 +9633,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -8913,12 +9649,12 @@ Pi
 Mm
 XQ
 mv
-TT
-Py
-Py
+uH
+ic
+ic
 KM
-Py
-Py
+ic
+ic
 rA
 KM
 mf
@@ -9008,9 +9744,11 @@ Sz
 hX
 Bf
 LT
-LT
-LT
+wU
+fd
 hX
+fG
+Eo
 Sz
 Sz
 Sz
@@ -9018,12 +9756,10 @@ Sz
 Sz
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 QX
@@ -9154,7 +9890,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 XQ
@@ -9170,12 +9906,12 @@ Pi
 XQ
 bE
 Uq
-TT
-Py
+uH
+ic
 US
 KM
 pj
-Py
+ic
 eH
 KM
 mf
@@ -9268,6 +10004,8 @@ hX
 hX
 hX
 hX
+fG
+Eo
 Sz
 Sz
 Sz
@@ -9278,9 +10016,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 QX
@@ -9411,7 +10147,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -9427,12 +10163,12 @@ Pi
 ad
 XQ
 xP
-TT
+uH
 Of
-Py
+ic
 KM
 Ga
-Py
+ic
 dw
 KM
 mf
@@ -9519,21 +10255,21 @@ Sz
 Sz
 Sz
 Sz
+fL
+fG
+fG
+fG
+fG
+fG
+fG
+Eo
 Sz
 Sz
 Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -9667,8 +10403,8 @@ Sz
 Sz
 TV
 hf
-KW
-rt
+zb
+zB
 CM
 TV
 XQ
@@ -9684,8 +10420,8 @@ Pi
 QE
 hr
 QE
-TT
-TT
+uH
+uH
 Yr
 KM
 KM
@@ -9776,24 +10512,24 @@ Sz
 Sz
 Sz
 Sz
+EU
+yX
+yX
+yX
+yX
+yX
+yX
+LS
 Sz
 Sz
 Sz
 Sz
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -9925,7 +10661,7 @@ iv
 ss
 hf
 zb
-IF
+zB
 CM
 TV
 XQ
@@ -10047,10 +10783,10 @@ iv
 iv
 iv
 iv
+QG
 iv
 iv
-iv
-iv
+QG
 iv
 iv
 iv
@@ -10182,13 +10918,13 @@ uu
 VS
 hf
 zb
-rt
+zB
 CM
-xT
+Yi
 uu
 uu
 uu
-uu
+oe
 uu
 uu
 uu
@@ -10307,7 +11043,7 @@ uu
 uu
 uu
 uu
-uu
+si
 uu
 uu
 uu
@@ -10370,7 +11106,7 @@ kB
 kB
 kB
 kB
-ma
+dj
 hn
 yl
 na
@@ -10432,10 +11168,10 @@ PP
 Oy
 hf
 IF
+xT
 IF
 IF
-IF
-CM
+yM
 TV
 hf
 zb
@@ -10560,11 +11296,11 @@ WS
 WS
 WS
 WS
+hA
 WS
 WS
 WS
-WS
-WS
+hA
 WS
 WS
 WS
@@ -10698,126 +11434,126 @@ hf
 zb
 IF
 WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+zt
+BR
+zt
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+BR
 hA
-WS
-hA
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
-WS
 WS
 WS
 WS
@@ -11074,11 +11810,11 @@ WS
 WS
 WS
 WS
+hA
 WS
 WS
 WS
-WS
-WS
+hA
 WS
 WS
 WS
@@ -11210,7 +11946,7 @@ CM
 Yi
 eR
 zb
-rt
+zB
 CM
 cB
 Kt
@@ -11335,7 +12071,7 @@ Kt
 Kt
 Kt
 Kt
-Kt
+zN
 Kt
 Kt
 Kt
@@ -11467,7 +12203,7 @@ IF
 IF
 IF
 IF
-IF
+zB
 CM
 TV
 mP
@@ -11589,10 +12325,10 @@ oJ
 oJ
 oJ
 oJ
+aG
 oJ
 oJ
-oJ
-oJ
+aG
 oJ
 oJ
 oJ
@@ -11724,21 +12460,21 @@ IF
 IF
 IF
 IF
-rt
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+uH
+uH
+uH
+uH
+uH
+KN
+KN
+KN
+wo
 Sz
 Sz
 Sz
@@ -11838,18 +12574,18 @@ Sz
 Sz
 Sz
 Sz
+aT
+af
+un
 Sz
 Sz
 Sz
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -11981,21 +12717,21 @@ IF
 IF
 IF
 IF
-IF
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+HS
+Zr
+Hr
+HZ
+uH
+fi
+fG
+Np
+Wq
 Sz
 Sz
 Sz
@@ -12103,7 +12839,7 @@ hX
 hX
 Sz
 Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -12238,21 +12974,21 @@ CM
 cB
 ef
 zb
-rt
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+Hr
+Hr
+ZC
+Js
+uH
+fi
+fG
+fG
+Wq
 Sz
 Sz
 Sz
@@ -12364,7 +13100,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+So
 Sz
 Sz
 Sw
@@ -12495,21 +13231,21 @@ CM
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+Hr
+LX
+Hr
+Kn
+uH
+fi
+fG
+PX
+Wq
 Sz
 Sz
 Sz
@@ -12618,10 +13354,10 @@ hX
 Sz
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sw
@@ -12752,21 +13488,21 @@ CM
 TV
 hf
 zb
-rt
+zB
 CM
 TV
-mf
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+Vy
+BU
+Fm
+Hr
+XW
+Hr
+fp
+uH
+fi
+MF
+Py
+Wq
 Sz
 Sz
 Sz
@@ -12870,15 +13606,15 @@ fJ
 ic
 ic
 ic
-ic
+eb
 hX
 Sz
 Sz
 Sz
+So
 Sz
 Sz
-Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -13009,21 +13745,21 @@ CM
 TV
 hf
 zb
-IF
+zB
 CM
 TV
-mf
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+XQ
+XQ
+Fz
+Zr
+Hr
+Hr
+JN
+uH
+Ml
+fG
+Qs
+Wq
 Sz
 Sz
 Sz
@@ -13132,7 +13868,7 @@ hX
 Sz
 Sz
 Sz
-Sz
+So
 Sz
 Sz
 Sz
@@ -13266,10 +14002,21 @@ CM
 RK
 hf
 zb
-rt
+zB
 CM
 TV
-mf
+mP
+oJ
+hz
+Hr
+Rh
+Rh
+Rh
+uH
+Fz
+Zr
+uH
+uH
 Sz
 Sz
 Sz
@@ -13363,18 +14110,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+De
 Sz
 Sz
 Sz
@@ -13523,21 +14259,21 @@ CM
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+Fm
+Hr
+LX
+Hr
+Hr
+Hr
+XW
+Hr
+Hr
+uH
 Sz
 Sz
 Sz
@@ -13780,21 +14516,21 @@ CM
 Yi
 eR
 zb
-rt
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+Fz
+kM
+Hr
+XW
+Hr
+Rh
+Hr
+Hr
+VQ
+uH
 Sz
 Sz
 Sz
@@ -14037,21 +14773,21 @@ IF
 IF
 IF
 IF
-IF
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FD
+Hr
+Hr
+Hr
+Hr
+Rh
+Hr
+Hr
+Hr
+uH
 Sz
 Sz
 Sz
@@ -14294,21 +15030,21 @@ IF
 IF
 IF
 IF
-rt
+zB
 CM
 TV
 mf
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+Cw
+uH
+Rh
+Rh
+Rh
+Hr
+Rh
+Rh
+Rh
+Rh
+uH
 Sz
 Sz
 Sz
@@ -14551,21 +15287,21 @@ IF
 IF
 IF
 IF
-IF
+zB
 CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+Zr
+Hr
+Hr
+Hr
+Rh
+XW
+Zr
+Hr
+uH
 Sz
 Sz
 Sz
@@ -14804,15 +15540,25 @@ IF
 IF
 rt
 IF
-CM
+OI
 cB
 ef
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
+uH
+TT
+Se
+LX
+Hr
+Hr
+Hr
+ZC
+Hr
+uH
 Sz
 Sz
 Sz
@@ -14922,17 +15668,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+co
 Sz
 Sz
 Sz
@@ -15058,28 +15794,28 @@ KX
 tY
 hf
 IF
-IF
+KW
 rt
 IF
 CM
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+Kn
+Kn
+Kn
+Kn
+Rh
+Hr
+Hr
+YS
+uH
 Sz
 Sz
 Sz
@@ -15322,21 +16058,21 @@ CM
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+uH
+uH
+uH
+uH
+uH
+uH
+uH
+uH
+uH
+uH
 Sz
 Sz
 Sz
@@ -15579,8 +16315,8 @@ CM
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -15693,7 +16429,7 @@ Sz
 Sz
 Sz
 Sz
-Sz
+Ek
 Sz
 Sz
 Sz
@@ -15836,8 +16572,8 @@ Kt
 ss
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -16093,8 +16829,8 @@ oJ
 VS
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -16350,8 +17086,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -16607,8 +17343,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -16864,8 +17600,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -17121,8 +17857,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -17378,8 +18114,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -17635,8 +18371,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -17892,8 +18628,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -18149,8 +18885,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -18406,8 +19142,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -18663,8 +19399,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -18920,8 +19656,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -19177,8 +19913,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -19434,8 +20170,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -19691,8 +20427,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -19948,8 +20684,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -20205,8 +20941,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -20462,8 +21198,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -20719,8 +21455,8 @@ Sz
 TV
 SX
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -20976,8 +21712,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -21233,8 +21969,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -21490,8 +22226,8 @@ Sz
 TV
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -21667,12 +22403,12 @@ fk
 (68,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+PL
+PL
+FH
+FF
 Sz
 Sz
 Sz
@@ -21747,8 +22483,8 @@ Sz
 TV
 hf
 zb
+zB
 IF
-CM
 TV
 mf
 Sz
@@ -21925,16 +22661,16 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+MQ
+MQ
+FH
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -22004,8 +22740,8 @@ Kt
 ss
 hf
 zb
-rt
-CM
+zB
+IF
 TV
 mf
 Sz
@@ -22182,24 +22918,24 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+MQ
+MQ
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -22261,7 +22997,7 @@ XQ
 Wu
 hf
 zb
-IF
+zB
 CM
 TV
 MB
@@ -22439,29 +23175,29 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+LF
+MQ
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -22518,7 +23254,7 @@ XQ
 XQ
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -22696,30 +23432,30 @@ fk
 fk
 FF
 FF
+FH
+MQ
+MQ
+FH
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -22775,7 +23511,7 @@ XQ
 XQ
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -22953,6 +23689,10 @@ fk
 fk
 FF
 FF
+FH
+MQ
+MQ
+FH
 FF
 FF
 FF
@@ -22961,23 +23701,19 @@ FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -23032,7 +23768,7 @@ XQ
 XQ
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -23210,6 +23946,10 @@ fk
 fk
 FF
 FF
+FH
+MQ
+oM
+FH
 FF
 FF
 FF
@@ -23219,22 +23959,18 @@ FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -23289,7 +24025,7 @@ XQ
 XQ
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -23467,6 +24203,10 @@ fk
 fk
 FF
 FF
+FH
+MQ
+MQ
+FH
 FF
 FF
 FF
@@ -23482,16 +24222,12 @@ FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -23724,6 +24460,23 @@ fk
 fk
 FF
 FF
+FH
+MQ
+MQ
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+Wl
+Wl
+Wl
+Wl
+Wl
+Wl
 FF
 FF
 FF
@@ -23733,23 +24486,6 @@ FF
 FF
 FF
 FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -23803,7 +24539,7 @@ XQ
 XQ
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -23981,6 +24717,10 @@ fk
 fk
 FF
 FF
+FH
+dT
+dT
+FH
 FF
 FF
 FF
@@ -23988,25 +24728,21 @@ FF
 FF
 FF
 FF
+Wl
+HK
+TR
+jg
+vV
+Wl
+Wl
+Wl
+Wl
 FF
 FF
 FF
 FF
 FF
 FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -24060,7 +24796,7 @@ SU
 XQ
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -24238,6 +24974,26 @@ fk
 fk
 FF
 FF
+YM
+rO
+bO
+FH
+FF
+FF
+FF
+FH
+FH
+FH
+FH
+Wl
+Gx
+Gx
+jg
+jg
+FH
+xV
+Dw
+Wl
 FF
 FF
 FF
@@ -24246,26 +25002,6 @@ FF
 FF
 FF
 FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -24317,7 +25053,7 @@ si
 ci
 hf
 Ad
-Zc
+Ah
 Em
 TV
 sT
@@ -24494,6 +25230,27 @@ fk
 (79,1,1) = {"
 fk
 FF
+FH
+NI
+bO
+bO
+FH
+FF
+FF
+FF
+FH
+YH
+TF
+Xs
+lv
+Gx
+Gx
+Gx
+Gx
+Zi
+as
+Ly
+Wl
 FF
 FF
 FF
@@ -24503,27 +25260,6 @@ FF
 FF
 FF
 FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -24574,7 +25310,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -24752,6 +25488,26 @@ fk
 fk
 FF
 FF
+oc
+bO
+bi
+FF
+FF
+FF
+FF
+FH
+YH
+FH
+FH
+Wl
+Gx
+Gx
+jg
+jg
+FH
+xV
+Ra
+Wl
 FF
 FF
 FF
@@ -24761,26 +25517,6 @@ FF
 FF
 FF
 FF
-FF
-FF
-FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -24831,7 +25567,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -25009,6 +25745,26 @@ fk
 fk
 FF
 FF
+FH
+bO
+bO
+FH
+FF
+FF
+FF
+FH
+YH
+FH
+FF
+Wl
+HK
+dM
+jg
+vV
+Wl
+Wl
+Wl
+Wl
 FF
 FF
 FF
@@ -25018,26 +25774,6 @@ FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -25088,7 +25824,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -25267,35 +26003,35 @@ fk
 FF
 FF
 FF
+bO
+bO
+FH
+FF
+FF
+FF
+FH
+Xs
+FF
+FF
+Wl
+Wl
+Wl
+Wl
+Wl
+Wl
 FF
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -25345,7 +26081,7 @@ So
 WM
 Zk
 Ad
-IF
+zB
 Em
 WM
 sT
@@ -25523,36 +26259,36 @@ fk
 fk
 FF
 FF
+FH
+bi
+Ud
+FH
+FF
+FF
+FF
+FH
+Xs
 FF
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -25602,7 +26338,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -25780,36 +26516,36 @@ fk
 fk
 FF
 FF
+FH
+Ud
+Ud
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+YH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -25859,7 +26595,7 @@ Sz
 TV
 ZE
 zb
-IF
+zB
 CM
 TV
 mf
@@ -26035,38 +26771,38 @@ fk
 "}
 (85,1,1) = {"
 fk
+FH
+FH
+FF
+Ud
+bO
+FH
+FF
+FF
+FF
+FF
+MQ
 FF
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -26116,7 +26852,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -26291,39 +27027,39 @@ FF
 fk
 "}
 (86,1,1) = {"
-fk
+kK
+kC
+bO
+bi
+bO
+bO
+FH
+FF
+FF
+FF
+FF
+MQ
 FF
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -26373,7 +27109,7 @@ So
 WM
 hf
 Ad
-Zc
+Ah
 Em
 TV
 sT
@@ -26548,40 +27284,40 @@ FF
 fk
 "}
 (87,1,1) = {"
-fk
+kK
+kC
+bi
+bO
+bO
+bO
+oc
+YM
+FH
+FF
+FF
+MQ
+FF
+FH
+FH
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -26630,7 +27366,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -26806,39 +27542,39 @@ fk
 "}
 (88,1,1) = {"
 fk
+FH
+FH
+oc
+bO
+rO
+oc
+FH
+FF
+FH
+FH
+PL
+FH
+oc
+rN
+NQ
+FH
+FF
+FF
+FH
+cp
+CC
+IY
+FH
 FF
 FF
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -26887,7 +27623,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -27064,38 +27800,38 @@ fk
 (89,1,1) = {"
 fk
 FF
+FH
+NI
+bO
+bO
+bO
+gB
+bO
+rO
+wI
+wI
+wI
+oc
+NI
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+Vq
+Ud
+oG
+rX
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -27144,7 +27880,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -27322,37 +28058,37 @@ fk
 fk
 FF
 FF
+FH
+bO
+bO
+bO
+bO
+bO
+bO
+gB
+bO
+bO
+bO
+bO
+bO
+Ud
+Ud
+Ud
+oG
+Ud
+Ud
+rX
+cp
+FH
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -27401,7 +28137,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 MB
@@ -27579,37 +28315,37 @@ fk
 fk
 FF
 FF
+FH
+bO
+bO
+MQ
+oc
+FH
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+FH
+FF
+bi
+Ud
+Ud
+Nm
+Ud
+Ud
+Ud
+WR
+Ud
+rX
+cp
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -27658,7 +28394,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -27837,36 +28573,36 @@ fk
 FF
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+bO
+bO
+oc
+oc
+oc
+FH
+FH
+FF
+FF
+FF
+FH
+FH
+FH
+FF
+FH
+cp
+zg
+Ud
+Ud
+Ud
+Xo
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -27915,7 +28651,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -28093,37 +28829,37 @@ fk
 fk
 FF
 FF
+FH
+Ud
+bO
+FH
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+oc
+oc
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+cp
+Mg
+Ud
+Ud
+oG
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -28172,7 +28908,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -28350,37 +29086,37 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FH
+Ud
+Ud
+FF
+FF
+FH
+oc
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+FH
+CC
+rX
+hW
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -28429,7 +29165,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -28607,36 +29343,36 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+bi
+Ud
+FH
+FF
+FF
+oc
+oc
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -28686,7 +29422,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -28864,35 +29600,35 @@ fk
 fk
 FF
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+bO
+eq
+FH
+FF
+FH
+oc
+oc
+FH
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -28943,7 +29679,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -29120,35 +29856,35 @@ fk
 (97,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+ti
+bO
+wI
+FH
+FF
+FF
+FH
+oc
+oc
+ba
+Gi
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -29200,7 +29936,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -29377,34 +30113,34 @@ fk
 (98,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+SY
+rO
+wI
+FH
+FF
+FF
+FH
+Jy
+oc
+Wm
+oc
+oc
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -29457,7 +30193,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 nv
 mf
@@ -29634,33 +30370,33 @@ fk
 (99,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+Ud
+bO
+FH
+FF
+FF
+FF
+FF
+FH
+oc
+oc
+oc
+cs
+cF
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -29714,7 +30450,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -29891,33 +30627,33 @@ fk
 (100,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+bO
+bO
+FH
+FF
+FF
+FF
+FF
+FH
+IX
+oc
+Nj
+oc
+jv
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -29971,7 +30707,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -30148,30 +30884,30 @@ fk
 (101,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FH
+bO
+bO
+FH
+FF
+FF
+FF
+FF
+FH
+gz
+oc
+oc
+oc
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -30228,7 +30964,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -30405,29 +31141,29 @@ fk
 (102,1,1) = {"
 fk
 FF
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+bO
+bi
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+ti
+cF
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -30485,7 +31221,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -30661,30 +31397,30 @@ fk
 "}
 (103,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+Ud
+Ud
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -30742,7 +31478,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -30918,30 +31654,30 @@ fk
 "}
 (104,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+Ud
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -30999,7 +31735,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -31175,29 +31911,29 @@ fk
 "}
 (105,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+bO
+bO
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -31256,7 +31992,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -31432,29 +32168,29 @@ fk
 "}
 (106,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+gB
+bO
+bO
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -31513,7 +32249,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -31689,28 +32425,28 @@ fk
 "}
 (107,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+bO
+bO
+bO
+rO
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -31770,7 +32506,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -31946,28 +32682,28 @@ fk
 "}
 (108,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+in
+bO
+bO
+bO
+HN
+FH
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -32027,7 +32763,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -32203,28 +32939,28 @@ fk
 "}
 (109,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FH
+FH
+Te
+bO
+bO
+Ud
+Ud
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -32284,7 +33020,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -32460,27 +33196,27 @@ fk
 "}
 (110,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FH
+FH
+FH
+Ud
+Ud
+bO
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -32541,7 +33277,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -32717,24 +33453,24 @@ fk
 "}
 (111,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FH
+FH
+bO
+gB
+FH
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -32798,7 +33534,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -32974,21 +33710,21 @@ fk
 "}
 (112,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+bO
+kx
+FH
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -33055,7 +33791,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -33231,19 +33967,19 @@ fk
 "}
 (113,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+rO
+bO
+FH
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -33312,7 +34048,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -33488,18 +34224,18 @@ fk
 "}
 (114,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+wI
+wI
+FH
+FF
+FF
 Sz
 Sz
 Sz
@@ -33569,7 +34305,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -33745,18 +34481,18 @@ fk
 "}
 (115,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+PL
+PL
+FH
+FF
+FF
 Sz
 Sz
 Sz
@@ -33826,7 +34562,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -34002,18 +34738,18 @@ fk
 "}
 (116,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+MQ
+MQ
+FH
+FF
+XZ
 Sz
 Sz
 Sz
@@ -34083,7 +34819,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -34259,15 +34995,15 @@ fk
 "}
 (117,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+MQ
+MQ
 Sz
 Sz
 Sz
@@ -34340,7 +35076,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -34516,14 +35252,14 @@ fk
 "}
 (118,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+FH
+ot
 Sz
 Sz
 Sz
@@ -34597,7 +35333,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -34773,13 +35509,13 @@ fk
 "}
 (119,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
+FF
+ab
 Sz
 Sz
 Sz
@@ -34854,7 +35590,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -35030,11 +35766,11 @@ fk
 "}
 (120,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -35111,7 +35847,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -35287,10 +36023,10 @@ fk
 "}
 (121,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -35368,7 +36104,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -35544,10 +36280,10 @@ fk
 "}
 (122,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -35625,7 +36361,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -35801,10 +36537,10 @@ fk
 "}
 (123,1,1) = {"
 fk
-Sz
-Sz
-Sz
-Sz
+FF
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -35882,7 +36618,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -36058,9 +36794,9 @@ fk
 "}
 (124,1,1) = {"
 fk
-Sz
-Sz
-Sz
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -36139,7 +36875,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -36315,9 +37051,9 @@ fk
 "}
 (125,1,1) = {"
 fk
-Sz
-Sz
-Sz
+FF
+FF
+FF
 Sz
 Sz
 Sz
@@ -36396,7 +37132,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -36572,8 +37308,8 @@ fk
 "}
 (126,1,1) = {"
 fk
-Sz
-Sz
+FF
+FF
 Sz
 Sz
 Sz
@@ -36653,7 +37389,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -36829,8 +37565,8 @@ fk
 "}
 (127,1,1) = {"
 fk
-Sz
-Sz
+FF
+FF
 Sz
 Sz
 Sz
@@ -36910,7 +37646,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -37086,7 +37822,7 @@ fk
 "}
 (128,1,1) = {"
 fk
-Sz
+FF
 Sz
 Sz
 Sz
@@ -37167,7 +37903,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -37343,7 +38079,7 @@ fk
 "}
 (129,1,1) = {"
 fk
-Sz
+FF
 Sz
 Sz
 Sz
@@ -37424,7 +38160,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -37600,7 +38336,7 @@ fk
 "}
 (130,1,1) = {"
 fk
-Sz
+FF
 Sz
 Sz
 Sz
@@ -37681,7 +38417,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -37857,6 +38593,7 @@ fk
 "}
 (131,1,1) = {"
 fk
+FF
 Sz
 Sz
 Sz
@@ -37874,14 +38611,6 @@ Sz
 Sz
 Sz
 Sz
-JN
-JN
-JN
-JN
-JN
-JN
-JN
-cR
 Sz
 Sz
 Sz
@@ -37898,7 +38627,14 @@ Sz
 Sz
 Sz
 Sz
-Sz
+az
+az
+az
+az
+az
+az
+az
+nN
 Sz
 Sz
 Sz
@@ -37938,7 +38674,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -38114,6 +38850,7 @@ fk
 "}
 (132,1,1) = {"
 fk
+FF
 Sz
 Sz
 Sz
@@ -38131,13 +38868,29 @@ Sz
 Sz
 Sz
 Sz
-JN
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+aH
 dO
-zw
-uS
-br
-br
-JN
+gN
+hg
+hg
+az
 Kt
 Kt
 hL
@@ -38145,23 +38898,6 @@ OU
 JP
 OU
 jH
-Sz
-nc
-Sz
-Sz
-Sz
-Sz
-nc
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-nc
-Sz
-Sz
 Sz
 Sz
 Sz
@@ -38195,7 +38931,7 @@ hL
 ss
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -38388,37 +39124,37 @@ Sz
 Sz
 Sz
 Sz
-JN
-HZ
-KN
-br
-br
-br
-VQ
-ji
-tv
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+aS
+es
+hg
+hg
+hg
 my
+oz
+tv
+oI
 wP
 wP
 wP
-HS
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-jk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+zw
 Sz
 Sz
 Sz
@@ -38452,7 +39188,7 @@ wP
 tv
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -38645,37 +39381,37 @@ Sz
 Sz
 Sz
 Sz
-JN
-st
-as
-MF
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
 br
-br
-JN
-my
-Ah
+fN
+hD
+hg
+hg
+az
+oI
+uS
 OS
-BU
-pW
+vv
+wc
 IN
 vY
-Sz
-Sz
-Sz
-jk
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
 jk
 Sz
 Sz
@@ -38709,7 +39445,7 @@ xL
 VS
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -38902,35 +39638,35 @@ Sz
 Sz
 Sz
 Sz
-JN
-JN
-JN
-JN
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+az
+az
+az
 iz
-JN
-JN
-JN
-JN
+az
+az
+az
+az
 Sz
 Sz
-cR
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+nN
 Sz
 Sz
 Sz
@@ -38966,7 +39702,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -39159,32 +39895,32 @@ Sz
 Sz
 Sz
 Sz
-JN
-qI
-Cw
-qS
-br
-aH
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+bx
 gk
+hF
+hg
+mu
 gx
-JN
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+pW
+az
 Sz
 Sz
 Sz
@@ -39223,7 +39959,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -39416,32 +40152,32 @@ Sz
 Sz
 Sz
 Sz
-JN
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
 az
-Cw
-qS
-br
-aH
-Cw
+bV
+gk
+hF
 hg
-JN
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+mu
+gk
+qI
+az
 Sz
 Sz
 Sz
@@ -39480,7 +40216,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -39673,32 +40409,32 @@ Sz
 Sz
 Sz
 Sz
-JN
-aS
-Cw
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+cR
+gk
+hF
+hg
+mu
+gk
 qS
-br
-aH
-Cw
-hD
-JN
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+az
 Sz
 Sz
 Sz
@@ -39737,7 +40473,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -39930,32 +40666,32 @@ Sz
 Sz
 Sz
 Sz
-JN
-fN
-gk
-qS
-es
-aH
-Cw
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+Sz
+az
+cW
+gx
 hF
-JN
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
-Sz
+ji
+mu
+gk
+qY
+az
 Sz
 Sz
 Sz
@@ -39994,7 +40730,7 @@ Sz
 RK
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -40187,15 +40923,6 @@ Sz
 Sz
 Sz
 Sz
-JN
-JN
-JN
-JN
-JN
-JN
-JN
-JN
-JN
 Sz
 Sz
 Sz
@@ -40213,6 +40940,15 @@ Sz
 Sz
 Sz
 Sz
+az
+az
+az
+az
+az
+az
+az
+az
+az
 Sz
 Sz
 Sz
@@ -40251,7 +40987,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -40451,7 +41187,6 @@ Sz
 Sz
 Sz
 Sz
-cW
 Sz
 Sz
 Sz
@@ -40469,6 +41204,7 @@ Sz
 Sz
 Sz
 Sz
+st
 Sz
 Sz
 Sz
@@ -40508,7 +41244,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -40765,7 +41501,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -41022,7 +41758,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -41279,7 +42015,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -41536,7 +42272,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -41793,7 +42529,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -42050,7 +42786,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -42307,7 +43043,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -42564,7 +43300,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -42821,7 +43557,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -43078,7 +43814,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -43335,7 +44071,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -43592,7 +44328,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -43849,7 +44585,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -44106,7 +44842,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -44363,7 +45099,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -44620,7 +45356,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -44877,7 +45613,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -45134,7 +45870,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -45391,7 +46127,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -45648,7 +46384,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -45905,7 +46641,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -46162,7 +46898,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -46419,7 +47155,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -46676,7 +47412,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -46933,7 +47669,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -47190,7 +47926,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -47447,7 +48183,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -47704,7 +48440,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -47961,7 +48697,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -48218,7 +48954,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -48475,7 +49211,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -48732,7 +49468,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -48989,7 +49725,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -49246,7 +49982,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -49503,7 +50239,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -49760,7 +50496,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -50017,7 +50753,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -50274,7 +51010,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -50531,7 +51267,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -50788,7 +51524,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -51045,7 +51781,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -51302,7 +52038,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -51559,7 +52295,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -51816,7 +52552,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -52073,7 +52809,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -52330,7 +53066,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -52587,7 +53323,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -52844,7 +53580,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -53101,7 +53837,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -53358,7 +54094,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -53615,7 +54351,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -53872,7 +54608,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -54129,7 +54865,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -54386,7 +55122,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -54643,7 +55379,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -54900,7 +55636,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -55157,7 +55893,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -55414,7 +56150,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -55671,7 +56407,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -55928,7 +56664,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -56185,7 +56921,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -56442,7 +57178,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -56699,7 +57435,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -56956,7 +57692,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -57213,7 +57949,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -57470,7 +58206,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -57727,7 +58463,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -57984,7 +58720,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -58241,7 +58977,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -58498,7 +59234,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -58755,7 +59491,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -59012,7 +59748,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -59269,7 +60005,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -59526,7 +60262,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -59783,7 +60519,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -60040,7 +60776,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -60297,7 +61033,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -60554,7 +61290,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -60811,7 +61547,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -61068,7 +61804,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -61325,7 +62061,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -61582,7 +62318,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -61839,7 +62575,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -62096,7 +62832,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -62353,7 +63089,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -62610,7 +63346,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -62867,7 +63603,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -63124,7 +63860,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -63381,7 +64117,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -63638,7 +64374,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -63895,7 +64631,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -64152,7 +64888,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -64409,7 +65145,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -64666,7 +65402,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -64923,7 +65659,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -65180,7 +65916,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -65437,7 +66173,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -65694,7 +66430,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -65951,7 +66687,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -66208,7 +66944,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -66465,7 +67201,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -66722,7 +67458,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -66979,7 +67715,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -67236,7 +67972,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -67493,7 +68229,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -67750,7 +68486,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -68007,7 +68743,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -68264,7 +69000,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -68521,7 +69257,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -68778,7 +69514,7 @@ Sz
 TV
 hf
 zb
-rt
+zB
 CM
 TV
 mf
@@ -69035,7 +69771,7 @@ Sz
 TV
 hf
 zb
-IF
+zB
 CM
 TV
 mf
@@ -69292,7 +70028,7 @@ VG
 BE
 hf
 zb
-rt
+zB
 CM
 TV
 OW

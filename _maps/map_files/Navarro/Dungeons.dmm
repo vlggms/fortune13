@@ -28,7 +28,7 @@
 /area/f13/underground/cave)
 "aci" = (
 /obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/inside/mountain,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/underground/cave)
 "acG" = (
 /turf/closed/indestructible/vaultdoor,
@@ -49,20 +49,361 @@
 	height = 1;
 	id = "dungeon_enclave1"
 	},
-/turf/open/indestructible/ground/inside/mountain,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/underground/cave)
 "adZ" = (
+/obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"ags" = (
+/obj/effect/decal/cleanable/greenglow,
+/mob/living/simple_animal/hostile/centaur/strong{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"auW" = (
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"bLP" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese/ranged/assault{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"dRV" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"ekp" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"evY" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"exi" = (
+/obj/structure/closet/radiation,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"fvU" = (
+/mob/living/simple_animal/hostile/ghoul/soldier/armored,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"glW" = (
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/cave)
+"gDZ" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
+/obj/effect/spawner/lootdrop/f13/blueprintHigh,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"gWz" = (
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"gZd" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/cave)
 "heT" = (
 /turf/closed/indestructible/rock,
 /area/f13/underground/cave)
+"hvQ" = (
+/mob/living/simple_animal/hostile/abomination,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"inv" = (
+/mob/living/simple_animal/hostile/ghoul/glowing,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "iTE" = (
 /turf/closed/indestructible/rock,
 /area/f13/tcoms)
+"jtu" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"jtL" = (
+/obj/structure/barricade/bars,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"lsb" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/gold{
+	amount = 25;
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/mineral/silver{
+	amount = 25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"lsi" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/plasteel/fifty{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"mbg" = (
+/mob/living/simple_animal/hostile/centaur/strong{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"mIh" = (
+/obj/structure/simple_door/metal/barred,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"mIP" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"mVk" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"ntU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"nNB" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/diamond{
+	amount = 15
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"okT" = (
+/obj/structure/bed/old,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"omo" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"pfK" = (
+/mob/living/simple_animal/hostile/chinese/ranged/assault{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/cave)
+"ppG" = (
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"pGb" = (
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"qbi" = (
+/mob/living/simple_animal/hostile/ghoul,
+/obj/structure/nest/ghoul,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"qvT" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"qEF" = (
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"rxn" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/cave)
+"rJs" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/prewar/five,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"rVN" = (
+/mob/living/simple_animal/hostile/abomination,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"rZo" = (
+/mob/living/simple_animal/hostile/chinese{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"siA" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"slH" = (
+/obj/structure/simple_door/bunker{
+	name = "Barracks"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"swn" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"tkn" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/prewar/twenty,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"trq" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"tHc" = (
+/obj/structure/barricade/bars,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"uhV" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"uEf" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/spawner/lootdrop/food,
+/obj/item/clothing/under/f13/chinese,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"uRF" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "uRG" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"vtj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"vun" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
+"whB" = (
+/obj/structure/simple_door/blast{
+	name = "Containment Chamber"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"wqu" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/underground/cave)
+"xbn" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"xcd" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/spawner/lootdrop/food,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/clothing/suit/armor/f13/combat/chinese,
+/obj/item/clothing/under/f13/chinese,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/cave)
+"xuB" = (
+/obj/structure/simple_door/blast,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"xRo" = (
+/obj/structure/sign/warning/radiation{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 
 (1,1,1) = {"
 iTE
@@ -349,11 +690,11 @@ aaF
 aaF
 aaF
 aaF
-heT
-heT
-heT
-heT
-heT
+aaF
+aaF
+aaF
+aaF
+aaF
 heT
 heT
 heT
@@ -605,13 +946,13 @@ acN
 aaI
 aaI
 aaI
-aaI
+gZd
 aaF
-heT
-heT
-heT
-heT
-heT
+acN
+qbi
+qEF
+qEF
+aaF
 heT
 heT
 heT
@@ -854,21 +1195,21 @@ heT
 aaF
 aaF
 aaF
-aaI
-aaI
-acN
+acQ
 aaI
 acN
 aaI
-aaI
+rxn
+glW
+glW
 adK
-aaI
+gZd
+acN
+acN
+inv
+qEF
+qEF
 aaF
-heT
-heT
-heT
-heT
-heT
 heT
 heT
 heT
@@ -1112,20 +1453,20 @@ abc
 aaI
 aaI
 aaI
-aaI
+glW
+rxn
+glW
+glW
+rxn
+glW
+glW
+gZd
 acN
-aaI
-aaI
 acN
-aaI
-aaI
-aaI
+inv
+qEF
+qEF
 aaF
-heT
-heT
-heT
-heT
-heT
 heT
 heT
 heT
@@ -1368,21 +1709,21 @@ aaF
 abo
 aaI
 aaI
+glW
+glW
+glW
+rxn
+glW
+rxn
 aaI
 aaI
-aaI
-acN
-aaI
-acN
-aaI
-aaI
-aaI
+gZd
 aaF
-heT
-heT
-heT
-heT
-heT
+acN
+qEF
+qEF
+qbi
+aaF
 heT
 heT
 heT
@@ -1623,10 +1964,10 @@ heT
 heT
 aaF
 abr
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
+glW
 aaI
 acN
 aaI
@@ -1634,11 +1975,11 @@ aaI
 acN
 acN
 aaF
-heT
-heT
-heT
-heT
-heT
+aaF
+aaF
+aaF
+aaF
+aaF
 heT
 heT
 heT
@@ -1880,9 +2221,9 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
 aaI
 acQ
 aaF
@@ -2137,8 +2478,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 abc
 aaF
 aaF
@@ -2392,10 +2733,10 @@ heT
 heT
 heT
 aaF
-aaI
+gZd
 aci
-aaI
-aaI
+glW
+glW
 abr
 aaF
 heT
@@ -2652,7 +2993,7 @@ aaF
 aaK
 aci
 aci
-aaI
+glW
 abo
 aaF
 heT
@@ -2907,7 +3248,7 @@ heT
 heT
 aaF
 aaI
-aaI
+glW
 aci
 aaI
 aaF
@@ -3164,8 +3505,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -3421,8 +3762,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -3677,9 +4018,9 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
+acQ
+glW
+glW
 aaI
 aaF
 heT
@@ -3935,9 +4276,9 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+abo
 aaF
 heT
 heT
@@ -4192,8 +4533,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -4449,8 +4790,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -4704,18 +5045,18 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
-aaI
+abo
+glW
+glW
+glW
 aaI
 aaF
 heT
-heT
-heT
-heT
-heT
-heT
+acG
+acG
+acG
+acG
+acG
 acG
 acG
 acG
@@ -4962,17 +5303,17 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
+fvU
 aaF
+heT
 acG
-acG
-acG
-acG
-acG
-acG
+tkn
+lsb
+lsi
+siA
 acG
 adZ
 adZ
@@ -5219,21 +5560,21 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
+heT
 acG
-adv
-adv
-adv
-adv
-adv
+hvQ
+mbg
+rVN
+ags
 acG
-adZ
-adZ
-adZ
+jtL
+jtL
+jtL
 acG
 heT
 heT
@@ -5475,22 +5816,22 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
+gZd
+aci
+glW
 aaI
 aaF
 heT
 acG
-adv
-adv
-adv
-adv
-adv
 acG
-adZ
-adZ
-adZ
+gWz
+tHc
+gWz
+gWz
+acG
+xRo
+ntU
+exi
 acG
 heT
 heT
@@ -5732,22 +6073,22 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
+aaK
+aci
+glW
 aaI
 aaF
 heT
 acG
+wqu
 adv
 adv
 adv
-adv
-adv
-adv
-adZ
-adZ
-adZ
+ppG
+gWz
+ntU
+ntU
+mVk
 acG
 heT
 heT
@@ -5990,21 +6331,21 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+aci
+glW
 aaI
 aaF
 heT
 acG
+trq
+adv
+ppG
 adv
 adv
-adv
-adv
-adv
-adv
-adZ
-adZ
-adZ
+mIh
+ntU
+ntU
+uRF
 acG
 heT
 heT
@@ -6247,21 +6588,21 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
 acG
+gDZ
 adv
 adv
+ppG
 adv
-adv
-adv
-adv
-adZ
-adZ
-adZ
+gWz
+ntU
+ntU
+ntU
 acG
 heT
 heT
@@ -6504,21 +6845,21 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
 acG
-adv
-adv
-adv
-adv
-adv
 acG
-adZ
-adZ
-adZ
+gWz
+tHc
+gWz
+tHc
+acG
+xRo
+ntU
+exi
 acG
 heT
 heT
@@ -6760,22 +7101,22 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
-aaI
+jtu
+glW
+glW
+aaK
 aaF
 heT
+heT
 acG
-adv
-adv
-adv
-adv
-adv
+ags
+rVN
+ags
+mbg
 acG
-adZ
-adZ
-adZ
+acG
+whB
+acG
 acG
 heT
 heT
@@ -7017,29 +7358,29 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
-aaI
+vun
+glW
+glW
+abo
 aaF
 heT
-acG
-acG
-acG
-acG
-acG
-acG
-acG
-adZ
-adZ
-adZ
-acG
 heT
-heT
-heT
-heT
-heT
-heT
+acG
+qvT
+nNB
+ekp
+rJs
+acG
+bLP
+ntU
+exi
+acG
+acG
+acG
+acG
+acG
+acG
+acG
 heT
 heT
 heT
@@ -7274,30 +7615,30 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
+swn
+glW
+glW
 aaI
 aaF
 heT
 heT
-heT
-heT
-heT
-heT
-heT
 acG
-adZ
-adZ
-adZ
 acG
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+acG
+acG
+acG
+acG
+ntU
+ntU
+ntU
+acG
+uEf
+vtj
+xcd
+vtj
+uEf
+acG
+acG
 heT
 heT
 heT
@@ -7532,8 +7873,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -7544,17 +7885,17 @@ heT
 heT
 heT
 acG
-adZ
-adZ
-adZ
+dRV
+ntU
+ntU
+slH
+xbn
+vtj
+vtj
+pGb
+vtj
+vtj
 acG
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 heT
 heT
 heT
@@ -7789,9 +8130,9 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+fvU
 aaF
 heT
 heT
@@ -7801,17 +8142,17 @@ heT
 heT
 heT
 acG
-adZ
-adZ
-adZ
+ntU
+ntU
+ntU
 acG
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+vtj
+vtj
+vtj
+vtj
+vtj
+omo
+acG
 heT
 heT
 heT
@@ -8046,8 +8387,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -8058,17 +8399,17 @@ heT
 heT
 heT
 acG
-adZ
-adZ
-adZ
+ntU
+ntU
+mVk
 acG
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+okT
+evY
+okT
+uhV
+okT
+mIP
+acG
 heT
 heT
 heT
@@ -8303,8 +8644,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -8316,16 +8657,16 @@ heT
 heT
 acG
 acG
-adZ
+xuB
 acG
 acG
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+acG
+acG
+acG
+acG
+acG
+acG
+acG
 heT
 heT
 heT
@@ -8560,9 +8901,9 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
+glW
+rxn
+rxn
 aaF
 heT
 heT
@@ -8572,9 +8913,9 @@ heT
 heT
 acG
 acG
-aaI
-aaI
-aaI
+glW
+glW
+pfK
 acG
 heT
 heT
@@ -8816,10 +9157,10 @@ heT
 heT
 heT
 aaF
-aaI
-aaI
-aaI
-aaI
+acN
+rxn
+glW
+glW
 aaI
 aaF
 heT
@@ -8828,10 +9169,10 @@ heT
 heT
 acG
 aaI
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
+glW
 acG
 heT
 heT
@@ -9075,8 +9416,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -9085,9 +9426,9 @@ heT
 heT
 acG
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
 acG
 heT
 heT
@@ -9332,8 +9673,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
@@ -9342,8 +9683,8 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 acG
 heT
@@ -9589,18 +9930,18 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
+glW
+glW
 aaI
 aaF
 heT
 heT
 heT
 aaF
+auW
 aaI
-aaI
-aaI
-aaI
+glW
+glW
 aaI
 acG
 heT
@@ -9846,19 +10187,19 @@ heT
 heT
 aaF
 aaI
+glW
+glW
 aaI
-aaI
-aaI
-aaI
+abo
 aaF
 heT
 aaF
 aaI
 aaI
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
+rZo
 aaF
 heT
 heT
@@ -10103,17 +10444,17 @@ heT
 heT
 aaF
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
 aaI
 aaF
 aaF
 aaI
 aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
 aaI
 aaF
 heT
@@ -10360,16 +10701,16 @@ heT
 heT
 aaF
 aaI
+glW
+glW
+glW
+glW
+acN
 aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+glW
+glW
 aaI
 aaI
 aaF
@@ -10616,16 +10957,16 @@ heT
 heT
 heT
 aaF
+abo
 aaI
 aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
-aaI
+glW
+glW
+rxn
+glW
+glW
+glW
+glW
 aaI
 aaI
 aaF
@@ -10877,11 +11218,11 @@ aaF
 aaF
 aaI
 aaI
-aaI
-aaI
-aaI
-aaI
-aaI
+glW
+rxn
+glW
+glW
+auW
 aaI
 aaI
 aaF

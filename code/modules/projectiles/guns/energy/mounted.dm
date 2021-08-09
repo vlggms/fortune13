@@ -27,9 +27,9 @@
 	item_state = "armcannonplasma"
 	force = 8
 	burst_size = 3
-	burst_shot_delay = 2
+	burst_shot_delay = 2.5
 	selfcharge = EGUN_SELFCHARGE
 	can_charge = 0
 	cell_type = /obj/item/stock_parts/cell/ammo/internal
-	ammo_type = list(/obj/item/projectile/f13plasma/plasmacaster/repeater)
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/mounted_caster)
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
