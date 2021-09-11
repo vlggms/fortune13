@@ -5,69 +5,69 @@
 /area/f13/tcoms)
 "aaF" = (
 /turf/closed/wall/f13/tunnel,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "aaI" = (
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "aaK" = (
 /mob/living/simple_animal/hostile/ghoul/scorched/ranged,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "abc" = (
 /mob/living/simple_animal/hostile/ghoul/soldier,
 /obj/structure/chair/bench,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "abo" = (
 /obj/structure/campfire/barrel,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "abr" = (
 /obj/structure/chair/bench,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "aci" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "acG" = (
 /turf/closed/indestructible/vaultdoor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "acN" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "acQ" = (
 /mob/living/simple_animal/hostile/ghoul/scorched,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "adv" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "adK" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
 	id = "dungeon_enclave1"
 	},
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "adZ" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "ags" = (
 /obj/effect/decal/cleanable/greenglow,
 /mob/living/simple_animal/hostile/centaur/strong{
 	faction = list("hostile")
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "auW" = (
 /mob/living/simple_animal/hostile/chinese/ranged{
 	faction = list("hostile")
 	},
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "bLP" = (
 /obj/structure/sign/warning/radiation{
 	pixel_x = -32
@@ -77,52 +77,84 @@
 	faction = list("hostile")
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"cxL" = (
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"cDl" = (
+/obj/item/storage/trash_stack{
+	icon_state = "trash_3"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"daV" = (
+/obj/item/storage/trash_stack{
+	icon_state = "trash_2"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "dRV" = (
-/obj/machinery/light{
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/broken{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "ekp" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "evY" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "exi" = (
 /obj/structure/closet/radiation,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"ezX" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
 "fvU" = (
 /mob/living/simple_animal/hostile/ghoul/soldier/armored,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"fQS" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "glW" = (
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "gDZ" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/effect/spawner/lootdrop/f13/blueprintHigh,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "gWz" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "gZd" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "heT" = (
 /turf/closed/indestructible/rock,
 /area/f13/underground/cave)
@@ -130,11 +162,11 @@
 /mob/living/simple_animal/hostile/abomination,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "inv" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "iTE" = (
 /turf/closed/indestructible/rock,
 /area/f13/tcoms)
@@ -146,12 +178,16 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "jtL" = (
 /obj/structure/barricade/bars,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"jNi" = (
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "lsb" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/table/reinforced,
@@ -164,7 +200,7 @@
 	amount = 25
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "lsi" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/plasteel/fifty{
@@ -177,33 +213,44 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"lxH" = (
+/mob/living/simple_animal/hostile/ghoul/scorched,
+/obj/item/storage/trash_stack{
+	icon_state = "trash_2"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "mbg" = (
 /mob/living/simple_animal/hostile/centaur/strong{
 	faction = list("hostile")
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"mvj" = (
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
 "mIh" = (
 /obj/structure/simple_door/metal/barred,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "mIP" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/random,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "mVk" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "ntU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "nNB" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/table/reinforced,
@@ -212,82 +259,91 @@
 	amount = 15
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "okT" = (
 /obj/structure/bed/old,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "omo" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/chinese/ranged{
-	faction = list("hostile")
+/obj/machinery/light/small{
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "pfK" = (
 /mob/living/simple_animal/hostile/chinese/ranged/assault{
 	faction = list("hostile")
 	},
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "ppG" = (
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"puf" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
 "pGb" = (
 /mob/living/simple_animal/hostile/chinese/ranged{
 	faction = list("hostile")
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
+"pMx" = (
+/obj/item/storage/trash_stack,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "qbi" = (
 /obj/structure/nest/ghoul,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "qvT" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/bottle/FEV_solution,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "qEF" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "rxn" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/subway,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "rJs" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/prewar/five,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "rVN" = (
 /mob/living/simple_animal/hostile/abomination,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "rZo" = (
 /mob/living/simple_animal/hostile/chinese{
 	faction = list("hostile")
 	},
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "siA" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/bottle/FEV_solution,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "slH" = (
 /obj/structure/simple_door/bunker{
 	name = "Barracks"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "swn" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
@@ -295,29 +351,32 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "tkn" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/prewar/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "trq" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
+/obj/machinery/light/broken{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "tHc" = (
 /obj/structure/barricade/bars,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "uhV" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "uEf" = (
 /obj/structure/closet/crate{
 	anchored = 1;
@@ -327,19 +386,19 @@
 /obj/item/clothing/under/f13/chinese,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "uRF" = (
-/obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/broken,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "uRG" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
 "vtj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "vun" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -356,26 +415,31 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "whB" = (
 /obj/structure/simple_door/blast{
 	name = "Containment Chamber"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "wqu" = (
-/obj/structure/rack,
-/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/obj/structure/reagent_dispensers/barrel/dangerous{
+	color = "#CCFFCC";
+	desc = "An old metal barrel full of dangerous toxin. You probably should leave it alone, unless you have some nefarious plans...";
+	light_color = "#64FF64";
+	name = "FEV barrel";
+	reagent_id = /datum/reagent/toxin/FEV_solution
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "xbn" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/chinese{
 	faction = list("hostile")
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "xcd" = (
 /obj/structure/closet/crate{
 	anchored = 1;
@@ -389,12 +453,12 @@
 /obj/item/clothing/under/f13/chinese,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "xuB" = (
 /obj/structure/simple_door/blast,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 "xRo" = (
 /obj/structure/sign/warning/radiation{
 	pixel_y = 32
@@ -402,7 +466,7 @@
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/cave)
+/area/f13/bunker)
 
 (1,1,1) = {"
 iTE
@@ -940,10 +1004,10 @@ heT
 aaF
 aaF
 aaF
-aaI
+jNi
 acN
 aaI
-aaI
+cxL
 aaI
 gZd
 aaF
@@ -1195,9 +1259,9 @@ aaF
 aaF
 aaF
 acQ
-aaI
+fQS
 acN
-aaI
+jNi
 rxn
 glW
 glW
@@ -1207,7 +1271,7 @@ acN
 acN
 inv
 aaI
-qEF
+aaI
 aaF
 heT
 heT
@@ -1455,7 +1519,7 @@ aaI
 glW
 rxn
 glW
-glW
+mvj
 rxn
 glW
 glW
@@ -1463,7 +1527,7 @@ gZd
 acN
 acN
 inv
-qEF
+aaI
 aaI
 aaF
 heT
@@ -1712,7 +1776,7 @@ glW
 glW
 glW
 rxn
-glW
+mvj
 rxn
 aaI
 aaI
@@ -1970,7 +2034,7 @@ glW
 aaI
 acN
 aaI
-aaI
+jNi
 acN
 acN
 aaF
@@ -2224,7 +2288,7 @@ glW
 glW
 glW
 aaI
-acQ
+lxH
 aaF
 aaF
 aaF
@@ -3760,7 +3824,7 @@ heT
 heT
 heT
 aaF
-aaI
+omo
 glW
 glW
 aaI
@@ -5568,7 +5632,7 @@ heT
 acG
 hvQ
 mbg
-rVN
+adv
 ags
 acG
 jtL
@@ -6586,7 +6650,7 @@ heT
 heT
 heT
 aaF
-aaI
+omo
 glW
 glW
 aaI
@@ -7110,7 +7174,7 @@ heT
 acG
 ags
 rVN
-ags
+ppG
 mbg
 acG
 acG
@@ -8150,7 +8214,7 @@ vtj
 vtj
 vtj
 vtj
-omo
+vtj
 acG
 heT
 heT
@@ -8400,7 +8464,7 @@ heT
 acG
 ntU
 ntU
-mVk
+ezX
 acG
 okT
 evY
@@ -8912,7 +8976,7 @@ heT
 heT
 acG
 acG
-glW
+puf
 glW
 pfK
 acG
@@ -9160,7 +9224,7 @@ acN
 rxn
 glW
 glW
-aaI
+cDl
 aaF
 heT
 heT
@@ -10185,7 +10249,7 @@ heT
 heT
 heT
 aaF
-aaI
+omo
 glW
 glW
 aaI
@@ -10193,7 +10257,7 @@ abo
 aaF
 heT
 aaF
-aaI
+omo
 aaI
 glW
 glW
@@ -10711,7 +10775,7 @@ glW
 glW
 glW
 aaI
-aaI
+pMx
 aaF
 heT
 heT
@@ -10967,7 +11031,7 @@ glW
 glW
 glW
 aaI
-aaI
+abo
 aaF
 heT
 heT
@@ -11215,7 +11279,7 @@ heT
 heT
 aaF
 aaF
-aaI
+daV
 aaI
 glW
 rxn

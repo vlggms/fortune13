@@ -5337,7 +5337,7 @@
 "Qj" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray,
-/obj/item/melee/onehanded/knife/butcher,
+/obj/item/kitchen/knife/butcher,
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/ncr)
