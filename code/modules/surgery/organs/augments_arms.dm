@@ -179,7 +179,7 @@
 		return
 	obj_flags |= EMAGGED
 	to_chat(usr, "<span class='notice'>You unlock [src]'s integrated knife!</span>")
-	items_list += new /obj/item/kitchen/knife/combat(src)
+	items_list += new /obj/item/kitchen/knife/butcher(src)
 	return TRUE
 
 /obj/item/organ/cyberimp/arm/surgery
@@ -193,7 +193,7 @@
 		return
 	obj_flags |= EMAGGED
 	to_chat(usr, "<span class='notice'>You unlock [src]'s integrated knife!</span>")
-	items_list += new /obj/item/kitchen/knife/combat(src)
+	items_list += new /obj/item/kitchen/knife/butcher(src)
 	return TRUE
 
 /obj/item/organ/cyberimp/arm/janitor
@@ -222,7 +222,7 @@
 		return
 	obj_flags |= EMAGGED
 	to_chat(usr, "<span class='notice'>You unlock [src]'s integrated real knife!</span>")
-	items_list += new /obj/item/kitchen/knife/combat(src)
+	items_list += new /obj/item/kitchen/knife/butcher(src)
 	return TRUE
 
 ///////////////

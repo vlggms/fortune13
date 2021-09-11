@@ -645,25 +645,6 @@
 	icon_state = "trilby"
 	item_state = "fedora"
 
-//chinesearmy
-/obj/item/clothing/head/f13/chinese_soldier
-	name = "chinese side cap"
-	desc = "(I) A People's Liberation Army side cap, worn by enlisted and non-commissioned officers."
-	icon_state = "chinese_solder"
-	item_state = "secsoft"
-
-/obj/item/clothing/head/f13/chinese_officer
-	name = "chinese officer cap"
-	desc = "(I) A People's Liberation Army cap, worn by low ranking officers."
-	icon_state = "chinese_officer"
-	item_state = "secsoft"
-
-/obj/item/clothing/head/f13/chinese_general
-	name = "chinese peaked cap"
-	desc = "(I) A People's Liberation Army peaked cap, worn by high ranking officers and commanders."
-	icon_state = "chinese_general"
-	item_state = "fedora"
-
 /obj/item/clothing/head/f13/stormchaser
 	name = "stormchaser hat"
 	desc = "(I) Home, home on the wastes,<br>Where the mole rat and the fire gecko play.<br>Where seldom is heard a discouraging word,<br>And my skin is not glowing all day."
@@ -949,13 +930,13 @@
 	item_state = "ranger_grey_hat"
 	armor = list("tier" = 2, "energy" = 25, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEHAIR
-	
+
 /obj/item/clothing/head/f13/ranger_hat/banded
 	name = "banded cowboy hat"
 	desc = "(II) A grey cowboy hat with a hat band decorated with brassen rings."
 	icon_state = "ranger_banded_hat"
 	item_state = "ranger_banded_hat"
-	
+
 /obj/item/clothing/head/f13/ranger_hat/tan
 	name = "tan cowboy hat"
 	desc = "(II) A thick tanned leather hat, with a Montana Peak crease."
