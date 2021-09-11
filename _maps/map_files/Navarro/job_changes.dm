@@ -19,19 +19,13 @@
 		spawn_positions = 0
 	..()
 
-/datum/job/wasteland/f13mobboss/New()
-	IF_NAVARRO
-		total_positions = 0
-		spawn_positions = 0
-	..()
-
-/datum/job/wasteland/f13enforcer/New()
-	IF_NAVARRO
-		total_positions = 0
-		spawn_positions = 0
-	..()
-
 /datum/job/bos/f13initiate/New()
+	IF_NAVARRO
+		total_positions = 0
+		spawn_positions = 0
+	..()
+
+/datum/job/followers/New()
 	IF_NAVARRO
 		total_positions = 0
 		spawn_positions = 0
@@ -87,5 +81,12 @@
 	IF_NAVARRO
 		total_positions = 4
 		spawn_positions = 4
+
+// Others
+/datum/job/wasteland/f13enforcer/New()
+	..()
+	IF_NAVARRO
+		total_positions = 2
+		spawn_positions = 2
 
 #undef IF_NAVARRO
