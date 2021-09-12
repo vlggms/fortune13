@@ -721,19 +721,6 @@
 // TOOLS //
 ///////////		-generally max 24 damage
 
-
-// obsolete
-/obj/item/melee/onehanded/knife/butcher
-	name = "butcher's cleaver"
-	desc = "Keep hackin' and whackin' and smackin'."
-	icon_state = "knife_butcher"
-	item_state = "knife_butcher"
-	w_class = WEIGHT_CLASS_NORMAL
-	force = 24
-	armour_penetration = 0
-	custom_materials = list(/datum/material/iron=8000)
-	attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
-
 /obj/item/melee/onehanded/club/fryingpan
 	name = "frying pan"
 	desc = "An ancient cast iron frying pan.<br>It's heavy, but fairly useful if you need to keep the mutants away, and don't have a better weapon around."

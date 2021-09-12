@@ -57,9 +57,10 @@
 
 /obj/item/kitchen/knife
 	name = "kitchen knife"
-	icon = 'icons/obj/items_and_weapons.dmi'
-	icon_state = "knife_kitchen"
-	desc = "Keep hackin' and whackin' and smackin'."
+	desc = "A simple knife, best suited to cut stuff that doesn't cut back."
+	icon_state = "knife"
+	lefthand_file = 'icons/fallout/onmob/weapons/melee1h_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/melee1h_righthand.dmi'
 	flags_1 = CONDUCT_1
 	force = 15
 	w_class = WEIGHT_CLASS_SMALL
@@ -92,34 +93,10 @@
 						"<span class='suicide'>[user] is slitting [user.p_their()] stomach open with the [src.name]! It looks like [user.p_theyre()] trying to commit seppuku.</span>"))
 	return (BRUTELOSS)
 
-
-/*
-/obj/item/kitchen/knife/bloodletter
-	name = "bloodletter"
-	desc = "An occult looking dagger that is cold to the touch. Somehow, the flawless orb on the pommel is made entirely of liquid blood."
-	icon = 'icons/obj/ice_moon/artifacts.dmi'
-	icon_state = "bloodletter"
-	w_class = WEIGHT_CLASS_NORMAL
-	/// Bleed stacks applied when an organic mob target is hit
-	var/bleed_stacks_per_hit = 3
-
-/obj/item/kitchen/knife/bloodletter/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
-	. = ..()
-	if(!isliving(target) || !proximity_flag)
-		return
-	var/mob/living/M = target
-	if(!(M.mob_biotypes & MOB_ORGANIC))
-		return
-	var/datum/status_effect/stacking/saw_bleed/bloodletting/B = M.has_status_effect(/datum/status_effect/stacking/saw_bleed/bloodletting)
-	if(!B)
-		M.apply_status_effect(/datum/status_effect/stacking/saw_bleed/bloodletting, bleed_stacks_per_hit)
-	else
-		B.add_stacks(bleed_stacks_per_hit)
-*/
 /obj/item/kitchen/knife/butcher
 	name = "butcher's cleaver"
-	icon_state = "knife_cleaver"
 	desc = "Heavy bladed tool for chopping meat."
+	icon_state = "knife_butcher"
 	flags_1 = CONDUCT_1
 	force = 25
 	throwforce = 15
@@ -127,17 +104,6 @@
 	attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_price = PRICE_EXPENSIVE
-
-/obj/item/kitchen/knife/combat // obsolete
-	name = "cyborg knife"
-	icon = 'icons/obj/items_cyborg.dmi'
-	item_state = "knife"
-	desc = "A cyborg-mounted plasteel knife. Extremely sharp and durable."
-	embedding = list("pain_mult" = 4, "embed_chance" = 65, "fall_chance" = 10, "ignore_throwspeed_threshold" = TRUE)
-	force = 30
-	throwforce = 25
-	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
-	bayonet = TRUE
 
 /obj/item/kitchen/rollingpin
 	name = "rolling pin"

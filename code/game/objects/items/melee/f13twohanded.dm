@@ -99,7 +99,7 @@
 ////////////		- Reach
 
 // Metal Spear		Keywords: Damage 10/30, Reach
-/obj/item/twohanded/spear 
+/obj/item/twohanded/spear
 	name = "spear"
 	desc = "A simple spear with a metal head and wooden shaft."
 	icon_state = "spear-metal"
@@ -197,7 +197,7 @@
 	update_icon()
 
 
-// Lance		Keywords: LEGION, Damage 25/40, Reach		
+// Lance		Keywords: LEGION, Damage 25/40, Reach
 /obj/item/twohanded/spear/lance
 	name = "legion lance"
 	desc = "A long spear made in the Legions war foundries. Useful for fighting tribals and hunting when ammunition is scarce."
@@ -394,7 +394,7 @@
 	righthand_file = 'icons/mob/inhands/64x64_righthand.dmi'
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
-	slot_flags = ITEM_SLOT_SUITSTORE
+	slot_flags = null
 	force = 5
 	throwforce = 20
 	throw_speed = 2
@@ -443,7 +443,8 @@
 	righthand_file = 'icons/fallout/onmob/weapons/melee2h_righthand.dmi'
 	icon_state = "protonaxe"
 	icon_state_on = "protonaxe_on"
-	slot_flags = ITEM_SLOT_SUITSTORE
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = null
 	force = 20
 	force_on = 32
 	armour_penetration = 0.7
@@ -656,7 +657,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	return(BRUTELOSS)
 
 /*
-CODE ARCHIVE 
+CODE ARCHIVE
 
 CODE FOR POISON EFFECT
 /obj/item/twohanded/spear/ultra/attack(mob/living/M, mob/living/user)

@@ -16,7 +16,7 @@
 		return
 	var/dist = get_dist(user.loc,target.loc)
 	var/dir = get_dir(user.loc,target.loc)
-	
+
 	if(user.z != target.z)
 		to_chat(user,"<span class='warning'>[target.real_name] is beyond our reach.</span>")
 	else
@@ -135,6 +135,19 @@
 	hoodtype = /obj/item/clothing/head/hooded/cult_hoodie/eldritch
 	// slightly better than normal cult robes
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 50,"energy" = 50, "bomb" = 35, "bio" = 20, "rad" = 0, "fire" = 20, "acid" = 20)
+
+/obj/item/clothing/head/hooded/cult_hoodie/eldritch/purple
+	name = "purple hood"
+	desc = "A weird purple hood, probably related to some old cult, or worse..."
+	color = "#AF77FF"
+	flash_protect = 0
+
+/obj/item/clothing/suit/hooded/cultrobes/eldritch/purple
+	name = "purple robes"
+	desc = "A weird set of robes, complete in purple color."
+	color = "#AF77FF"
+	hoodtype = /obj/item/clothing/head/hooded/cult_hoodie/eldritch/purple
+	armor = list("melee" = 20, "bullet" = 20, "laser" = 20,"energy" = 20, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 10, "acid" = 10)
 
 /obj/item/reagent_containers/glass/beaker/eldritch
 	name = "flask of eldritch essence"

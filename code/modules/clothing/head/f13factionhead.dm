@@ -689,8 +689,8 @@
 	flash_protect = 0
 	resistance_flags = null
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 20, "acid" = 0)
-	
-	
+
+
 /obj/item/clothing/head/helmet/f13/rangercombat/eliteriot/reclaimed
 	name = "reclaimed desert ranger gear"
 	desc = "(IV) A refurbished and personalized set of pre-unification desert ranger gear."
@@ -911,7 +911,25 @@
 	item_state = "vtcc_riot_helmet"
 	armor = list("tier" = 7, "energy" = 35, "bomb" = 35, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
 
+//Chinese Army
 
+/obj/item/clothing/head/f13/chinese_soldier
+	name = "chinese side cap"
+	desc = "(I) An pre-war People's Liberation Army side cap, worn enlisted and NCOs"
+	icon_state = "chinese_soldier"
+	item_state = "chinese_soldier"
+
+/obj/item/clothing/head/f13/chinese_officer
+	name = "chinese officer cap"
+	desc = "(I) An pre-war People's Liberation Army cap, worn by low rankedi officers."
+	icon_state = "chinese_officer"
+	item_state = "chinese_officer"
+
+/obj/item/clothing/head/f13/chinese_general
+	name = "chinese peaked cap"
+	desc = "(I) An pre-war People's Liberation Army peaked cap, worn by high ranked officers and generals."
+	icon_state = "chinese_general"
+	item_state = "chinese_general"
 
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
@@ -998,12 +1016,11 @@
 	item_state = "enclave_cap"
 	armor = list("tier" = 3, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/head/helmet/f13/combat/enclave
+/obj/item/clothing/head/helmet/f13/combat/mk2/enclave
 	name = "enclave combat helmet"
 	desc = "(VI) An intimidating helmet that is issued with it's corresponding suit."
 	icon_state = "enclave_new"
 	item_state = "enclave_new"
-	armor = list("tier" = 6, "energy" = 75, "bomb" = 70, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
 
 /obj/item/clothing/head/helmet/f13/combat/remnant
 	name = "remnant combat helmet"

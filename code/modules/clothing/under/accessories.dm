@@ -547,6 +547,10 @@
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
 
+/obj/item/clothing/accessory/ncr/SGT/drill
+	name = "(E-5*) Drill Sergeant rank pins"
+	desc = "A trooper holding the rank of Sergeant should wear this. This one is issued to those responsible for training the recruits."
+
 /obj/item/clothing/accessory/armband/engine/ncr
 	name = "engineering armband (E-5 Engineer)"
 	desc = "An armband worn by NCR Engineers to display their rank and speciality. This one is orange with a reflective strip!"

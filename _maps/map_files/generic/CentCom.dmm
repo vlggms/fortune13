@@ -8459,7 +8459,7 @@
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
 "xV" = (
-/mob/living/simple_animal/hostile/raider/tribal,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier8,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "ya" = (
@@ -8499,7 +8499,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yi" = (
-/mob/living/simple_animal/hostile/raider/baseball,
+/obj/effect/spawner/lootdrop/f13/armor/tier5,
+/obj/effect/spawner/lootdrop/f13/armor/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yk" = (
@@ -8509,7 +8510,7 @@
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
 "yp" = (
-/obj/effect/landmark/deathmatch,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier9,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yq" = (
@@ -8527,7 +8528,9 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/centcom/evac)
 "yv" = (
-/mob/living/simple_animal/hostile/raider/ranged/boss,
+/obj/effect/spawner/lootdrop/f13/armor/tier4,
+/obj/effect/spawner/lootdrop/f13/armor/tier4,
+/obj/effect/spawner/lootdrop/f13/armor/tier4,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yy" = (
@@ -8608,7 +8611,7 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "yO" = (
-/mob/living/simple_animal/hostile/raider,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier10,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yR" = (
@@ -8627,6 +8630,7 @@
 /area/centcom/evac)
 "ze" = (
 /obj/structure/table/wood/poker,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "zn" = (
@@ -9586,7 +9590,6 @@
 /area/centcom/evac)
 "CJ" = (
 /obj/structure/chair/stool/retro/black,
-/mob/living/simple_animal/hostile/raider,
 /obj/structure/sign/poster/prewar/poster82{
 	pixel_y = 32
 	},
@@ -9607,11 +9610,11 @@
 /turf/open/floor/plasteel/blue,
 /area/centcom/evac)
 "CM" = (
-/obj/item/melee/onehanded/machete,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "CN" = (
-/mob/living/simple_animal/hostile/raider/firefighter,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/unique,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "CO" = (
@@ -9661,14 +9664,12 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/molten_object,
-/mob/living/simple_animal/hostile/raider,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Df" = (
 /obj/structure/urinal{
 	pixel_y = 32
 	},
-/obj/effect/landmark/deathmatch,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Dh" = (
@@ -9857,6 +9858,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/glass,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Eh" = (
@@ -9905,13 +9907,17 @@
 "Eu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/stool/retro/black,
-/obj/effect/landmark/deathmatch,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Ev" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/tdome/tdomeobserve)
+"Ew" = (
+/obj/structure/chair/bench,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "EB" = (
 /obj/structure/simple_door/metal/dirtystore,
 /obj/structure/decoration/rag,
@@ -9986,14 +9992,6 @@
 /obj/structure/bedsheetbin/towel,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
-"ET" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/obj/machinery/light/small,
-/obj/effect/landmark/deathmatch,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/centcom/evac)
 "EX" = (
 /obj/structure/table/wood,
 /obj/item/gun/magic/wand{
@@ -10012,8 +10010,6 @@
 	dir = 1
 	},
 /obj/machinery/light/small,
-/obj/effect/landmark/deathmatch,
-/mob/living/simple_animal/hostile/radroach,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Fa" = (
@@ -10071,7 +10067,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Fm" = (
-/obj/item/melee/onehanded/knife/trench,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier9,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "FT" = (
@@ -10110,6 +10107,13 @@
 "Ge" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
+/obj/item/grenade/syndieminibomb/concussion/frag,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Gk" = (
@@ -10117,6 +10121,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
+"Go" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/gun/grenadelauncher,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Gr" = (
@@ -10140,8 +10150,8 @@
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/tcoms)
 "Gu" = (
-/mob/living/simple_animal/hostile/raider/biker,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier10,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Gz" = (
@@ -10256,6 +10266,7 @@
 "HJ" = (
 /obj/structure/table/reinforced,
 /obj/structure/barricade/bars,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "HL" = (
@@ -10669,7 +10680,8 @@
 /area/centcom/evac)
 "JZ" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged,
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Ka" = (
@@ -11266,6 +11278,11 @@
 "Nh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/wreck/trash/secway,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
+"Nj" = (
+/obj/structure/chair/bench,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Nm" = (
@@ -12039,7 +12056,6 @@
 "UN" = (
 /obj/structure/chair/f13foldupchair,
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/landmark/deathmatch,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "UT" = (
@@ -12053,8 +12069,9 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "Va" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Vm" = (
@@ -12366,6 +12383,12 @@
 "ZW" = (
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"ZZ" = (
+/obj/machinery/light/small,
+/obj/structure/chair/bench,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 
 (1,1,1) = {"
 aa
@@ -33911,7 +33934,7 @@ Yw
 Yw
 Yw
 Do
-yp
+Yv
 Yw
 Fd
 Yy
@@ -34171,7 +34194,7 @@ Yv
 Yv
 Yw
 Fk
-Va
+Yy
 Yy
 QD
 Qa
@@ -34423,7 +34446,7 @@ rb
 EF
 Yw
 xk
-CN
+Yv
 Yy
 Yv
 Yw
@@ -34433,7 +34456,7 @@ Yy
 Mq
 Yy
 Yy
-Ge
+Go
 Yw
 WF
 Yy
@@ -34689,7 +34712,7 @@ Yy
 Yy
 Dz
 Zc
-Gu
+Yy
 Nh
 Yw
 Yy
@@ -34946,7 +34969,7 @@ Mo
 Yw
 HJ
 HJ
-HJ
+Va
 Yw
 Yw
 Yy
@@ -35456,7 +35479,7 @@ Yy
 Yv
 Yv
 Yy
-JZ
+Yy
 Io
 Yy
 Yv
@@ -35714,7 +35737,7 @@ Yv
 Yv
 Yv
 Yv
-Dy
+Yv
 Yv
 Yy
 Yv
@@ -35970,7 +35993,7 @@ Yv
 Yv
 Yv
 Yv
-yv
+Yv
 Dy
 Yv
 Yy
@@ -36223,7 +36246,7 @@ Yv
 Yv
 Yv
 Yv
-yO
+Yv
 Yv
 Yv
 Yv
@@ -36991,7 +37014,7 @@ rb
 EF
 Yw
 Yv
-yO
+Yv
 CZ
 Yv
 Yy
@@ -37254,13 +37277,13 @@ Yv
 Yy
 yy
 yp
-yi
+Yv
 yy
-Yy
+Fm
 Yv
 WM
 Yv
-DW
+Nj
 Yw
 JO
 Yy
@@ -37774,7 +37797,7 @@ Yy
 Yv
 Da
 Yv
-DW
+Ew
 Yw
 zS
 Yy
@@ -38024,10 +38047,10 @@ Da
 Yv
 Yv
 yy
-Yv
+yO
 Yv
 yy
-Yy
+Gu
 Yy
 Jd
 Yv
@@ -38273,7 +38296,7 @@ vZ
 vZ
 rb
 xc
-Yv
+CM
 yB
 Yv
 Yv
@@ -38530,7 +38553,7 @@ xa
 MX
 qo
 xc
-Yv
+yi
 yB
 Yv
 Yv
@@ -38539,11 +38562,11 @@ Yy
 Yv
 Yv
 Yy
-Fm
+Yv
 Yv
 Yv
 Yy
-Da
+CK
 Yy
 Yv
 Iv
@@ -38787,7 +38810,7 @@ vY
 vY
 rb
 xc
-Yv
+yv
 yB
 Yv
 Yv
@@ -39052,10 +39075,10 @@ Da
 Yy
 Yv
 yy
-Yv
+CN
 Yv
 yy
-Yv
+CN
 Yv
 Da
 Yv
@@ -39573,7 +39596,7 @@ Yv
 Yv
 WM
 Yv
-DV
+ZZ
 Yw
 zT
 Yy
@@ -39818,19 +39841,19 @@ rb
 EF
 Yw
 Yv
-yO
+Yv
 Da
 Yv
 Yy
 yy
 xV
-yp
-yy
 Yv
+yy
+xV
 Yv
 WM
 Yv
-DW
+Nj
 Yw
 zS
 Yy
@@ -40850,10 +40873,10 @@ Yv
 Yv
 Yy
 Yy
-yO
 Yv
 Yv
-yO
+Yv
+Yv
 Yv
 Yv
 Yv
@@ -41370,7 +41393,7 @@ Yv
 Yv
 ze
 HB
-HB
+JZ
 zn
 zE
 Yw
@@ -41626,7 +41649,7 @@ Yw
 Yv
 Yv
 ZR
-Va
+Yy
 KD
 zn
 DY
@@ -42906,7 +42929,7 @@ Yw
 Yw
 EH
 Dr
-ET
+EZ
 Yw
 YF
 YF
@@ -43420,7 +43443,7 @@ Yw
 Yw
 Yv
 Dr
-ET
+EZ
 Yw
 Hq
 Yy
@@ -43940,7 +43963,7 @@ Wn
 Qp
 Yv
 XQ
-yO
+Yv
 Yv
 Eg
 EF

@@ -45,6 +45,11 @@
 /obj/item/ammo_casing/energy/plasma/pistol/glock/extended
 	e_cost = 80 //20 shots
 
+/obj/item/ammo_casing/energy/plasma/mounted_caster
+	projectile_type = /obj/item/projectile/f13plasma/plasmacaster/repeater
+	fire_sound = 'sound/f13weapons/horrigan_gun.ogg'
+	e_cost = 100
+
 /obj/item/ammo_casing/energy/plasma/alien
 	projectile_type = /obj/item/projectile/plasma/alien
 	select_name = "alien projectile"

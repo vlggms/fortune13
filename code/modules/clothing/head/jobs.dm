@@ -136,7 +136,7 @@
 	name = "black beret"
 	desc = "A black beret, perfect for war veterans and dark, brooding, anti-hero mimes."
 	icon_state = "beretblack"
-	
+
 /obj/item/clothing/head/beret/headband
 	name = "red headband"
 	desc = "A red headband fashioned out of some tattered sleeves. The fabric is soaked in sweat, dirt and blood."
@@ -188,7 +188,7 @@
 	name = "syndicate beret"
 	desc = "A black beret with thick armor padding inside. Stylish and robust."
 
-/obj/item/clothing/head/warden
+/obj/item/clothing/head/helmet/warden
 	name = "warden's police hat"
 	desc = "(V) It's a special armored hat issued to the Warden of a security force. Protects the head from impacts."
 	icon_state = "policehelm"
@@ -196,15 +196,15 @@
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/warden
 
-/obj/item/clothing/head/warden/drill
+/obj/item/clothing/head/helmet/warden/drill
 	name = "warden's campaign hat"
-	desc = "A special armored campaign hat with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection. Has the letters 'FMJ' enscribed on its side."
+	desc = "(V) A special armored campaign hat with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection. Has the letters 'FMJ' enscribed on its side."
 	icon_state = "wardendrill"
 	item_state = "wardendrill"
 	dog_fashion = null
 	var/mode = DRILL_DEFAULT
 
-/obj/item/clothing/head/warden/drill/screwdriver_act(mob/living/carbon/human/user, obj/item/I)
+/obj/item/clothing/head/helmet/warden/drill/screwdriver_act(mob/living/carbon/human/user, obj/item/I)
 	if(..())
 		return TRUE
 	switch(mode)
@@ -221,24 +221,24 @@
 			to_chat(user, "<span class='danger'>You adjust voice circuit but nothing happens, probably because it's broken.</span>")
 	return TRUE
 
-/obj/item/clothing/head/warden/drill/wirecutter_act(mob/living/user, obj/item/I)
+/obj/item/clothing/head/helmet/warden/drill/wirecutter_act(mob/living/user, obj/item/I)
 	if(mode != DRILL_CANADIAN)
 		to_chat(user, "<span class='danger'>You broke the voice circuit!</span>")
 		mode = DRILL_CANADIAN
 	return TRUE
 
-/obj/item/clothing/head/warden/drill/equipped(mob/M, slot)
+/obj/item/clothing/head/helmet/warden/drill/equipped(mob/M, slot)
 	. = ..()
 	if (slot == SLOT_HEAD)
 		RegisterSignal(M, COMSIG_MOB_SAY, .proc/handle_speech)
 	else
 		UnregisterSignal(M, COMSIG_MOB_SAY)
 
-/obj/item/clothing/head/warden/drill/dropped(mob/M)
+/obj/item/clothing/head/helmet/warden/drill/dropped(mob/M)
 	. = ..()
 	UnregisterSignal(M, COMSIG_MOB_SAY)
 
-/obj/item/clothing/head/warden/drill/proc/handle_speech(datum/source, mob/speech_args)
+/obj/item/clothing/head/helmet/warden/drill/proc/handle_speech(datum/source, mob/speech_args)
 	var/message = speech_args[SPEECH_MESSAGE]
 	if(message[1] != "*")
 		switch (mode)
@@ -259,8 +259,9 @@
 					message = replacetextEx(message, " [capitalize(key)]", " [capitalize(value)]")
 					message = replacetextEx(message, " [key]", " [value]")
 
-				if(prob(30))
+				if(prob(10))
 					message += pick(", eh?", ", EH?")
+				message += " "
 		speech_args[SPEECH_MESSAGE] = message
 
 /obj/item/clothing/head/beret/sec
