@@ -49,9 +49,8 @@
 
 // Legion reserves. Spawns with the Centurion.
 /obj/item/storage/bag/money/small/legion/PopulateContents()
-	// ~450ish worth of legion money
-	new /obj/item/stack/f13Cash/random/denarius/high(src)
-	new /obj/item/stack/f13Cash/random/denarius/high(src)
+	// ~900ish worth of legion money
+	new /obj/item/stack/f13Cash/random/denarius/vhigh(src)
 	new /obj/item/stack/f13Cash/random/aureus/high(src)
 
 // Legion enlisted. Spawns with the Legionnaires. Average 12 caps.
@@ -65,10 +64,8 @@
 
 // NCR reserves. Spawns with the Captain.
 /obj/item/storage/bag/money/small/ncr/PopulateContents()
-	// ~450 worth of ncr money
-	new /obj/item/stack/f13Cash/random/ncr/high(src)
-	new /obj/item/stack/f13Cash/random/ncr/med(src)
-	new /obj/item/stack/f13Cash/random/ncr/med(src)
+	// ~700 worth of ncr money
+	new /obj/item/stack/f13Cash/random/ncr/vhigh(src)
 
 // NCR enlisted. Spawns with the non officers.
 /obj/item/storage/bag/money/small/ncrenlisted/PopulateContents()
@@ -89,11 +86,18 @@
 
 // Standard Wastelander money bag. They have more but are liable to get robbed for it.
 /obj/item/storage/bag/money/small/wastelander/PopulateContents()
-	// ~48 worth of assorted money
-	new /obj/item/stack/f13Cash/random/low(src)
-	new /obj/item/stack/f13Cash/random/low(src)
+	// ~70 worth of assorted money
+	new /obj/item/stack/f13Cash/random/med(src)
 	new /obj/item/stack/f13Cash/random/denarius/low(src)
 	new /obj/item/stack/f13Cash/random/ncr/low(src)
+
+// Standard Enclave money bag. Has pre-war money in it, unique to the Enclave.
+/obj/item/storage/bag/money/small/enclave/PopulateContents()
+	new /obj/item/stack/f13Cash/random/enclave/med(src)
+
+// Enclave money bag for the officers. Contains more money.
+/obj/item/storage/bag/money/small/enclave/officer/PopulateContents()
+	new /obj/item/stack/f13Cash/random/enclave/high(src)
 
 // Standard Great Khan money bag. They have a little more caps than common raiders. Average 75.
 /obj/item/storage/bag/money/small/khan/PopulateContents()
@@ -102,13 +106,11 @@
 // Standard Settler money bag. They are pretty wealthy, with NCR bucks and caps, no Legion money.
 /obj/item/storage/bag/money/small/settler/PopulateContents()
 	// ~162 worth of non legion money
-	new /obj/item/stack/f13Cash/random/med(src)
-	new /obj/item/stack/f13Cash/random/med(src)
+	new /obj/item/stack/f13Cash/random/high(src)
 	new /obj/item/stack/f13Cash/random/ncr/low(src)
 
 // Standard Banker money bag. They are insanely wealthy, Caps only and only for RP purposes.
 /obj/item/storage/bag/money/small/banker/PopulateContents()
-	// ~162 worth of non legion money
 	new /obj/item/stack/f13Cash/random/banker(src)
 
 // Standard Raider money bag. They blew it all on chems and armor mods.

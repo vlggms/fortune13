@@ -10,167 +10,65 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "aaK" = (
-/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/structure/rack,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	name = "safety window"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
 /area/f13/bunker)
 "abc" = (
-/mob/living/simple_animal/hostile/ghoul/soldier,
-/obj/structure/chair/bench,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
 "abo" = (
 /obj/structure/campfire/barrel,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "abr" = (
-/obj/structure/chair/bench,
+/mob/living/simple_animal/hostile/ghoul/scorched/ranged,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "aci" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/inside/subway,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
 /area/f13/bunker)
 "acG" = (
 /turf/closed/indestructible/vaultdoor,
+/area/f13/bunker)
+"acJ" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "tritemp"
+	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
 "acN" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "acQ" = (
-/mob/living/simple_animal/hostile/ghoul/scorched,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "adv" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/broken,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/bunker)
 "adK" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "dungeon_enclave1"
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"adZ" = (
-/obj/structure/showcase/horrific_experiment,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"ags" = (
-/obj/effect/decal/cleanable/greenglow,
-/mob/living/simple_animal/hostile/centaur/strong{
-	faction = list("hostile")
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"auW" = (
-/mob/living/simple_animal/hostile/chinese/ranged{
-	faction = list("hostile")
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"bLP" = (
-/obj/structure/sign/warning/radiation{
-	pixel_x = -32
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/chinese/ranged/assault{
-	faction = list("hostile")
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"cxL" = (
-/obj/machinery/light/broken{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"cDl" = (
-/obj/item/storage/trash_stack{
-	icon_state = "trash_3"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"daV" = (
-/obj/item/storage/trash_stack{
-	icon_state = "trash_2"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"dRV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"ekp" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"evY" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"exi" = (
-/obj/structure/closet/radiation,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"ezX" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/chinese/ranged{
-	faction = list("hostile")
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"fvU" = (
-/mob/living/simple_animal/hostile/ghoul/soldier/armored,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"fQS" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"glW" = (
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"gDZ" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
-/obj/effect/spawner/lootdrop/f13/blueprintHigh,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"gWz" = (
-/obj/structure/barricade/bars,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"gZd" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"heT" = (
-/turf/closed/indestructible/rock,
-/area/f13/underground/cave)
-"hvQ" = (
-/mob/living/simple_animal/hostile/abomination,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"inv" = (
-/mob/living/simple_animal/hostile/ghoul/glowing,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"iTE" = (
-/turf/closed/indestructible/rock,
-/area/f13/tcoms)
-"jtu" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
@@ -179,227 +77,7 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
-"jtL" = (
-/obj/structure/barricade/bars,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"jNi" = (
-/obj/structure/timeddoor,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"lsb" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/mineral/gold{
-	amount = 25;
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stack/sheet/mineral/silver{
-	amount = 25
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"lsi" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/plasteel/fifty{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty{
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"lxH" = (
-/mob/living/simple_animal/hostile/ghoul/scorched,
-/obj/item/storage/trash_stack{
-	icon_state = "trash_2"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"mbg" = (
-/mob/living/simple_animal/hostile/centaur/strong{
-	faction = list("hostile")
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"mvj" = (
-/obj/structure/timeddoor,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"mIh" = (
-/obj/structure/simple_door/metal/barred,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"mIP" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
-/obj/effect/spawner/lootdrop/f13/traitbooks,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"mVk" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"ntU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"nNB" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/mineral/diamond{
-	amount = 15
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"okT" = (
-/obj/structure/bed/old,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"omo" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"pfK" = (
-/mob/living/simple_animal/hostile/chinese/ranged/assault{
-	faction = list("hostile")
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"ppG" = (
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"puf" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"pGb" = (
-/mob/living/simple_animal/hostile/chinese/ranged{
-	faction = list("hostile")
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"pMx" = (
-/obj/item/storage/trash_stack,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"qbi" = (
-/obj/structure/nest/ghoul,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"qvT" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/glass/bottle/FEV_solution,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"qEF" = (
-/mob/living/simple_animal/hostile/ghoul,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"rxn" = (
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"rJs" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/prewar/five,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"rVN" = (
-/mob/living/simple_animal/hostile/abomination,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"rZo" = (
-/mob/living/simple_animal/hostile/chinese{
-	faction = list("hostile")
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"siA" = (
-/obj/effect/decal/cleanable/greenglow,
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/glass/bottle/FEV_solution,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"slH" = (
-/obj/structure/simple_door/bunker{
-	name = "Barracks"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"swn" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/f13/traitbooks,
-/obj/effect/spawner/lootdrop/f13/junkspawners,
-/obj/effect/spawner/lootdrop/f13/junkspawners,
-/obj/effect/spawner/lootdrop/f13/junkspawners,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
-"tkn" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/prewar/twenty,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"trq" = (
-/obj/structure/rack,
-/obj/effect/decal/cleanable/greenglow,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
-/obj/machinery/light/broken{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"tHc" = (
-/obj/structure/barricade/bars,
-/obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/bunker)
-"uhV" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"uEf" = (
-/obj/structure/closet/crate{
-	anchored = 1;
-	can_be_unanchored = 1
-	},
-/obj/effect/spawner/lootdrop/food,
-/obj/item/clothing/under/f13/chinese,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"uRF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/bunker)
-"uRG" = (
-/turf/open/indestructible,
-/area/f13/tcoms)
-"vtj" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/bunker)
-"vun" = (
+"adZ" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -416,14 +94,360 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
-"whB" = (
-/obj/structure/simple_door/blast{
-	name = "Containment Chamber"
+"afu" = (
+/obj/effect/decal/remains/human,
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/high_tools,
+/obj/effect/spawner/lootdrop/high_tools,
+/obj/effect/spawner/lootdrop/high_tools,
+/obj/effect/spawner/lootdrop/high_tools,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"anh" = (
+/obj/structure/stone_tile{
+	dir = 8
 	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"auW" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"avj" = (
+/obj/structure/stone_tile/block/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/armor/random_high,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
+/obj/effect/spawner/lootdrop/f13/medical/vault/equipment,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"aKA" = (
+/obj/effect/mine/stun{
+	layer = 2
+	},
+/obj/structure/stone_tile/block/cracked,
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"bdb" = (
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"bkw" = (
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/obj/effect/spawner/lootdrop/healing_kits,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"bAv" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"bIl" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"bKx" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"bNb" = (
+/mob/living/simple_animal/hostile/giantant,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"bXs" = (
+/obj/effect/mine/stun{
+	layer = 2
+	},
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"cbM" = (
+/obj/structure/stone_tile/surrounding/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"cxL" = (
+/mob/living/simple_animal/hostile/ghoul/scorched,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"cDl" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"cFS" = (
+/obj/structure/bed/old,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"cPI" = (
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"cZb" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"daV" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"dnN" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"dsf" = (
+/obj/structure/stone_tile/slab/cracked,
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"dxL" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"dNe" = (
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"dVP" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"ebW" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"eio" = (
+/obj/effect/spawner/lootdrop/f13/cash_random_med,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"eka" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"ekp" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/spawner/lootdrop/food,
+/obj/item/clothing/under/f13/chinese,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"eky" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"evY" = (
+/mob/living/simple_animal/hostile/ghoul/soldier,
+/obj/structure/chair/bench,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"exi" = (
+/obj/structure/chair/bench,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"ezX" = (
+/mob/living/simple_animal/hostile/ghoul/soldier/armored,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"eBr" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block,
+/mob/living/simple_animal/hostile/radscorpion/black,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"eBP" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"eMS" = (
+/obj/structure/stone_tile/slab,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"eRJ" = (
+/obj/structure/stone_tile/slab/burnt,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"eUt" = (
+/obj/structure/stone_tile/slab/cracked,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"feo" = (
+/turf/closed/indestructible/riveted/boss{
+	name = "temple wall"
+	},
+/area/f13/bunker)
+"fjb" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"fvU" = (
+/obj/effect/decal/cleanable/greenglow,
+/mob/living/simple_animal/hostile/centaur/strong{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"fKF" = (
+/mob/living/simple_animal/hostile/deathclaw,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"fQS" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"glW" = (
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"gqU" = (
+/obj/structure/stone_tile/block/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"gvZ" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 5
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 6
+	},
+/mob/living/simple_animal/hostile/radscorpion,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"gyo" = (
+/mob/living/simple_animal/hostile/raider/tribal,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"gWz" = (
+/obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/bunker)
-"wqu" = (
+"gZd" = (
 /obj/structure/reagent_dispensers/barrel/dangerous{
 	color = "#CCFFCC";
 	desc = "An old metal barrel full of dangerous toxin. You probably should leave it alone, unless you have some nefarious plans...";
@@ -431,16 +455,266 @@
 	name = "FEV barrel";
 	reagent_id = /datum/reagent/toxin/FEV_solution
 	},
+/obj/structure/window/reinforced/tinted{
+	name = "safety window"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
 /area/f13/bunker)
-"xbn" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/chinese{
-	faction = list("hostile")
+"heT" = (
+/turf/closed/indestructible/rock,
+/area/f13/underground/cave)
+"hjg" = (
+/obj/structure/stone_tile/burnt{
+	dir = 8
 	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"hvQ" = (
+/obj/structure/closet/radiation,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"hxh" = (
+/obj/structure/necropolis_gate{
+	name = "temple gate"
+	},
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"hLJ" = (
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"hRU" = (
+/obj/effect/decal/remains/human,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"hTz" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 5
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 6
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"hVp" = (
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"igN" = (
+/turf/closed/mineral/random/low_chance,
+/area/f13/bunker)
+"igY" = (
+/obj/machinery/button/door{
+	id = "temple_lock2";
+	pixel_y = -26
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"inv" = (
+/obj/item/storage/trash_stack{
+	icon_state = "trash_2"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"iSZ" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/bunker)
-"xcd" = (
+"iTE" = (
+/turf/closed/indestructible/rock,
+/area/f13/tcoms)
+"iZU" = (
+/obj/item/reagent_containers/food/snacks/f13/deathclawegg,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"jjO" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 5
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 6
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"jql" = (
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"jqm" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"jtu" = (
+/obj/item/storage/trash_stack{
+	icon_state = "trash_3"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"jtL" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"jFf" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"jNi" = (
+/mob/living/simple_animal/hostile/ghoul/scorched,
+/obj/item/storage/trash_stack{
+	icon_state = "trash_2"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"jUe" = (
+/mob/living/simple_animal/hostile/giantant,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"kfb" = (
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"koL" = (
+/mob/living/simple_animal/hostile/giantantqueen,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"ktl" = (
+/obj/structure/stone_tile/slab/cracked,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"kKU" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"kMy" = (
+/obj/item/twohanded/spear/bonespear/deathclaw,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"kTl" = (
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier2,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"kTK" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/item/reagent_containers/food/snacks/f13/deathclawegg,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"lsb" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
+/obj/effect/spawner/lootdrop/f13/blueprintHigh,
+/obj/structure/window/reinforced/tinted{
+	name = "safety window"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"lsi" = (
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"lsP" = (
+/turf/closed/mineral/random/high_chance,
+/area/f13/bunker)
+"luZ" = (
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"lxH" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/prewar/twenty,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"lCa" = (
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/block/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"lLi" = (
+/obj/item/reagent_containers/pill/radx,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"lUb" = (
+/obj/structure/necropolis_gate{
+	name = "temple gate"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"mbg" = (
+/mob/living/simple_animal/hostile/abomination,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"muq" = (
 /obj/structure/closet/crate{
 	anchored = 1;
 	can_be_unanchored = 1
@@ -454,18 +728,911 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/bunker)
-"xuB" = (
-/obj/structure/simple_door/blast,
+"mvj" = (
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"mCl" = (
+/mob/living/simple_animal/hostile/cazador/young,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"mIh" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"mIP" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/gold{
+	amount = 25;
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/mineral/silver{
+	amount = 25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"mLu" = (
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"mVk" = (
+/mob/living/simple_animal/hostile/centaur/strong{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"niE" = (
+/obj/effect/decal/remains/human,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"nsS" = (
+/mob/living/simple_animal/hostile/fireant,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"ntU" = (
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"nyT" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"nNB" = (
+/obj/structure/barricade/bars,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"nTZ" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"nWu" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/block/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"ohP" = (
+/obj/item/clothing/suit/hooded/cloak/goliath,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"okT" = (
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"omo" = (
+/mob/living/simple_animal/hostile/abomination,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"ooM" = (
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"owA" = (
+/obj/structure/simple_door/wood,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"oJP" = (
+/obj/structure/stone_tile/slab,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"oOC" = (
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"oPi" = (
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"oSk" = (
+/obj/machinery/door/poddoor{
+	armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70);
+	damage_deflection = 999;
+	id = "temple_lock2";
+	max_integrity = 9600
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"pfK" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/diamond{
+	amount = 15
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"ppG" = (
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"puf" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/plasteel/fifty{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"pGb" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"pMx" = (
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"pTQ" = (
+/mob/living/simple_animal/hostile/gecko{
+	armour_penetration = 0.2;
+	color = "#FFFF00";
+	desc = "A rare kind of geckos with a golden hide and sharpened claws.";
+	faction = list("gecko", "radscorpion");
+	health = 120;
+	maxHealth = 120;
+	melee_damage_lower = 24;
+	melee_damage_upper = 28;
+	name = "golden gecko";
+	obj_damage = 40;
+	speed = 0.75
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"pVM" = (
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"qbi" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bottle/FEV_solution,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"qlY" = (
+/obj/effect/mine/stun{
+	layer = 2
+	},
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"qnU" = (
+/mob/living/simple_animal/hostile/fireant,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"qyJ" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"qEF" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/prewar/five,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"qGk" = (
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"qLO" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rhh" = (
+/obj/structure/closet/crate/large,
+/obj/item/gun/ballistic/automatic/tribalbow,
+/obj/item/gun/ballistic/automatic/tribalbow,
+/obj/effect/decal/remains/human,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rno" = (
+/obj/machinery/button/door{
+	id = "temple_lock1";
+	pixel_y = -26
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"rob" = (
+/obj/structure/stone_tile/surrounding/cracked{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rxn" = (
+/mob/living/simple_animal/hostile/ghoul/glowing,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"rJs" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"rKs" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt,
+/obj/item/reagent_containers/pill/radx,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rOm" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/effect/decal/remains/human,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"rUb" = (
+/obj/structure/closet/crate/large{
+	storage_capacity = 16
+	},
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/obj/item/ammo_casing/caseless/arrow,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rVN" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "dungeon_enclave1"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"rZo" = (
+/obj/structure/simple_door/metal/barred,
+/turf/open/floor/plasteel/f13/vault_floor/misc,
+/area/f13/bunker)
+"sbB" = (
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/f13/cash_random_med,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"siA" = (
+/obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/bunker)
-"xRo" = (
+"slH" = (
 /obj/structure/sign/warning/radiation{
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"swn" = (
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese/ranged/assault{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"sIc" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"sKI" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"sPJ" = (
+/obj/structure/stone_tile/slab,
+/mob/living/simple_animal/hostile/radscorpion/black,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"sRx" = (
+/obj/structure/stone_tile/block/cracked,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"sSy" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"sVa" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"sXH" = (
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile,
+/obj/effect/decal/remains/human,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"sXT" = (
+/obj/structure/stone_tile/slab,
+/obj/item/reagent_containers/pill/radx,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"thY" = (
+/obj/structure/stone_tile/slab,
+/obj/structure/necropolis_gate{
+	name = "temple gate"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tiC" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tkn" = (
+/obj/structure/barricade/bars,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"tov" = (
+/obj/structure/stone_tile/slab/burnt,
+/obj/structure/necropolis_gate{
+	name = "temple gate"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tvt" = (
+/obj/effect/mine/stun{
+	layer = 2
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tGp" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tHc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"tHd" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tJf" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tNf" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"tVY" = (
+/obj/structure/stone_tile/block/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"ugF" = (
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uhV" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uix" = (
+/obj/structure/stone_tile/block/cracked,
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uqf" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uEf" = (
+/obj/item/storage/trash_stack,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"uKH" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"uLo" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uRF" = (
+/obj/structure/simple_door/blast{
+	name = "Containment Chamber"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"uRG" = (
+/turf/open/indestructible,
+/area/f13/tcoms)
+"uRH" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"uVf" = (
+/obj/machinery/door/poddoor{
+	armor = list("melee" = 50, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70);
+	damage_deflection = 999;
+	id = "temple_lock1";
+	max_integrity = 9600
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"vby" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"vqk" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"vtj" = (
+/obj/structure/simple_door/blast,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"vun" = (
+/mob/living/simple_animal/hostile/chinese{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"vGH" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"vJb" = (
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/blueprintMid,
+/obj/effect/spawner/lootdrop/f13/cash_random_high,
+/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
+/obj/effect/spawner/lootdrop/f13/cash_random_high,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"vSP" = (
+/obj/structure/stone_tile/slab,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"vYf" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"whB" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/chinese/ranged{
+	faction = list("hostile")
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"wiD" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/mob/living/simple_animal/hostile/gecko{
+	armour_penetration = 0.2;
+	color = "#FFFF00";
+	desc = "A rare kind of geckos with a golden hide and sharpened claws.";
+	faction = list("gecko", "radscorpion");
+	health = 120;
+	maxHealth = 120;
+	melee_damage_lower = 24;
+	melee_damage_upper = 28;
+	name = "golden gecko";
+	obj_damage = 40;
+	speed = 0.75
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"wiR" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/radscorpion,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"wkT" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"wpp" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"wqu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/bunker)
+"wCr" = (
+/obj/structure/stone_tile/slab/burnt,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"wIp" = (
+/obj/structure/stone_tile/slab/burnt,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"wPm" = (
+/mob/living/simple_animal/hostile/cazador,
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"wTa" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 5
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 6
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("gecko", "radscorpion")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"wXQ" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"xbn" = (
+/mob/living/simple_animal/hostile/chinese/ranged/assault{
+	faction = list("hostile")
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xcd" = (
+/obj/structure/nest/ghoul,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"xfo" = (
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"xgp" = (
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"xjX" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"xuB" = (
+/obj/structure/simple_door/bunker{
+	name = "Barracks"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/bunker)
+"xCd" = (
+/obj/structure/closet/crate/large{
+	storage_capacity = 14
+	},
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healpoultice,
+/obj/item/reagent_containers/pill/patch/healpoultice,
+/obj/item/reagent_containers/pill/patch/healpoultice,
+/obj/item/reagent_containers/pill/patch/healpoultice,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xDs" = (
+/obj/structure/stone_tile/slab,
+/mob/living/simple_animal/hostile/radscorpion,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xGo" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xGO" = (
+/mob/living/simple_animal/hostile/raider/sulphite{
+	armour_penetration = 0.2;
+	color = "#FFCCCC";
+	desc = "A misterious tomb raider that wields a shishkebab sword and has a low-tier military armor. This one will surely be one hell of a trial.";
+	faction = list("raider");
+	health = 280;
+	maxHealth = 280;
+	melee_damage_lower = 48;
+	speed = 1.2
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/bunker)
+"xHR" = (
+/obj/effect/mine/stun{
+	layer = 2
+	},
+/obj/structure/stone_tile{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xNL" = (
+/obj/structure/stone_tile/block{
+	dir = 8
+	},
+/obj/structure/stone_tile{
+	dir = 1
+	},
+/obj/structure/stone_tile/burnt,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/bunker)
+"xRo" = (
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"yea" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/item/clothing/under/f13/vault/v13{
+	pixel_x = 8
+	},
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/bottle/adminordrazine{
+	list_reagents = list(/datum/reagent/medicine/adminordrazine = 15);
+	name = "god essence bottle";
+	pixel_x = -8
+	},
+/turf/open/floor/plating/tunnel,
 /area/f13/bunker)
 
 (1,1,1) = {"
@@ -483,17 +1650,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
 heT
 heT
 heT
@@ -737,27 +1904,27 @@ heT
 heT
 heT
 heT
+aaF
+aaF
+aaF
+lsi
+acN
+aaI
+pMx
+aaI
+fQS
+aaF
+acN
+xcd
+aaI
+xRo
+aaF
+igN
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
 heT
 heT
 heT
@@ -991,31 +2158,31 @@ iTE
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaF
 aaF
-jNi
-acN
-aaI
 cxL
-aaI
-gZd
-aaF
+jtL
 acN
-qbi
+lsi
+daV
+glW
+glW
+rVN
+fQS
+acN
+acN
+rxn
 aaI
-qEF
+aaI
 aaF
+igN
+heT
+heT
+heT
+heT
+heT
+heT
 heT
 heT
 heT
@@ -1247,32 +2414,32 @@ uRG
 iTE
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaF
-aaF
-acQ
+evY
+aaI
+aaI
+aaI
+glW
+daV
+glW
+abc
+daV
+glW
+glW
 fQS
 acN
-jNi
+acN
 rxn
-glW
-glW
-adK
-gZd
-acN
-acN
-inv
 aaI
 aaI
 aaF
+igN
+heT
+heT
+heT
+heT
+heT
+heT
 heT
 heT
 heT
@@ -1504,32 +2671,32 @@ iTE
 iTE
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
+abo
+aaI
+aaI
+glW
+glW
+glW
+daV
 abc
+daV
 aaI
 aaI
-aaI
-glW
-rxn
-glW
-mvj
-rxn
-glW
-glW
-gZd
-acN
-acN
-inv
-aaI
-aaI
+fQS
 aaF
+acN
+aaI
+xRo
+xcd
+aaF
+igN
+heT
+heT
+heT
+heT
+heT
+heT
 heT
 heT
 heT
@@ -1761,32 +2928,32 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-abo
-aaI
-aaI
+exi
 glW
 glW
 glW
-rxn
-mvj
-rxn
+glW
 aaI
-aaI
-gZd
-aaF
 acN
 aaI
-qEF
-qbi
+lsi
+acN
+acN
 aaF
+aaF
+aaF
+aaF
+aaF
+aaF
+igN
+igN
+heT
+heT
+heT
+heT
+heT
+heT
 heT
 heT
 heT
@@ -2018,31 +3185,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-abr
-glW
-glW
-glW
-glW
 aaI
-acN
+glW
+glW
+glW
 aaI
 jNi
-acN
-acN
 aaF
 aaF
 aaF
 aaF
 aaF
-aaF
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+heT
+heT
+heT
+heT
+heT
 heT
 heT
 heT
@@ -2275,26 +3442,26 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
-glW
-aaI
-lxH
+evY
 aaF
 aaF
-aaF
-aaF
-aaF
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -2531,27 +3698,27 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
+fQS
+cDl
 glW
 glW
-abc
+exi
 aaF
-aaF
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -2788,27 +3955,27 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-gZd
-aci
-glW
-glW
 abr
+cDl
+cDl
+glW
+abo
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -3045,27 +4212,27 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaK
-aci
-aci
+aaI
 glW
-abo
+cDl
+aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -3302,28 +4469,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
-aci
+glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -3559,28 +4726,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
+acQ
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -3816,28 +4983,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-omo
+cxL
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -4073,28 +5240,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-acQ
-glW
-glW
 aaI
+glW
+glW
+abo
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -4330,28 +5497,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
-abo
+aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -4587,28 +5754,28 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -4843,30 +6010,30 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
+abo
+glW
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+acG
+acG
+acG
+acG
+acG
+acG
+acG
+acG
+acG
+acG
+igN
+igN
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -5100,31 +6267,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-abo
-glW
-glW
-glW
 aaI
+glW
+glW
+glW
+ezX
 aaF
+lsP
+acG
+lxH
+mIP
+puf
+qbi
+acG
+siA
+siA
+siA
+acG
+igN
+igN
+igN
+igN
+igN
+igN
 heT
-acG
-acG
-acG
-acG
-acG
-acG
-acG
-acG
-acG
-acG
 heT
 heT
 heT
@@ -5357,31 +6524,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
-glW
-fvU
+aaI
 aaF
-heT
+lsP
+lsP
+acG
+mbg
+mVk
+aci
+fvU
 acG
 tkn
-lsb
-lsi
-siA
+tkn
+tkn
 acG
-adZ
-adZ
-adZ
-acG
+igN
+igN
+igN
+igN
+igN
+igN
+heT
 heT
 heT
 heT
@@ -5614,31 +6781,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
-glW
+fQS
+cDl
 glW
 aaI
 aaF
-heT
-heT
+lsP
 acG
+acG
+mvj
+nNB
+mvj
+mvj
+acG
+slH
+wqu
 hvQ
-mbg
-adv
-ags
 acG
-jtL
-jtL
-jtL
-acG
+lsP
+lsP
+lsP
+igN
+igN
+igN
+igN
 heT
 heT
 heT
@@ -5871,31 +7038,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-gZd
-aci
+abr
+cDl
 glW
 aaI
 aaF
-heT
+lsP
 acG
-acG
+gZd
+aci
+aci
+aci
+okT
+mvj
+wqu
+wqu
 gWz
-tHc
-gWz
-gWz
 acG
-xRo
-ntU
-exi
-acG
+lsP
+lsP
+lsP
+lsP
+igN
+igN
+igN
 heT
 heT
 heT
@@ -6128,31 +7295,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaK
-aci
+aaI
+cDl
 glW
 aaI
 aaF
-heT
+lsP
 acG
+aaK
+aci
+okT
+aci
+aci
+rZo
+wqu
 wqu
 adv
-adv
-adv
-ppG
-gWz
-ntU
-ntU
-mVk
 acG
+lsP
+lsP
+lsP
+lsP
+igN
+igN
+igN
 heT
 heT
 heT
@@ -6385,31 +7552,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
-aci
+acQ
+glW
 glW
 aaI
 aaF
-heT
+lsP
 acG
-trq
-adv
-ppG
-adv
-adv
-mIh
-ntU
-ntU
-uRF
+lsb
+aci
+aci
+okT
+aci
+mvj
+wqu
+wqu
+wqu
 acG
+lsP
+lsP
+lsP
+lsP
+lsP
+igN
+igN
 heT
 heT
 heT
@@ -6642,31 +7809,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-omo
+aaI
 glW
 glW
 aaI
 aaF
-heT
+lsP
 acG
-gDZ
-adv
-adv
-ppG
-adv
-gWz
-ntU
-ntU
-ntU
 acG
+mvj
+nNB
+mvj
+nNB
+acG
+slH
+wqu
+hvQ
+acG
+lsP
+lsP
+lsP
+lsP
+lsP
+igN
+igN
 heT
 heT
 heT
@@ -6899,31 +8066,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
+adK
 glW
 glW
-aaI
+abr
 aaF
-heT
+lsP
+lsP
+acG
+fvU
+omo
+okT
+mVk
 acG
 acG
-gWz
-tHc
-gWz
-tHc
+uRF
 acG
-xRo
-ntU
-exi
 acG
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
+igN
 heT
 heT
 heT
@@ -7156,31 +8323,31 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-jtu
+adZ
 glW
 glW
-aaK
+abo
 aaF
-heT
-heT
+lsP
+lsP
 acG
-ags
-rVN
-ppG
-mbg
+mIh
+pfK
+pGb
+qEF
+acG
+swn
+wqu
+hvQ
 acG
 acG
-whB
 acG
 acG
+acG
+acG
+acG
+igN
 heT
 heT
 heT
@@ -7192,9 +8359,9 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
 heT
 heT
 heT
@@ -7413,35 +8580,29 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-vun
+auW
 glW
 glW
-abo
+aaI
 aaF
-heT
-heT
+lsP
+lsP
 acG
-qvT
-nNB
+acG
+acG
+acG
+acG
+acG
+wqu
+wqu
+wqu
+acG
 ekp
 rJs
-acG
-bLP
-ntU
-exi
-acG
-acG
-acG
-acG
-acG
+muq
+rJs
+ekp
 acG
 acG
 heT
@@ -7453,6 +8614,12 @@ heT
 heT
 heT
 heT
+heT
+igN
+kTl
+hVp
+igN
+lsP
 heT
 heT
 heT
@@ -7670,37 +8837,30 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-swn
+aaI
 glW
 glW
 aaI
 aaF
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
 acG
-acG
-acG
-acG
-acG
-acG
+tHc
+wqu
+wqu
+xuB
+dnN
+rJs
+rJs
 ntU
-ntU
-ntU
-acG
-uEf
-vtj
-xcd
-vtj
-uEf
-acG
+rJs
+rJs
 acG
 heT
 heT
@@ -7710,7 +8870,14 @@ heT
 heT
 heT
 heT
-heT
+lsP
+lsP
+igN
+jUe
+aaI
+aaI
+igN
+lsP
 heT
 heT
 heT
@@ -7927,37 +9094,30 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
-aaI
+ezX
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
 acG
-dRV
-ntU
-ntU
-slH
-xbn
-vtj
-vtj
-pGb
-vtj
-vtj
+wqu
+wqu
+wqu
+acG
+rJs
+rJs
+rJs
+rJs
+rJs
+rJs
 acG
 heT
 heT
@@ -7966,8 +9126,15 @@ heT
 heT
 heT
 heT
-heT
-heT
+lsP
+igN
+lsP
+lsP
+igN
+aaI
+aaI
+aaI
+igN
 heT
 heT
 heT
@@ -8184,37 +9351,30 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
-fvU
+aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
 acG
-ntU
-ntU
-ntU
+wqu
+wqu
+whB
 acG
-vtj
-vtj
-vtj
-vtj
-vtj
-vtj
+cFS
+iSZ
+cFS
+bAv
+cFS
+bKx
 acG
 heT
 heT
@@ -8222,10 +9382,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
+lsP
+igN
+niE
+koL
+aaI
+igN
+lsP
+igN
+aaI
+aaI
+igN
 heT
 heT
 heT
@@ -8441,37 +9608,30 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
 acG
-ntU
-ntU
-ezX
 acG
-okT
-evY
-okT
-uhV
-okT
-mIP
+vtj
+acG
+acG
+acG
+acG
+acG
+acG
+acG
+acG
 acG
 heT
 heT
@@ -8479,16 +9639,23 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+igN
+aaI
+aaI
+aaI
+aaI
+aaI
+igN
+lsP
+aaI
+jUe
+igN
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
@@ -8698,37 +9865,23 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
-glW
-aaI
+daV
+daV
 aaF
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+lsP
+lsP
 acG
 acG
-xuB
-acG
-acG
-acG
-acG
-acG
-acG
-acG
-acG
+uhV
+glW
+xbn
 acG
 heT
 heT
@@ -8744,6 +9897,22 @@ heT
 heT
 heT
 heT
+igN
+jUe
+aaI
+aaI
+aaI
+jUe
+aaI
+aaI
+aaI
+aaI
+aaI
+igN
+igN
+pVM
+vby
+feo
 heT
 heT
 heT
@@ -8759,11 +9928,9 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
 heT
 heT
 heT
@@ -8955,30 +10122,23 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
+acN
+daV
+glW
+glW
+jtu
+aaF
+lsP
+lsP
+lsP
+lsP
+acG
 aaI
 glW
-rxn
-rxn
-aaF
-heT
-heT
-heT
-heT
-heT
-heT
-acG
-acG
-puf
 glW
-pfK
+glW
+glW
 acG
 heT
 heT
@@ -8994,6 +10154,22 @@ heT
 heT
 heT
 heT
+lsP
+igN
+lsP
+lsP
+lsP
+lsP
+igN
+aaI
+igN
+aaI
+aaI
+jUe
+pVM
+pVM
+pVM
+feo
 heT
 heT
 heT
@@ -9006,21 +10182,12 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
+jql
+lsP
 heT
 heT
 heT
@@ -9213,29 +10380,21 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-acN
-rxn
+aaI
 glW
 glW
-cDl
+aaI
 aaF
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+lsP
 acG
 aaI
 glW
 glW
 glW
-glW
 acG
 heT
 heT
@@ -9252,34 +10411,42 @@ heT
 heT
 heT
 heT
+lsP
+lsP
+lsP
+lsP
+igN
+igN
+lsP
+hRU
+feo
+aaI
+aaI
+aaI
+aaI
+pVM
+nsS
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+oPi
+eio
+lsP
+aaI
+lsP
+lsP
+lsP
 heT
 heT
 heT
@@ -9470,28 +10637,21 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
-acG
+lsP
+lsP
+lsP
+lsP
+aaF
 aaI
 glW
 glW
-glW
+aaI
 acG
 heT
 heT
@@ -9508,36 +10668,43 @@ heT
 heT
 heT
 heT
+lsP
+lsP
+lsP
+igN
+aaI
+aaI
+aaI
+aaI
+feo
+pVM
+pVM
+pVM
+aaI
+aaI
+pVM
+feo
+pVM
+pVM
+bNb
+pVM
+eky
+luZ
+feo
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+wXQ
+lsP
+lsP
+aaI
+aaI
+oPi
+lsP
+lsP
 heT
 heT
 heT
@@ -9727,24 +10894,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
 aaI
 aaF
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
 aaF
+ppG
 aaI
 glW
 glW
@@ -9766,36 +10926,43 @@ heT
 heT
 heT
 heT
+lsP
+lsP
+igN
+jUe
+aaI
+igN
+lsP
+feo
+bNb
+pVM
+pVM
+pVM
+pVM
+pVM
+lUb
+pVM
+pVM
+pVM
+pVM
+pVM
+igY
+feo
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+aaI
+aaI
+aaI
+pTQ
+aaI
+aaI
+wXQ
+lsP
+lsP
 heT
 heT
 heT
@@ -9984,75 +11151,75 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-aaI
+acQ
 glW
 glW
 aaI
+abo
+aaF
+lsP
+aaF
+acQ
+aaI
+glW
+glW
+glW
+vun
 aaF
 heT
 heT
 heT
-aaF
-auW
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+heT
+lsP
+lsP
+igN
 aaI
-glW
-glW
 aaI
-acG
+igN
+feo
+qGk
+pVM
+qnU
+pVM
+pVM
+pVM
+feo
+pVM
+pVM
+pVM
+pVM
+bNb
+pVM
+feo
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+aaI
+aaI
+aaI
+oPi
+aaI
+eio
+lsP
 heT
 heT
 heT
@@ -10241,28 +11408,20 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-omo
-glW
-glW
-aaI
-abo
-aaF
-heT
-aaF
-omo
 aaI
 glW
 glW
 glW
-rZo
+aaI
+aaF
+aaF
+aaI
+aaI
+glW
+glW
+glW
+aaI
 aaF
 heT
 heT
@@ -10284,32 +11443,40 @@ heT
 heT
 heT
 heT
+lsP
+igN
+aaI
+aaI
+feo
+feo
+feo
+feo
+pVM
+bNb
+oOC
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+aaI
+oPi
+aaI
+aaI
+aaI
+aaI
+oPi
+lsP
 heT
 heT
 heT
@@ -10498,27 +11665,20 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaI
 glW
 glW
 glW
-aaI
-aaF
-aaF
-aaI
-aaI
+glW
+acN
+vun
 glW
 glW
 glW
+glW
 aaI
+uEf
 aaF
 heT
 heT
@@ -10542,6 +11702,16 @@ heT
 heT
 heT
 heT
+igN
+aaI
+aaI
+aaI
+jUe
+feo
+pVM
+pVM
+pVM
+feo
 heT
 heT
 heT
@@ -10554,18 +11724,15 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+oPi
+aaI
+aaI
+aaI
+aaI
+aaI
+wiD
+lsP
 heT
 heT
 heT
@@ -10755,27 +11922,19 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
+abo
+aaI
 aaI
 glW
 glW
-glW
-glW
-acN
-aaI
+daV
 glW
 glW
 glW
 glW
 aaI
-pMx
+abo
 aaF
 heT
 heT
@@ -10801,6 +11960,15 @@ heT
 heT
 heT
 heT
+lsP
+igN
+ooM
+hVp
+feo
+feo
+owA
+feo
+feo
 heT
 heT
 heT
@@ -10813,16 +11981,15 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+lsP
+wXQ
+aaI
+aaI
+aaI
+aaI
+lsP
 heT
 heT
 heT
@@ -11013,25 +12180,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
 aaF
-abo
+aaF
+inv
+aaI
+glW
+daV
+bdb
+glW
 aaI
 aaI
-glW
-glW
-rxn
-glW
-glW
-glW
-glW
-aaI
-abo
+vun
 aaF
 heT
 heT
@@ -11060,6 +12219,13 @@ heT
 heT
 heT
 heT
+igN
+lsP
+feo
+sVa
+pVM
+vby
+feo
 heT
 heT
 heT
@@ -11074,12 +12240,13 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
+lsP
+lsP
+oPi
+aaI
+aaI
+oPi
+lsP
 heT
 heT
 heT
@@ -11272,22 +12439,14 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
 aaF
 aaF
-daV
-aaI
-glW
-rxn
-glW
-glW
-auW
-aaI
-aaI
+aaF
+aaF
+aaF
+aaF
+aaF
+aaF
 aaF
 heT
 heT
@@ -11309,47 +12468,55 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+igN
+feo
+jqm
+pVM
+oOC
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+aaI
+aaI
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
@@ -11536,15 +12703,6 @@ heT
 heT
 heT
 heT
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
-aaF
 heT
 heT
 heT
@@ -11563,50 +12721,59 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+feo
+feo
+ohP
+eky
+pVM
+iZU
+pVM
+eky
+pVM
+feo
+lsP
+feo
+gyo
+pVM
+pVM
+feo
+hLJ
+wpp
+oJP
+uqf
+bXs
+tiC
+tHd
+qLO
+vSP
+rKs
+feo
+eMS
+uix
+tHd
+qLO
+eMS
+uLo
+sRx
+kKU
+qLO
+vSP
+xNL
+tiC
+tHd
+ktl
+eMS
+nyT
+feo
+tiC
+tHd
+ktl
+eMS
+xNL
+feo
 heT
 heT
 heT
@@ -11811,59 +12978,59 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+avj
+eUt
+wIp
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+feo
+feo
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+xfo
+jFf
+aKA
+tNf
+eMS
+qLO
+gqU
+qLO
+eRJ
+feo
+dsf
+eMS
+qLO
+gqU
+qLO
+eRJ
+eMS
+xjX
+gqU
+qLO
+eRJ
+eMS
+qLO
+gqU
+qLO
+eRJ
+feo
+rob
+qLO
+gqU
+qLO
+eRJ
+feo
 heT
 heT
 heT
@@ -12068,59 +13235,59 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+yea
+uKH
+fjb
+hxh
+pVM
+pVM
+pVM
+fKF
+pVM
+pVM
+pVM
+oSk
+pVM
+uVf
+pVM
+xGO
+pVM
+pVM
+pVM
+xgp
+uRH
+tNf
+nWu
+bIl
+xHR
+tGp
+sSy
+wkT
+thY
+sSy
+anh
+ugF
+tGp
+sSy
+wkT
+anh
+ugF
+tGp
+sSy
+wkT
+anh
+ugF
+tGp
+sSy
+wkT
+tov
+glW
+ugF
+acJ
+sSy
+wkT
+feo
 heT
 heT
 heT
@@ -12325,59 +13492,59 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+vJb
+cZb
+wpp
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+feo
+feo
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+vGH
+tNf
+eRJ
+dxL
+qLO
+dNe
+tvt
+qLO
+feo
+sKI
+dxL
+qLO
+dNe
+sKI
+qLO
+dxL
+qLO
+dNe
+sKI
+qLO
+dxL
+dsf
+dNe
+sKI
+qLO
+feo
+cbM
+qLO
+dNe
+sKI
+qLO
+feo
 heT
 heT
 heT
@@ -12582,59 +13749,59 @@ heT
 heT
 heT
 heT
+feo
+feo
+feo
+feo
+feo
+kMy
+eBP
+pVM
+pVM
+pVM
+kTK
+pVM
+feo
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+gyo
+pVM
+sVa
+feo
+rOm
+kfb
+qLO
+lCa
+dVP
+qlY
+eRJ
+sXH
+jjO
+xGo
+feo
+hTz
+vYf
+eRJ
+hjg
+hTz
+eka
+ebW
+eRJ
+hjg
+wTa
+eka
+ebW
+eRJ
+cPI
+hTz
+qyJ
+feo
+ebW
+eRJ
+mLu
+hTz
+eka
+feo
 heT
 heT
 heT
@@ -12843,55 +14010,55 @@ heT
 heT
 heT
 heT
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+jqm
+pVM
+oOC
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+qLO
+eMS
+xNL
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
@@ -13110,6 +14277,11 @@ heT
 heT
 heT
 heT
+feo
+vby
+pVM
+pVM
+feo
 heT
 heT
 heT
@@ -13123,16 +14295,11 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+gqU
+qLO
+eRJ
+feo
 heT
 heT
 heT
@@ -13367,6 +14534,11 @@ heT
 heT
 heT
 heT
+feo
+feo
+owA
+feo
+feo
 heT
 heT
 heT
@@ -13380,16 +14552,11 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+tGp
+sSy
+wkT
+feo
 heT
 heT
 heT
@@ -13624,6 +14791,11 @@ heT
 heT
 heT
 heT
+feo
+luZ
+pVM
+pVM
+feo
 heT
 heT
 heT
@@ -13634,22 +14806,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+feo
+dNe
+sKI
+qLO
+feo
+feo
+feo
+feo
 heT
 heT
 heT
@@ -13878,35 +15045,35 @@ heT
 heT
 heT
 heT
+feo
+feo
+feo
+feo
+pVM
+pVM
+oOC
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+tGp
+qLO
+dxL
+hjg
+hTz
+eka
+hTz
+eka
+sIc
+feo
 heT
 heT
 heT
@@ -14135,35 +15302,35 @@ heT
 heT
 heT
 heT
+feo
+pVM
+mCl
+pVM
+pVM
+pVM
+pVM
+feo
+pVM
+pVM
+pVM
+wPm
+pVM
+pVM
+feo
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+tGp
+sSy
+ebW
+qLO
+eMS
+xNL
+eMS
+xNL
+eBr
+feo
 heT
 heT
 heT
@@ -14392,35 +15559,35 @@ heT
 heT
 heT
 heT
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+lUb
+pVM
+pVM
+pVM
+pVM
+pVM
+rno
+feo
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+hTz
+eka
+feo
+gqU
+qLO
+eRJ
+feo
+qLO
+eMS
+feo
 heT
 heT
 heT
@@ -14649,37 +15816,37 @@ heT
 heT
 heT
 heT
+feo
+mCl
+pVM
+pVM
+pVM
+mCl
+pVM
+feo
+pVM
+wPm
+pVM
+pVM
+eBP
+vby
+feo
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+sXT
+xNL
+feo
+vqk
+sSy
+tJf
+feo
+hTz
+eka
+feo
+feo
+feo
 heT
 heT
 heT
@@ -14906,37 +16073,37 @@ heT
 heT
 heT
 heT
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+oOC
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+xCd
+daV
+wiR
+dxL
+feo
+dNe
+sKI
+qLO
+feo
+eMS
+xNL
+daV
+afu
+feo
 heT
 heT
 heT
@@ -15163,6 +16330,14 @@ heT
 heT
 heT
 heT
+feo
+pVM
+pVM
+pVM
+pVM
+pVM
+pVM
+feo
 heT
 heT
 heT
@@ -15171,29 +16346,21 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+rhh
+daV
+qLO
+tGp
+sSy
+hjg
+hTz
+eka
+eMS
+dNe
+sKI
+daV
+bkw
+feo
 heT
 heT
 heT
@@ -15420,6 +16587,14 @@ heT
 heT
 heT
 heT
+feo
+wPm
+pVM
+pVM
+pVM
+wPm
+lLi
+feo
 heT
 heT
 heT
@@ -15428,29 +16603,21 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+rUb
+daV
+eRJ
+eka
+feo
+qLO
+eMS
+xNL
+feo
+hjg
+hTz
+daV
+sbB
+feo
 heT
 heT
 heT
@@ -15677,6 +16844,14 @@ heT
 heT
 heT
 heT
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT
@@ -15685,29 +16860,21 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+dNe
+sKI
+feo
+tVY
+qLO
+wCr
+feo
+dxL
+tGp
+feo
+feo
+feo
 heT
 heT
 heT
@@ -15952,17 +17119,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+hjg
+gvZ
+feo
+nTZ
+sSy
+wkT
+feo
+xDs
+qLO
+feo
 heT
 heT
 heT
@@ -16209,17 +17376,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+hTz
+eka
+eMS
+dNe
+sKI
+qLO
+eMS
+hTz
+eka
+feo
 heT
 heT
 heT
@@ -16466,17 +17633,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+sPJ
+xNL
+qLO
+hjg
+hTz
+eka
+wiR
+eMS
+rKs
+feo
 heT
 heT
 heT
@@ -16723,17 +17890,17 @@ heT
 heT
 heT
 heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
-heT
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
+feo
 heT
 heT
 heT

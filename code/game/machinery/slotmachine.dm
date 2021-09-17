@@ -5,9 +5,9 @@
 \*******************************/
 
 #define SPIN_PRICE 5
-#define SMALL_PRIZE 400
-#define BIG_PRIZE 1000
-#define JACKPOT 10000
+#define SMALL_PRIZE 200
+#define BIG_PRIZE 500
+#define JACKPOT 2000
 #define SPIN_TIME 65 //As always, deciseconds.
 #define REEL_DEACTIVATE_DELAY 7
 #define SEVEN "<font color='red'>7</font>"
@@ -21,7 +21,8 @@
 	use_power = IDLE_POWER_USE
 	idle_power_usage = 50
 	circuit = /obj/item/circuitboard/computer/slot_machine
-	var/money = 3000 //How much money it has CONSUMED
+	var/money = 4000 //How much money it has for prize payouts
+	var/consumed_money = 0 //Money that actual players put inside
 	var/plays = 0
 	var/working = 0
 	var/balance = 0 //How much money is in the machine, ready to be CONSUMED.
@@ -34,8 +35,8 @@
 
 /obj/machinery/computer/slot_machine/Initialize()
 	. = ..()
-	jackpots = rand(1, 4) //false hope
-	plays = rand(75, 200)
+	jackpots = rand(0, 2) //false hope
+	plays = rand(5, 20)
 
 	INVOKE_ASYNC(src, .proc/toggle_reel_spin, TRUE)//The reels won't spin unless we activate them
 
@@ -47,7 +48,7 @@
 
 /obj/machinery/computer/slot_machine/Destroy()
 	if(balance)
-		give_coins(balance)
+		give_money(balance, TRUE)
 	return ..()
 
 /obj/machinery/computer/slot_machine/process()
@@ -75,22 +76,34 @@
 	update_icon()
 
 /obj/machinery/computer/slot_machine/attackby(obj/item/I, mob/living/user, params)
-	if(istype(I, /obj/item/coin))
-		var/obj/item/coin/C = I
+	if(istype(I, /obj/item/stack/f13Cash/caps))
+		var/obj/item/stack/f13Cash/caps/C = I
 		if(prob(2))
 			if(!user.transferItemToLoc(C, drop_location()))
 				return
 			C.throw_at(user, 3, 10)
-			if(prob(10))
-				balance = max(balance - SPIN_PRICE, 0)
-			to_chat(user, "<span class='warning'>[src] spits your coin back out!</span>")
+			to_chat(user, "<span class='warning'>[src] spits your caps back out!</span>")
 
 		else
 			if(!user.temporarilyRemoveItemFromInventory(C))
 				return
-			to_chat(user, "<span class='notice'>You insert [C] into [src]'s slot!</span>")
-			balance += C.value
+			to_chat(user, "<span class='notice'>You insert [C.amount] caps into [src]'s slot!</span>")
+			playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
+			balance += C.amount
 			qdel(C)
+	else if(istype(I, /obj/item/stack/f13Cash))
+		to_chat(user, "<span class='warning'>[src] only accepts bottle caps!</span>")
+		return
+	else if(istype(I, /obj/item/card/slotmachine))
+		if(consumed_money > 0)
+			if(!do_after(user, 100, target = src))
+				return
+			to_chat(user, "<span class='notice'>You swipe [I] on the [src]'s card reader and it dispenses stored caps!</span>")
+			give_money(consumed_money, TRUE)
+			consumed_money = 0
+		else
+			to_chat(user, "<span class='danger'>You swipe [I] on the [src]'s card reader, but it has no caps stored!</span>")
+		return
 	else
 		return ..()
 
@@ -120,8 +133,8 @@
 		dat = reeltext
 
 	else
-		dat = {"Five credits to play!<BR>
-		<B>Prize Money Available:</B> [money] (jackpot payout is ALWAYS 100%!)<BR>
+		dat = {"Five caps to play!<BR>
+		<B>Prize Money Available:</B> [money]<BR>
 		<B>Credit Remaining:</B> [balance]<BR>
 		[plays] players have tried their luck today, and [jackpots] have won a jackpot!<BR>
 		<HR><BR>
@@ -144,7 +157,7 @@
 		spin(usr)
 
 	else if(href_list["refund"])
-		give_coins(balance)
+		give_money(balance, TRUE)
 		balance = 0
 
 /obj/machinery/computer/slot_machine/emp_act(severity)
@@ -158,7 +171,7 @@
 	var/severity_ascending = 4 - severity
 	money = max(rand(money - (200 * severity_ascending), money + (200 * severity_ascending)), 0)
 	balance = max(rand(balance - (50 * severity_ascending), balance + (50 * severity_ascending)), 0)
-	money -= max(0, give_coins(min(rand(-50, 100 * severity_ascending)), money)) //This starts at -50 because it shouldn't always dispense coins yo
+	money -= max(0, give_money(min(rand(-50, 100 * severity_ascending)), money)) //This starts at -50 because it shouldn't always dispense coins yo
 	spin()
 
 /obj/machinery/computer/slot_machine/proc/spin(mob/user)
@@ -174,6 +187,7 @@
 
 	balance -= SPIN_PRICE
 	money += SPIN_PRICE
+	consumed_money += round(SPIN_PRICE / 2) // So you can't abuse it to hell and just play yourself until jackpot
 	plays += 1
 	working = 1
 
@@ -224,23 +238,17 @@
 	var/linelength = get_lines()
 
 	if(reels[1][2] + reels[2][2] + reels[3][2] + reels[4][2] + reels[5][2] == "[SEVEN][SEVEN][SEVEN][SEVEN][SEVEN]")
-		visible_message("<b>[src]</b> says, 'JACKPOT! You win [money] credits worth of coins!'")
+		visible_message("<b>[src]</b> says, 'JACKPOT! You win [JACKPOT] caps!'")
 		priority_announce("Congratulations to [user ? user.real_name : usrname] for winning the jackpot at the slot machine in [get_area(src)]!")
 		jackpots += 1
-		balance += money - give_coins(JACKPOT)
-		money = 0
-
-		for(var/i = 0, i < 5, i++)
-			var/cointype = pick(subtypesof(/obj/item/coin))
-			var/obj/item/coin/C = new cointype(loc)
-			random_step(C, 2, 50)
+		give_money(JACKPOT)
 
 	else if(linelength == 5)
-		visible_message("<b>[src]</b> says, 'Big Winner! You win a thousand credits worth of coins!'")
+		visible_message("<b>[src]</b> says, 'Big Winner! You win [BIG_PRIZE] caps!'")
 		give_money(BIG_PRIZE)
 
 	else if(linelength == 4)
-		visible_message("<b>[src]</b> says, 'Winner! You win four hundred credits worth of coins!'")
+		visible_message("<b>[src]</b> says, 'Winner! You win [BIG_PRIZE] caps!'")
 		give_money(SMALL_PRIZE)
 
 	else if(linelength == 3)
@@ -270,41 +278,20 @@
 
 	return amountthesame
 
-/obj/machinery/computer/slot_machine/proc/give_money(amount)
-	var/amount_to_give = money >= amount ? amount : money
-	var/surplus = amount_to_give - give_coins(amount_to_give)
-	money = max(0, money - amount)
-	balance += surplus
-
-/obj/machinery/computer/slot_machine/proc/give_coins(amount)
-	var/cointype = obj_flags & EMAGGED ? /obj/item/coin/iron : /obj/item/coin/silver
-
-	if(!(obj_flags & EMAGGED))
-		amount = dispense(amount, cointype, null, 0)
-
-	else
-		var/mob/living/target = locate() in range(2, src)
-
-		amount = dispense(amount, cointype, target, 1)
-
-	return amount
-
-/obj/machinery/computer/slot_machine/proc/dispense(amount = 0, cointype = /obj/item/coin/silver, mob/living/target, throwit = FALSE)
-	var/value = GLOB.coin_values[cointype] || GLOB.coin_values[/obj/item/coin/iron]
-	INVOKE_ASYNC(src, .proc/become_rich, amount, value, cointype, target, throwit)
-	return amount % value
-
-/obj/machinery/computer/slot_machine/proc/become_rich(amount, value, cointype = /obj/item/coin/silver, mob/living/target, throwit = FALSE)
-	if(value <= 0)
+/obj/machinery/computer/slot_machine/proc/give_money(amount, force = FALSE)
+	if(amount < 1)
 		return
-	while(amount >= value && !QDELETED(src))
-		var/obj/item/coin/C = new cointype(loc) //DOUBLE THE PAIN
-		amount -= value
-		if(throwit && target)
-			C.throw_at(target, 3, 10)
-		else
-			random_step(C, 2, 40)
-		CHECK_TICK
+	var/amount_to_give = amount
+	if(!force) // So if it's a balance refund - don't do the shit below
+		amount_to_give = money >= amount ? amount : money
+		money = max(0, money - amount)
+	// Spawn the money
+	playsound(src, 'sound/items/coinflip.ogg', 60, 1)
+	var/obj/item/stack/f13Cash/caps/winning_money = new /obj/item/stack/f13Cash/caps
+	winning_money.amount = amount_to_give
+	winning_money.update_desc()
+	winning_money.update_icon()
+	winning_money.forceMove(src.loc)
 
 #undef SEVEN
 #undef SPIN_TIME

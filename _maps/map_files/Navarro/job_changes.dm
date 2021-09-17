@@ -82,11 +82,4 @@
 		total_positions = 4
 		spawn_positions = 4
 
-// Others
-/datum/job/wasteland/f13enforcer/New()
-	..()
-	IF_NAVARRO
-		total_positions = 2
-		spawn_positions = 2
-
 #undef IF_NAVARRO
