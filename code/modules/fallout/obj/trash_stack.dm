@@ -42,7 +42,7 @@
 				var/obj/item/item = new itemtype(ST)
 				//if (prob(10+(user.special_l*3.5)))//SPECIAL Integration
 				//	to_chat(user, "<span class='notice'>You get lucky and find even more loot!</span>")
-				//	var/obj/item/bonusitem = new itemtypebonus(ST)				
+				//	var/obj/item/bonusitem = new itemtypebonus(ST)
 				//	if(istype(bonusitem))
 				//		bonusitem.from_trash = TRUE
 				if(istype(item))
@@ -55,7 +55,7 @@
 
 /obj/item/storage/money_stack
 	name = "payroll safe"
-	desc = "a payroll safe. Use it every hour to recieve your pay."
+	desc = "a payroll safe. Use it to recieve your pay."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "safe"
 	anchored = TRUE
@@ -68,6 +68,9 @@
 
 /obj/item/storage/money_stack/legion
 	pay = list(/obj/item/stack/f13Cash/random/denarius/med)
+
+/obj/item/storage/money_stack/enclave
+	pay = list(/obj/item/stack/f13Cash/random/enclave/med)
 
 /obj/item/storage/money_stack/Initialize()
 	. = ..()

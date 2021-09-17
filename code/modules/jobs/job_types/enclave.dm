@@ -81,7 +81,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 		/obj/item/pda = 1,
 		/obj/item/stock_parts/cell/ammo/ec = 3,
 		/obj/item/gun/energy/laser/plasma/glock/extended = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
+		/obj/item/storage/bag/money/small/enclave/officer = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		)
 
@@ -152,7 +152,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 2,
 		/obj/item/grenade/flashbang = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
+		/obj/item/storage/bag/money/small/enclave/officer = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		)
 
@@ -217,10 +217,10 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	id = 			/obj/item/card/id/dogtag/enclave/officer
 
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak=2,
-		/obj/item/grenade/flashbang=1,
-		/obj/item/storage/bag/money/small/wastelander=1,
-		/obj/item/melee/onehanded/knife/hunting=1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/grenade/flashbang = 1,
+		/obj/item/storage/bag/money/small/enclave/officer = 1,
+		/obj/item/melee/onehanded/knife/hunting = 1,
 		)
 
 /datum/outfit/job/enclave/sergeant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -276,12 +276,12 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	suit_store =  	/obj/item/tank/internals/oxygen
 
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak=2,
-		/obj/item/grenade/chem_grenade/cleaner=1,
-		/obj/item/gun/energy/laser/ultra_pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
-		/obj/item/storage/bag/money/small/wastelander=1,
-		/obj/item/melee/onehanded/knife/survival=1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/grenade/chem_grenade/cleaner = 1,
+		/obj/item/gun/energy/laser/ultra_pistol = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 2,
+		/obj/item/storage/bag/money/small/enclave = 1,
+		/obj/item/melee/onehanded/knife/survival = 1,
 		)
 
 /datum/outfit/job/enclave/scientist/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -346,7 +346,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
-		/obj/item/storage/bag/money/small/wastelander = 1,
+		/obj/item/storage/bag/money/small/enclave = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1
 		)
 

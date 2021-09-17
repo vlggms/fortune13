@@ -5,6 +5,7 @@
 #define CASH_AUR 100 /* 100 caps to 1 AUR */
 #define CASH_DEN 4 /* 4 caps to 1 DEN */
 #define CASH_NCR 0.4 /* $100 to 40 caps */
+#define CASH_ENCLAVE 0.5 /* 100$ US to 50 caps */
 
 /* value of coins to spawn, use as-is for caps */
 /* LOW_MIN / AUR = amount in AUR */
@@ -20,6 +21,10 @@
 // A high value cash spawn is on average worth 300
 #define HIGH_MIN 100
 #define HIGH_MAX 500
+
+// A high value cash spawn is on average worth 750
+#define VHIGH_MIN 500
+#define VHIGH_MAX 1000
 
 // The Bankers Vault-Stash, done like this make it so it only spawns on his person to stop metarushing. Average 8500.
 #define BANKER_MIN 2000
@@ -140,6 +145,10 @@
 	min_qty = HIGH_MIN / CASH_CAP
 	max_qty = HIGH_MAX / CASH_CAP
 
+/obj/item/stack/f13Cash/random/vhigh
+	min_qty = VHIGH_MIN / CASH_CAP
+	max_qty = VHIGH_MAX / CASH_CAP
+
 /obj/item/stack/f13Cash/random/banker
 	min_qty = BANKER_MIN / CASH_CAP
 	max_qty = BANKER_MAX / CASH_CAP
@@ -170,6 +179,10 @@
 /obj/item/stack/f13Cash/random/denarius/high
 	min_qty = HIGH_MIN / CASH_DEN
 	max_qty = HIGH_MAX / CASH_DEN
+
+/obj/item/stack/f13Cash/random/denarius/vhigh
+	min_qty = VHIGH_MIN / CASH_DEN
+	max_qty = VHIGH_MAX / CASH_DEN
 
 /obj/item/stack/f13Cash/random/denarius/legionpay_basic
 	min_qty = LOW_MIN / CASH_DEN
@@ -208,7 +221,11 @@
 
 /obj/item/stack/f13Cash/random/aureus/high
 	min_qty = 2
-	max_qty = 5 //uses flat values because aurei are worth so much
+	max_qty = 5
+
+/obj/item/stack/f13Cash/random/aureus/vhigh
+	min_qty = 5
+	max_qty = 10 //uses flat values because aurei are worth so much
 
 /obj/item/stack/f13Cash/ncr
 	name = "NCR Dollar"
@@ -252,6 +269,10 @@
 	min_qty = HIGH_MIN / CASH_NCR
 	max_qty = HIGH_MAX / CASH_NCR
 
+/obj/item/stack/f13Cash/random/ncr/vhigh
+	min_qty = VHIGH_MIN / CASH_NCR
+	max_qty = VHIGH_MAX / CASH_NCR
+
 /obj/item/stack/f13Cash/random/ncr/ncrpay_basic
 	min_qty = LOW_MIN / CASH_NCR
 	max_qty = LOW_MAX / CASH_NCR
@@ -264,11 +285,60 @@
 	min_qty = HIGH_MIN / CASH_NCR
 	max_qty = HIGH_MAX / CASH_NCR
 
+/obj/item/stack/f13Cash/enclave
+	name = "US Dollar"
+	singular_name = "US Dollar"
+	flavor_desc = "Old pre-war dollars, commonly used by the remnants of US government."
+	icon = 'icons/obj/economy.dmi'
+	icon_state = "spacecash"
+	value = CASH_ENCLAVE * CASH_CAP
+	flippable = FALSE
+	merge_type = /obj/item/stack/f13Cash/enclave
+
+/obj/item/stack/f13Cash/enclave/update_icon()
+	switch(amount)
+		if(1  to 9)
+			icon_state = "[initial(icon_state)]"
+		if(10 to 19)
+			icon_state = "[initial(icon_state)]10"
+		if(20 to 49)
+			icon_state = "[initial(icon_state)]20"
+		if(50 to 99)
+			icon_state = "[initial(icon_state)]50"
+		if(100 to 199)
+			icon_state = "[initial(icon_state)]100"
+		if(200 to 499)
+			icon_state = "[initial(icon_state)]200"
+		if(500 to 999)
+			icon_state = "[initial(icon_state)]500"
+		if(1000 to 15000)
+			icon_state = "[initial(icon_state)]1000"
+
+/obj/item/stack/f13Cash/random/enclave
+	money_type = /obj/item/stack/f13Cash/enclave
+
+/obj/item/stack/f13Cash/random/enclave/low
+	min_qty = LOW_MIN / CASH_ENCLAVE
+	max_qty = LOW_MAX / CASH_ENCLAVE
+
+/obj/item/stack/f13Cash/random/enclave/med
+	min_qty = MED_MIN / CASH_ENCLAVE
+	max_qty = MED_MAX / CASH_ENCLAVE
+
+/obj/item/stack/f13Cash/random/enclave/high
+	min_qty = HIGH_MIN / CASH_ENCLAVE
+	max_qty = HIGH_MAX / CASH_ENCLAVE
+
+/obj/item/stack/f13Cash/random/enclave/vhigh
+	min_qty = VHIGH_MIN / CASH_ENCLAVE
+	max_qty = VHIGH_MAX / CASH_ENCLAVE
+
 #undef maxCoinIcon
 #undef CASH_CAP
 #undef CASH_AUR
 #undef CASH_DEN
 #undef CASH_NCR
+#undef CASH_ENCLAVE
 #undef LOW_MIN
 #undef LOW_MAX
 #undef MED_MIN
