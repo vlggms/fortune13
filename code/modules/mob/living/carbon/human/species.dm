@@ -142,11 +142,19 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 			GLOB.roundstart_races |= S.id
 			GLOB.roundstart_race_names["[S.name]"] = S.id
 			qdel(S)
+		if(S.check_trusted_eligible())
+			GLOB.trusted_races += S.id
+			qdel(S)
 	if(!GLOB.roundstart_races.len)
 		GLOB.roundstart_races += "human"
 
 /datum/species/proc/check_roundstart_eligible()
 	if(id in (CONFIG_GET(keyed_list/roundstart_races)))
+		return TRUE
+	return FALSE
+
+/datum/species/proc/check_trusted_eligible()
+	if(id in (CONFIG_GET(keyed_list/trusted_races)))
 		return TRUE
 	return FALSE
 
@@ -647,7 +655,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 	//Warpaint and tattoos
 	if(H.warpaint)
 		standing += mutable_appearance('icons/mob/tribe_warpaint.dmi', H.warpaint, -MARKING_LAYER, color = H.warpaint_color)
-		
+
 
 	if(standing.len)
 		H.overlays_standing[BODY_LAYER] = standing

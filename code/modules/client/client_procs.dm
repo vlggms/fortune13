@@ -959,6 +959,8 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 			return FALSE
 		if (NAMEOF(src, key))
 			return FALSE
+		if (NAMEOF(src, cached_badges))
+			return FALSE
 		if(NAMEOF(src, view))
 			change_view(var_value)
 			return TRUE

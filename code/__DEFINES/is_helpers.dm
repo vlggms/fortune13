@@ -48,6 +48,9 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 
 #define istransparentturf(A) (istype(A, /turf/open/transparent))
 
+//Client
+#define IS_TRUSTED_PLAYER(ckey) (GLOB.trusted_players.Find(ckey))
+
 //Mobs
 #define isliving(A) (istype(A, /mob/living))
 

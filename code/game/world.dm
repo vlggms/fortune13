@@ -50,6 +50,8 @@ GLOBAL_LIST(topic_status_cache)
 
 	load_admins()
 	load_mentors()
+	load_trusted_players()
+	load_badge_ranks()
 	LoadVerbs(/datum/verbs/menu)
 	if(CONFIG_GET(flag/usewhitelist))
 		load_whitelist()
@@ -351,3 +353,7 @@ GLOBAL_LIST(topic_status_cache)
 
 /// Auxtools atmos
 /world/proc/refresh_atmos_grid()
+
+/world/proc/load_trusted_players()
+	if(fexists("[global.config.directory]/trusted_players.txt"))
+		GLOB.trusted_players = world.file2list("[global.config.directory]/trusted_players.txt")

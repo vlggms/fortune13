@@ -20,7 +20,11 @@ OOC_DURING_ROUND
 
 ## EMOJI ###
 ## Comment this out if you want to disable emojis
-#EMOJIS
+EMOJIS
+
+## BADGES ##
+## Comment this out if you want to disable badges
+BADGES
 
 ## MOB MOVEMENT ###
 
@@ -493,6 +497,9 @@ ROUNDSTART_RACES ghoul
 
 ## Uncomment to give players the choice of joining as a human with mutant bodyparts before they join the game
 #JOIN_WITH_MUTANT_HUMANS
+
+## Races available to trusted players AND admins
+TRUSTED_RACES shadow
 
 ##Overflow job. Default is assistant
 OVERFLOW_JOB Wastelander
