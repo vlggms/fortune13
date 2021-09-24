@@ -155,6 +155,7 @@
 /datum/asset/spritesheet/chat/register()
 	InsertAll("emoji", 'icons/emoji.dmi')
 	InsertAll("emoji", 'icons/emoji_32.dmi')
+	InsertAll("badge", 'icons/badges.dmi')
 
 	// pre-loading all lanugage icons also helps to avoid meta
 	InsertAll("language", 'icons/misc/language.dmi')

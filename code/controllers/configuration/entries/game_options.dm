@@ -171,6 +171,10 @@
 	key_mode = KEY_MODE_TEXT
 	value_mode = VALUE_MODE_FLAG
 
+/datum/config_entry/keyed_list/trusted_races	// Races available to trusted players
+	key_mode = KEY_MODE_TEXT
+	value_mode = VALUE_MODE_FLAG
+
 /datum/config_entry/flag/join_with_mutant_humans	//players can pick mutant bodyparts for humans before joining the game
 
 /datum/config_entry/flag/no_summon_guns		//No
@@ -226,6 +230,8 @@
 /datum/config_entry/flag/ooc_during_round
 
 /datum/config_entry/flag/emojis
+
+/datum/config_entry/flag/badges
 
 /datum/config_entry/keyed_list/multiplicative_movespeed
 	key_mode = KEY_MODE_TYPE

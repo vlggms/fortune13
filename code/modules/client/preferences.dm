@@ -1709,7 +1709,12 @@ Records disabled until a use for them is found
 					right_eye_color = left_eye_color
 
 				if("species")
-					var/result = input(user, "Select a species", "Species Selection") as null|anything in GLOB.roundstart_race_names
+
+					var/species_input_list = GLOB.roundstart_races
+					if(IS_TRUSTED_PLAYER(user.ckey) || user.client.holder || GLOB.deadmins[user.client.ckey])
+						species_input_list += GLOB.trusted_races
+					var/result = input(user, "Select a species", "Species Selection") as null|anything in species_input_list
+
 					if(result)
 						var/newtype = GLOB.species_list[GLOB.roundstart_race_names[result]]
 						pref_species = new newtype()
@@ -2740,12 +2745,12 @@ Records disabled until a use for them is found
 	character.socks_color = socks_color
 
 	var/datum/species/chosen_species
-	if(!roundstart_checks || (pref_species.id in GLOB.roundstart_races))
-		chosen_species = pref_species.type
-	else
-		chosen_species = /datum/species/human
-		pref_species = new /datum/species/human
-		save_character()
+	chosen_species = pref_species.type
+	if(roundstart_checks && !(pref_species.id in GLOB.roundstart_races))
+		if(!((pref_species.id in GLOB.trusted_races) && (IS_TRUSTED_PLAYER(parent.ckey) || parent.holder || GLOB.deadmins[parent.ckey])))
+			chosen_species = /datum/species/human
+			pref_species = new /datum/species/human
+			save_character()
 
 	var/old_size = character.dna.features["body_size"]
 

@@ -4,6 +4,8 @@ GLOBAL_PROTECT(admins)
 GLOBAL_LIST_EMPTY(mentors)							//all clients whom are mentors
 GLOBAL_PROTECT(mentors)
 GLOBAL_LIST_EMPTY(deadmins)							//all ckeys who have used the de-admin verb.
+GLOBAL_LIST_EMPTY(trusted_players)			//CKeys of trusted players.
+GLOBAL_LIST_EMPTY(trusted_races)	//Species available to trusted players AND admins.
 
 GLOBAL_LIST_EMPTY(directory)							//all ckeys with associated client
 GLOBAL_LIST_EMPTY(stealthminID)						//reference list with IDs that store ckeys, for stealthmins
