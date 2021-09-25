@@ -1710,10 +1710,11 @@ Records disabled until a use for them is found
 
 				if("species")
 
-					var/species_input_list = GLOB.roundstart_races
-					if(IS_TRUSTED_PLAYER(user.ckey) || user.client.holder || GLOB.deadmins[user.client.ckey])
-						species_input_list += GLOB.trusted_races
-					var/result = input(user, "Select a species", "Species Selection") as null|anything in species_input_list
+					var/result
+					if(IS_TRUSTED_PLAYER(user.client.ckey) || check_rights_for(user.client, R_ADMIN))
+						result = input(user, "Select a species", "Species Selection") as null|anything in GLOB.roundstart_races + GLOB.trusted_races
+					else
+						result = input(user, "Select a species", "Species Selection") as null|anything in GLOB.roundstart_races
 
 					if(result)
 						var/newtype = GLOB.species_list[GLOB.roundstart_race_names[result]]
@@ -2747,7 +2748,7 @@ Records disabled until a use for them is found
 	var/datum/species/chosen_species
 	chosen_species = pref_species.type
 	if(roundstart_checks && !(pref_species.id in GLOB.roundstart_races))
-		if(!((pref_species.id in GLOB.trusted_races) && (IS_TRUSTED_PLAYER(parent.ckey) || parent.holder || GLOB.deadmins[parent.ckey])))
+		if(!((pref_species.id in GLOB.trusted_races) && (IS_TRUSTED_PLAYER(parent.ckey) || check_rights_for(parent, R_ADMIN))))
 			chosen_species = /datum/species/human
 			pref_species = new /datum/species/human
 			save_character()
