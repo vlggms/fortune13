@@ -12,6 +12,9 @@
 		"tricord" = /datum/reagent/medicine/tricordrazine
 	)
 
+	skillcheck_level = 0
+	skillcheck_block = FALSE
+
 /obj/machinery/chem_dispenser/chem_synthesizer/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)

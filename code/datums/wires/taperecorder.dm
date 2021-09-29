@@ -1,8 +1,8 @@
 /datum/wires/taperecorder
 	holder_type = /obj/item/taperecorder
 	proper_name = "Universal Recorder"
-	req_knowledge = JOB_SKILL_TRAINED
-	req_skill = JOB_SKILL_UNTRAINED
+	req_knowledge = 3
+	req_skill = 2
 
 /datum/wires/taperecorder/New(atom/holder)
 	wires = list(

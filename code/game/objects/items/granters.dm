@@ -809,23 +809,6 @@
 	crafting_recipe_types = list(/datum/crafting_recipe/combat_armor_mk2, /datum/crafting_recipe/combat_helmet_mk2)
 
 /* Traits */
-/obj/item/book/granter/trait/chemistry
-	name = "Big Book of Science"
-	desc = "This heavy textbook can teach basic chemistry, but saw more use as a blunt weapon shortly after the Collapse."
-	oneuse = TRUE
-	granted_trait = TRAIT_CHEMWHIZ
-	traitname = "chemistry"
-	remarks = list("Always ensure a safe working environment, promptly clean any chemical mess.", "Improperly stored chemicals can quickly lead to safety hazards.", "Do not abuse chemicals for recreational use in the laboratory!", "Labcoats and goggles not only protect you from burns, but give an aura of authority.", "Keep your laboratory clean and organized, utilize cabinets and shelves.", "Potassium and water should not be mixed, or they will react violently.")
-	crafting_recipe_types = list(/datum/crafting_recipe/jet, /datum/crafting_recipe/turbo, /datum/crafting_recipe/psycho, /datum/crafting_recipe/medx, /datum/crafting_recipe/buffout)
-
-/obj/item/book/granter/trait/bigleagues
-	name = "Grognak the Barbarian"
-	desc = "A pulp fiction paperback detailing the adventures of a violent barbarian. Surprisingly, this was sold to children."
-	oneuse = TRUE
-	granted_trait = TRAIT_BIG_LEAGUES
-	traitname = "big_leagues"
-	remarks = list("Grognak hit the Death Knight only once, but that was enough.", "Grognak is surprisingly agile, never committing too heavily on an attack, dancing between his enemies.", "Grognak isn't good at talking, but he knows it has its place. He has friends to talk for him.", "Other barbarians might change their weapons, but Grognak could never leave his beloved axe.")
-
 /obj/item/book/granter/trait/lowsurgery
 	name = "First Aid Pamphlet"
 	desc = "A flimsy collection of vital tips and tricks for the average American with a sudden injury."
@@ -849,14 +832,6 @@
 	granted_trait = TRAIT_MASTER_GUNSMITH
 	traitname = "tinkering"
 	remarks = list("There are no thieves in the army, everyone's just trying to get their shit back.", "As soon as you think you've heard the dumbest way a man's broken his rifle, the door to your office will open.", "Act like you're mediocre, because otherwise they'll ask you to do extra work.", "Third time's the charm, but that's about it.", "Ensure your firearm is emptied before any maintenance work.")
-
-/obj/item/book/granter/trait/techno
-	name = "Dean's Electronics"
-	desc = "A study book on the field of electronics. A note on the cover says that it is for the budding young electrician in everyone!"
-	oneuse = TRUE
-	granted_trait = TRAIT_TECHNOPHREAK
-	traitname = "craftsmanship"
-	remarks = list("Troubleshooting is a systematic approach to problem solving, do not skip any steps in the process.", "Ensure you have all the required parts before you begin.", "Always wear personal protective equipment, electric shock can be fatal.", "Combustibles and sparks do not mix, store welding fuel in a safe location.", "Don't lose track of your tools, or you have a new problem to deal with.")
 
 /obj/item/book/granter/trait/pa_wear
 	name = "US Army: Mechanized Infantry Handbook"
@@ -882,59 +857,202 @@
 	traitname = "gunslinging"
 	remarks = list("Engravings offer no tactical advantage whatsoever!", "I love to reload during battle.", "There's nothing like the feeling of slamming a long silver bullet into a well greased chamber.", "It doesn't feel right to shoot an unarmed man, but you get over it.", "He was pretty good, but I was better. At least, so I thought.", "The moment any truth is passed on, it starts turning into fiction. The problem is, fiction inspires people more than facts.")
 
+///BAY-SKILLS///
 
-/*
-/obj/item/book/granter/trait/iron_fist
-	name = "Brawler's Guide to Fisticuffs"
-	desc = "An advanced manual on fistfighting. It has pictures, too!"
-	oneuse = TRUE
-	granted_trait = TRAIT_IRONFIST
-	traitname = "punching"
-	remarks = list("Keep your fists up...", "Don't clench your thumb in your fist, or you might break it...", "Turn into your punch, and put your body weight behind it...", "Footwork is everything, make sure to step into your punches...", "Aim for their jaw for an easy K-O...")
-*/
+/obj/item/book/granter/skill
+	name = "simple guide to breaking the game"
+	desc = "You want to know how to break the game? Then this guide is for you!"
+	icon_state = "bookSkill1"
+	/// How skill is named to be used in on_reading_start()
+	var/name_mod = "engineering"
+	/// What skill does it increase?
+	var/skill_type = "engineering"
+	/// You need to have at least this level of skill to understand the book.
+	var/minimum_skill = 0
+	/// This book is useless at this level of skill.
+	var/maximum_skill = 999
+	/// How much skill does it give to you?
+	var/skill_amount = 100
+	/// Congrats! You learned the skill and that's your message.
+	var/greet = "You suddenly understand the whole concept of universe!"
+	/// Obvious. Can you use it once, or more?
+	var/one_use = TRUE
 
-/obj/item/book/granter/trait/selection
+
+/obj/item/book/granter/skill/already_known(mob/user)
+	if(!user.mind || !skill_type)
+		return TRUE
+	var/skill_level = user.mind.bay_skills.getRating(skill_type)
+	if(skill_level < minimum_skill)
+		to_chat(user,"<span class='warning'>You don't understand anything written in [src]...</span>")
+		return TRUE
+	if(skill_level >= maximum_skill)
+		to_chat(user,"<span class='warning'>You know much more about [skill_type] than this book can offer.</span>")
+		return TRUE
+	return FALSE
+
+/obj/item/book/granter/skill/on_reading_start(mob/user)
+	to_chat(user, "<span class='notice'>You start reading about [name_mod]...</span>")
+
+/obj/item/book/granter/skill/on_reading_finished(mob/user)
+	if(greet)
+		to_chat(user, "[greet]")
+	user.mind.bay_skills.ModifyValue(skill_type, skill_amount)
+	if(one_use)
+		to_chat(user, "<span class='warning'>The book turns to dust in your hands!</span>")
+		qdel(src)
+
+/obj/item/book/granter/skill/random
+	icon_state = "random_book"
+	skill_amount = 1
+	var/list/varweight = list("0" = 6, "1" = 5, "2" = 4, "3" = 3, "4" = 2, "5" = 1)
+
+/obj/item/book/granter/skill/random/Initialize()
+	. = ..()
+	skill_type = pick("unarmed", "melee", "engineering", "salvaging", "smithing", "chemistry", "medical", "surgery", "crafting", "culinary", "science")
+	minimum_skill = text2num(pickweight(varweight))
+	maximum_skill = minimum_skill + 1
+	name_mod = skill_type
+	switch(skill_type)
+		if("unarmed")
+			name_mod = "unarmed combat"
+		if("melee")
+			name_mod = "melee combat"
+		if("medical")
+			name_mod = "first aid"
+	var/string_var = "beginner's guide to"
+	desc = "This is a simple guide to [name_mod], written so even a monkey could understand it."
+	greet = "You now understand [name_mod] slightly better."
+	pages_to_mastery = 1
+	remarks = list("Hah! Even a monkey could learn it!", "How do you spell [name_mod], again?", "So that's what [name_mod] means, huh?")
+	switch(minimum_skill)
+		if(1)
+			string_var = "notes on"
+			desc = "A small collection of notes made in regards of [name_mod] by unknown scientist."
+			pages_to_mastery = 2
+			remarks = list("I never heard about it before!", "Hm, very interesting.", \
+			"Well, [name_mod] is much more complicated than I thought.")
+			greet = "You now understand [name_mod] much better."
+		if(2)
+			string_var = "essay on"
+			desc = "An essay made for these hoping to be proficient in [name_mod]."
+			pages_to_mastery = 3
+			remarks = list("I never heard about it before!", "Well, [name_mod] is a really interesting thing.", "Who even wrote it? It's genius!", \
+			"Without this I'd probably never get proficient in [name_mod].", "Is there anything more to it?")
+			greet = "You finally understand what [name_mod] means."
+		if(3)
+			string_var = "research on"
+			desc = "A heavy book written in scientific language. Only those who are proficient in [name_mod] could learn anything from it."
+			pages_to_mastery = 4
+			greet = "You realize the true nature of [name_mod]."
+		if(4)
+			string_var = "grand book of"
+			desc = "A complicated mess of scientific language and terms. Highly valued among the masters of [name_mod]."
+			pages_to_mastery = 5
+			greet = "You now understand everything about [name_mod]."
+		if(5)
+			string_var = "ancient tome of"
+			desc = "An ancient book explaining the entire concept of [name_mod]. Written by the finest minds of the United States before the war."
+			pages_to_mastery = 6
+			greet = "Finally! You now undertsand the concept of [name_mod] in the universe!"
+
+	name = "[string_var] [name_mod]"
+	icon_state = "bookSkill[maximum_skill]"
+
+/obj/item/book/granter/skill/random/low_level // This one is still random, but can only be level 0 or 1.
+	varweight = list("0" = 2, "1" = 1)
+
+/obj/item/book/granter/skill/random/medium_level // Level 2 or 3.
+	varweight = list("2" = 2, "3" = 1)
+
+/obj/item/book/granter/skill/random/high_level // Level 4 or 5.
+	varweight = list("4" = 2, "5" = 1)
+
+/obj/item/book/granter/skill/basic
+	name = "basic level guide"
+	desc = "You aren't supposed to see it..."
+	maximum_skill = 2
+	skill_amount = 2
+	greet = "You suddenly understand the concept of universe a bit more."
+	pages_to_mastery = 1
+
+/obj/item/book/granter/skill/basic/engineer
+	name = "basic engineering guide"
+	desc = "This guide tells you how to use wrench and other useful tools."
+	greet = "You suddenly realize what toolbox is for."
+	remarks = list("So that's what a toolbox is for!", "You hold a wrench like this and then rotate it?", "Wait, what the fuck is plasteel?", "So that's how you are supposed to use welding tools.", "Why can't we just throw in some monkeys to do the job for us?")
+
+/obj/item/book/granter/skill/basic/salvaging
+	name = "basic salvaging guide"
+	desc = "This guide tells you how to disassemble wrecks."
+	greet = "You now understand how to get more salvage out of wrecks."
+	remarks = list("Oh, so that's why we can't use explosives for it.", "Welding tool should be on..?", "Wait, what the fuck is plasteel?", "So that's why there are so many knives in the cars...", "I can find a fusion reactor if I try well enough..?")
+
+/obj/item/book/granter/skill/basic/medical
+	name = "basic first aid guide"
+	desc = "This guide will show you how to use sutures properly."
+	greet = "You suddenly realize how to apply sutures in a proper way."
+	skill_type = "medical"
+	name_mod = "first aid"
+	remarks = list("What do you mean gauze is to be applied on a wound?", "Huh, so it isn't a mummy wrapping?", "So you put it around the limb...", "Wait, what's CPR again?")
+
+/obj/item/book/granter/skill/basic/chemistry
+	name = "basic chemistry guide"
+	desc = "This guide will show you how to use chemical machinery."
+	greet = "You now understand how to use chemistry machinery."
+	skill_type = "chemistry"
+	remarks = list("What the hell is hydrogen?", "That's what water is for..?", "Why shouldn't I mix potassium and water..?", "That... makes no sense, but okay.")
+
+/obj/item/book/granter/skill/basic/melee
+	name = "basic melee combat guide"
+	desc = "This guide will show you how to effectively use melee weaponry."
+	greet = "You can now use melee weapons more efficiently."
+	skill_type = "melee"
+	name_mod = "melee combat"
+	remarks = list("Apply sword to the target...", "Sharp end should face the target...", "Do not touch the edge of your weapon...")
+
+/obj/item/book/granter/skill/basic/selection
 	name = "Burned Book"
 	desc = "Pulled from the ashes of the old world, it feels warm to the touch. It looks to be in poor condition."
-	granted_trait = null
+	icon_state = "bookSkill6"
+	skill_type = null
+	greet = null
+	maximum_skill = 999 // No limit. You just get 2 in your skill.
 	pages_to_mastery = 0
 	time_per_page = 0
 
-/obj/item/book/granter/trait/selection/attack_self(mob/user)
-	var/list/choices = list("Big Book of Science","Dean's Electronics","Grognak the Barbarian","First Aid Pamphlet","US Army: Weapon Maintenance","Wasteland Survival Guide")
-	if(granted_trait == null)
-		var/choice = input("Choose a trait:") in choices
+/obj/item/book/granter/skill/basic/selection/attack_self(mob/user)
+	var/list/choices = list("Unarmed Combat", "Melee Combat", "Engineering", "Salvaging", "Smithing", "Chemistry", "First Aid", "Surgery", "Crafting")
+	if(skill_type == null)
+		var/choice = input("Choose a skill:") in choices
 		switch(choice)
 			if(null)
 				return 0
-			if("Wasteland Survival Guide")
-				granted_trait = TRAIT_HARD_YARDS
-				traitname = "trekking"
-				remarks = list("Tribes and gangs often hide the best loot in the back room.", "Radiation is best avoided entirely, but it helps to carry spare rad-x.", "Whether ancient or recent, landmines are still a threat, and readers should look out for them.", "Injuries and open bleeding make it harder to travel, always carry spare medical supplies.", "Most animals are simple-minded, and can be led into easy lines of fire.")
-			if("First Aid Pamphlet")
-				granted_trait = TRAIT_SURGERY_LOW
-				traitname = "minor surgery"
-				remarks = list("Keep your hands and any injuries clean!", "While bandages help to seal a wound, they do not heal a wound.", "Remain calm, focus on the task at hand, stop the bleeding.", "An open wound can lead to easy infection of said wound.", "Keep track of your home's first aid kit, restock used components regularly.", "If a body part has been lost, ice and transport it with the injured to a hospital.",)
-			if("Big Book of Science")
-				granted_trait = TRAIT_CHEMWHIZ
-				traitname = "chemistry"
-				crafting_recipe_types = list(/datum/crafting_recipe/jet, /datum/crafting_recipe/turbo, /datum/crafting_recipe/psycho, /datum/crafting_recipe/medx, /datum/crafting_recipe/buffout)
-				remarks = list("Always ensure a safe working environment, promptly clean any chemical mess.", "Improperly stored chemicals can quickly lead to safety hazards.", "Do not abuse chemicals for recreational use in the laboratory!", "Labcoats and goggles not only protect you from burns, but give an aura of authority.", "Keep your laboratory clean and organized, utilize cabinets and shelves.", "Potassium and water should not be mixed, or they will react violently.")
-			if("Dean's Electronics")
-				granted_trait = TRAIT_TECHNOPHREAK
-				traitname = "craftsmanship"
-				remarks = list("Troubleshooting is a systematic approach to problem solving, do not skip any steps in the process.", "Ensure you have all the required parts before you begin.", "Always wear personal protective equipment, electric shock can be fatal.", "Combustibles and sparks do not mix, store welding fuel in a safe location.", "Don't lose track of your tools, or you have a new problem to deal with.")
-			if("Grognak the Barbarian")
-				granted_trait = TRAIT_BIG_LEAGUES
-				traitname = "hitting things"
-				remarks = list("Grognak hit the Death Knight only once, but that was enough.", "Grognak is surprisingly agile, never committing too heavily on an attack, dancing between his enemies.", "Grognak isn't good at talking, but he knows it has its place. He has friends to talk for him.", "Other barbarians might change their weapons, but Grognak could never leave his beloved axe.")
-			if("US Army: Weapon Maintenance")
-				granted_trait = TRAIT_MASTER_GUNSMITH
-				traitname = "tinkering"
-				remarks = list("There are no thieves in the army, everyone's just trying to get their shit back.", "As soon as you think you've heard the dumbest way a man's broken his rifle, the door to your office will open.", "Act like you're mediocre, because otherwise they'll ask you to do extra work.", "Third time's the charm, but that's about it.", "Ensure your firearm is emptied before any maintenance work.")
+			if("Unarmed Combat")
+				skill_type = "unarmed"
+			if("Melee Combat")
+				skill_type = "melee"
+			if("Engineering")
+				skill_type = "engineering"
+			if("Salvaging")
+				skill_type = "engineering"
+			if("Smithing")
+				skill_type = "smithing"
+			if("Chemistry")
+				skill_type = "chemistry"
+			if("First Aid")
+				skill_type = "medical"
+			if("Surgery")
+				skill_type = "surgery"
+				ADD_TRAIT(user, TRAIT_SURGERY_LOW, BOOK_TRAIT) // Temporary solution
+			if("Crafting")
+				skill_type = "crafting"
+		name_mod = choice
 	return ..()
 
+/obj/item/book/granter/skill/basic/selection/on_reading_start(mob/user)
+	to_chat(user, "<span class='notice'>You finish reading about [name_mod].</span>")
 
-/obj/item/book/granter/trait/selection/Initialize()
+/obj/item/book/granter/skill/basic/selection/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)

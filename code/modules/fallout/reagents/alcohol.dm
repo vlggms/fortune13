@@ -253,7 +253,6 @@
 	glass_desc = "Nuka Cola with an <BIG>AMERICAN<BIG> twist."
 
 /datum/reagent/consumable/ethanol/nukavictory/on_mob_life(mob/living/carbon/M)
-	ADD_TRAIT(M, TRAIT_BIG_LEAGUES, "[type]")
 	M.adjustBruteLoss(-2.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 	M.drowsyness = 0
 	M.AdjustSleeping(-40, FALSE)
@@ -261,8 +260,11 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/ethanol/nukavictory/on_mob_add(mob/living/carbon/M, amount)
+	M.mind?.bay_skills?.ModifyValue("melee", 2)
+
 /datum/reagent/consumable/ethanol/nukavictory/on_mob_delete(mob/living/M)
-	REMOVE_TRAIT(M, TRAIT_BIG_LEAGUES, "[type]")
+	M.mind?.bay_skills?.ModifyValue("melee", -2)
 	..()
 
 /datum/reagent/consumable/ethanol/nukabomb
@@ -447,7 +449,7 @@
 
 /datum/reagent/consumable/ethanol/nukaxtreme/on_mob_life(mob/living/carbon/M)
 	var/high_message = pick("<br><font color='#FF0000'><b>EXTREME</b></font>", "<br><font color='#FF0000'><b>RAAAAR!</b></font>", "<br><font color='#FF0000'><b>BRING IT!</b></font>")
-	if(prob(100))
+	if(prob(30))
 		to_chat(M, "<span class='notice'>[high_message]</span>")
 	M.drowsyness = 0
 	M.AdjustSleeping(-40, FALSE)
@@ -458,7 +460,6 @@
 	M.AdjustKnockdown(-30, 0)
 	M.AdjustUnconscious(-30, 0)
 	M.adjustStaminaLoss(-5, 0)
-	ADD_TRAIT(M, TRAIT_IRONFIST, "[type]")
 	ADD_TRAIT(M, TRAIT_SLEEPIMMUNE, "[type]")
 	if(iscarbon(M))
 		var/mob/living/carbon/C = M
@@ -467,7 +468,6 @@
 	..()
 	. = TRUE
 
-/datum/reagent/consumable/ethanol/nukaxtreme/on_mob_life(mob/living/carbon/M)
 	if(M.hud_used)
 		if(current_cycle >= 5 && current_cycle % 3 == 0)
 			var/list/screens = list(M.hud_used.plane_masters["[FLOOR_PLANE]"], M.hud_used.plane_masters["[GAME_PLANE]"])
@@ -481,8 +481,11 @@
 				animate(transform = -newmatrix, time = 5, easing = QUAD_EASING)
 	return ..()
 
+/datum/reagent/consumable/ethanol/nukaxtreme/on_mob_add(mob/living/carbon/M, amount)
+	M.mind?.bay_skills?.ModifyValue("unarmed", 4)
+
 /datum/reagent/consumable/ethanol/nukaxtreme/on_mob_delete(mob/living/M)
-	REMOVE_TRAIT(M, TRAIT_IRONFIST, "[type]")
+	M.mind?.bay_skills?.ModifyValue("unarmed", -4)
 	REMOVE_TRAIT(M, TRAIT_SLEEPIMMUNE, "[type]")
 	if(M && M.hud_used)
 		var/list/screens = list(M.hud_used.plane_masters["[FLOOR_PLANE]"], M.hud_used.plane_masters["[GAME_PLANE]"], M.hud_used.plane_masters["[LIGHTING_PLANE]"])
@@ -927,7 +930,6 @@
 		if(41 to INFINITY)
 			M.adjustToxLoss(4*REAGENTS_EFFECT_MULTIPLIER, 0)
 	ADD_TRAIT(M, TRAIT_SLEEPIMMUNE, "[type]")
-	ADD_TRAIT(M, TRAIT_IRONFIST, "[type]")
 	if(iscarbon(M))
 		var/mob/living/carbon/C = M
 		rage = new()
@@ -935,9 +937,12 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/ethanol/henessey/on_mob_add(mob/living/carbon/M, amount)
+	M.mind?.bay_skills?.ModifyValue("unarmed", 2)
+
 /datum/reagent/consumable/ethanol/henessey/on_mob_delete(mob/living/M)
 	REMOVE_TRAIT(M, TRAIT_SLEEPIMMUNE, "[type]")
-	REMOVE_TRAIT(M, TRAIT_IRONFIST, "[type]")
+	M.mind?.bay_skills?.ModifyValue("unarmed", -2)
 	to_chat(M, "<span class='danger'>You feel light-headed as you start to return to your senses.</span>")
 	M.Dizzy(5)
 	M.blur_eyes(5)

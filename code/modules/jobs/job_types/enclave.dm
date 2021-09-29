@@ -21,6 +21,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 		/datum/matchmaking_pref/protegee = list(),
 	)
 
+	skills_type = /datum/skill_list_bay/enclave
+
 /datum/outfit/job/enclave/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
@@ -40,6 +42,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	selection_color = "#525252"
 	exp_requirements = 2400
 	exp_type = EXP_TYPE_ENCLAVE
+
+	skills_type = /datum/skill_list_bay/enclave/lieutenant
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -112,6 +116,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	exp_requirements = 1800
 	exp_type = EXP_TYPE_ENCLAVE
 
+	skills_type = /datum/skill_list_bay/enclave/sergeant/drill
+
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/enclave/lieutenant,
@@ -174,6 +180,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	selection_color = "#525252"
 	exp_requirements = 1200
 	exp_type = EXP_TYPE_FALLOUT
+
+	skills_type = /datum/skill_list_bay/enclave/sergeant
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -244,6 +252,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	access = list(ACCESS_ENCLAVE)
 	minimal_access = list(ACCESS_ENCLAVE)
 
+	skills_type = /datum/skill_list_bay/enclave/scientist
+
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/enclave/lieutenant,
@@ -291,7 +301,6 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_CYBERNETICIST_EXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
-	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MASTER_GUNSMITH, src)
 	ADD_TRAIT(H, TRAIT_UNETHICAL_PRACTITIONER, src) // Brainwashing
 
@@ -306,6 +315,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	selection_color = "#525252"
 	exp_type = EXP_TYPE_ENCLAVE
 	exp_requirements = 600
+
+	skills_type = /datum/skill_list_bay/enclave/private
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -369,6 +380,8 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	exp_type = EXP_TYPE_FALLOUT
 	exp_requirements = 1800
 
+	skills_type = /datum/skill_list_bay/enclave
+
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/enclave/private,
@@ -409,7 +422,7 @@ GLOBAL_VAR_INIT(enclavepassword, generate_enclave_password())
 	id = null
 	ears = null
 	belt = null
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 	l_pocket = /obj/item/storage/bag/money/small/wastelander
 	r_pocket = /obj/item/flashlight/flare
 	backpack = /obj/item/storage/backpack/satchel/explorer

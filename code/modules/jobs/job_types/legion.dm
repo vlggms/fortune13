@@ -28,6 +28,8 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	access = list(ACCESS_LEGION)
 	minimal_access = list(ACCESS_LEGION)
 
+	skills_type = /datum/skill_list_bay/legion
+
 /datum/outfit/job/CaesarsLegion
 	ears = null
 	box = null
@@ -104,14 +106,14 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 
+	skills_type = /datum/skill_list_bay/legion/legate
+
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
@@ -158,6 +160,8 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 
+	skills_type = /datum/skill_list_bay/legion/centurion
+
 	loadout_options = list(
 		/datum/outfit/loadout/palacent,		// 10mm SMG, Thermic lance
 		/datum/outfit/loadout/rangerhunter,	// Hunting revolver, Ripper
@@ -170,8 +174,6 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
@@ -251,6 +253,8 @@ commented out pending rework*/
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS)
 
+	skills_type = /datum/skill_list_bay/legion/veteran/officer
+
 	loadout_options = list(
 		/datum/outfit/loadout/decvetfront,	// Carl Gustaf, Fireaxe, Smoke bomb, slightly better helmet
 		/datum/outfit/loadout/decvetrear,	// SKS, Spatha
@@ -261,8 +265,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
@@ -318,6 +320,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan
 	exp_requirements = 720
 
+	skills_type = /datum/skill_list_bay/legion/prime/officer
+
 	loadout_options = list(
 		/datum/outfit/loadout/decprimfront,	// Grease Gun, Gladius, Smoke bomb
 		/datum/outfit/loadout/decprimrear,	// Trail carbine, 10mm Revolver, Gladius, Smoke bomb
@@ -336,8 +340,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
@@ -390,6 +392,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanrec
 	exp_requirements = 600
 
+	skills_type = /datum/skill_list_bay/legion/recruit/officer
+
 	loadout_options = list(
 		/datum/outfit/loadout/recdeclegion,	// .44 Revolver, Bumper sword, Smokebomb
 		/datum/outfit/loadout/recdectribal,	// Lever shotgun, Throwing spears, Reinforced machete
@@ -408,7 +412,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
@@ -467,6 +470,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
 	exp_requirements = 720
 
+	skills_type = /datum/skill_list_bay/legion/veteran
+
 	loadout_options = list(
 		/datum/outfit/loadout/vexbear,	//	Classic FO13 Vex with his ripper: .223 pistol, Ripper
 		/datum/outfit/loadout/vexfox,	// 	Classic New Vegas Vex with his sniper: DKS sniper, Gladius
@@ -485,8 +490,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
@@ -540,6 +543,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 	exp_requirements = 300
 
+	skills_type = /datum/skill_list_bay/legion/prime/explorer
+
 	loadout_options = list(
 		/datum/outfit/loadout/expsniper,	// Scoped Hunting rifle, .45 Revolver, Machete, Smokebomb, Polarized goggles
 		/datum/outfit/loadout/expambusher,	// Trench shotgun, .45 Revolver, C-4, Machete
@@ -559,7 +564,6 @@ commented out pending rework*/
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 	name = "Legion Explorer"
@@ -620,6 +624,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/vetlegionnaire
 	exp_requirements = 600
 
+	skills_type = /datum/skill_list_bay/legion/veteran
+
 	loadout_options = list(
 		/datum/outfit/loadout/vetshielder,	// .44 DA Revolver, Shield, Gladius, Armor plate
 		/datum/outfit/loadout/vetrifle,		// Trail gun, Gladius
@@ -638,7 +644,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
@@ -700,6 +705,8 @@ commented out pending rework*/
 	exp_requirements = 120
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
 
+	skills_type = /datum/skill_list_bay/legion/prime
+
 	loadout_options = list(
 		/datum/outfit/loadout/primelancer,	// .45 Revolver, Buckler, Forged machete, Bola
 		/datum/outfit/loadout/primerifle,	// Cowboy repeater, Machete, Firebomb
@@ -719,7 +726,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
@@ -780,6 +786,8 @@ commented out pending rework*/
 	display_order = JOB_DISPLAY_ORDER_RECRUITLEG
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13recleg
 
+	skills_type = /datum/skill_list_bay/legion/recruit
+
 	loadout_options = list(
 		/datum/outfit/loadout/recruittribal,	// Lance, Bola, Big Leagues (Fresh tribal, meant to go melee)
 		/datum/outfit/loadout/recruitlegion,	// .357 Revolver, Machete, 2 x Molotovs
@@ -819,7 +827,7 @@ commented out pending rework*/
 	name = "Tribal Recruit"
 	suit_store = /obj/item/twohanded/spear/lance
 	backpack_contents = list(
-		/obj/item/book/granter/trait/bigleagues = 1,
+		/obj/item/book/granter/skill/basic/melee = 1,
 		/obj/item/restraints/legcuffs/bola = 1,
 		)
 
@@ -854,6 +862,8 @@ commented out pending rework*/
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
 	exp_requirements = 300
 
+	skills_type = /datum/skill_list_bay/legion/campduty
+
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
 	name = "Slavemaster"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13slavemaster
@@ -881,7 +891,6 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)
 
 
@@ -898,6 +907,8 @@ commented out pending rework*/
 	display_order = JOB_DISPLAY_ORDER_CAMPFOLLOWER
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13campfollower
 	exp_requirements = 300
+
+	skills_type = /datum/skill_list_bay/legion/campduty
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13campfollower
 	name = "Legion Forgemaster"
@@ -921,9 +932,7 @@ commented out pending rework*/
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_MASTER_GUNSMITH, src)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gladius)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/spatha)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lance)
@@ -947,6 +956,8 @@ commented out pending rework*/
 	display_order = JOB_DISPLAY_ORDER_AUXILIA
 	outfit = /datum/outfit/job/CaesarsLegion/auxilia
 	exp_requirements = 600
+
+	skills_type = /datum/skill_list_bay/legion/auxilia
 
 	loadout_options = list(
 		/datum/outfit/loadout/auxassist, // Tinker and keep track of the money, handle trading beneath the warriors
@@ -1027,6 +1038,8 @@ commented out pending rework*/
 	display_order = JOB_DISPLAY_ORDER_LEGIONSLAVE
 	exp_requirements = 120
 	outfit = /datum/outfit/job/CaesarsLegion/slave
+
+	skills_type = /datum/skill_list_bay/legion/slave
 
 	loadout_options = list(
 		/datum/outfit/loadout/slaveservant,
@@ -1124,12 +1137,13 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
 	exp_requirements = 1500
 
+	skills_type = /datum/skill_list_bay/legion/veteran/officer
+
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_TRIBAL, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 

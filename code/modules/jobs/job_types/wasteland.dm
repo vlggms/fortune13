@@ -60,6 +60,8 @@ Great Khan
 
 	outfit = /datum/outfit/job/wasteland/f13pusher
 
+	skills_type = /datum/skill_list_bay/outlaw
+
 	access = list(ACCESS_KHAN)
 	minimal_access = list(ACCESS_KHAN)
 
@@ -89,7 +91,7 @@ Great Khan
 	backpack =	/obj/item/storage/backpack/satchel/explorer
 	satchel = 	/obj/item/storage/backpack/satchel/explorer
 	uniform = /obj/item/clothing/under/f13/khan
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 	r_pocket = /obj/item/flashlight/flare
 	l_pocket = /obj/item/storage/bag/money/small/khan
 	backpack_contents = list(
@@ -117,7 +119,7 @@ Great Khan
 	name = "Chemist"
 	backpack_contents = list(
 		/obj/item/reagent_containers/glass/beaker/large=2, \
-		/obj/item/book/granter/trait/chemistry=1)
+		/obj/item/book/granter/skill/basic/chemistry=1)
 
 /datum/outfit/loadout/enforcer
 	name = "Enforcer"
@@ -155,6 +157,8 @@ Raider
 	exp_type = EXP_TYPE_WASTELAND
 
 	outfit = /datum/outfit/job/wasteland/f13raider
+
+	skills_type = /datum/skill_list_bay/outlaw
 
 	access = list()
 	minimal_access = list()
@@ -204,7 +208,7 @@ Raider
 	belt = null
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 	gloves = /obj/item/clothing/gloves/f13/handwraps
 	r_pocket = /obj/item/flashlight/flare
 	backpack_contents = list(
@@ -424,6 +428,8 @@ Raider
 
 	outfit = /datum/outfit/job/wasteland/f13wastelander
 
+	skills_type = /datum/skill_list_bay/wastelander
+
 	access = list()		//we can expand on this and make alterations as people suggest different loadouts
 	minimal_access = list()
 	matchmaking_allowed = list(
@@ -467,7 +473,7 @@ Raider
 	id = null
 	ears = null
 	belt = null
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 	l_pocket = /obj/item/storage/bag/money/small/wastelander
 	r_pocket = /obj/item/flashlight/flare
 	backpack = /obj/item/storage/backpack/satchel/explorer
@@ -608,6 +614,8 @@ Raider
 
 	outfit = /datum/outfit/job/wasteland/f13enforcer
 
+	skills_type = /datum/skill_list_bay/outlaw/mafia
+
 	access = list(ACCESS_DEN)
 	minimal_access = list(ACCESS_DEN)
 
@@ -641,7 +649,7 @@ Raider
 
 /datum/outfit/job/wasteland/f13enforcer/pre_equip(mob/living/carbon/human/H)
 	..()
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 
 /datum/outfit/job/wasteland/f13enforcer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -660,7 +668,7 @@ Raider
 	suit = /obj/item/clothing/suit/toggle/labcoat/chemist
 	backpack_contents = list(
 							/obj/item/reagent_containers/glass/beaker/large=2, \
-							/obj/item/book/granter/trait/chemistry=1, \
+							/obj/item/book/granter/skill/basic/chemistry=1, \
 							/obj/item/book/granter/trait/lowsurgery=1, \
 							/obj/item/ammo_box/magazine/m10mm_adv/simple=2 \
 							)
@@ -700,6 +708,8 @@ Raider
 	exp_type = EXP_TYPE_OUTLAW
 
 	outfit = /datum/outfit/job/wasteland/f13mobboss
+
+	skills_type = /datum/skill_list_bay/outlaw/mafia
 
 	access = list(ACCESS_DEN)
 	minimal_access = list(ACCESS_DEN)
@@ -742,7 +752,6 @@ Raider
 /datum/outfit/job/wasteland/f13mobboss/pre_equip(mob/living/carbon/human/H)
 	..()
 	ADD_TRAIT(H, TRAIT_MASTER_GUNSMITH, src)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
 /datum/outfit/job/wasteland/f13mobboss/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -840,6 +849,8 @@ Raider
 	selection_color = "#76885f"
 
 	outfit = /datum/outfit/job/wasteland/f13adminboos
+
+	skills_type = /datum/skill_list_bay/admin/suffering
 
 /datum/outfit/job/wasteland/f13adminboos
 	name = "Death"

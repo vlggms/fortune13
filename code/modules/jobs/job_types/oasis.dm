@@ -31,6 +31,8 @@ Mayor
 
 	exp_requirements = 1500
 
+	skills_type = /datum/skill_list_bay/citizen/mayor
+
 	outfit = /datum/outfit/job/den/f13mayor
 	access = list(ACCESS_BAR, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	minimal_access = list(ACCESS_BAR, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
@@ -48,7 +50,6 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 
 /datum/outfit/job/den/f13mayor
@@ -86,6 +87,8 @@ Mayor
 	description = "You are the Mayor's best friend, you helped them get where they are. While they handle civil matters, you've been rewarded with more hands-on work, as preferred. With your loyal patrolmen, you maintain your claim to authority by keeping the peace, and protecting the citizens from threats within and without. Never leave Oasis undefended, and don't let its people die out. You have nowhere left to go, if this town falls, so will you."
 	selection_color = "#d7b088"
 	exp_requirements = 1500
+
+	skills_type = /datum/skill_list_bay/citizen/sheriff
 
 	outfit = /datum/outfit/job/den/f13sheriff
 
@@ -153,6 +156,8 @@ Mayor
 	exp_type = EXP_TYPE_OASIS
 	exp_requirements = 600
 
+	skills_type = /datum/skill_list_bay/citizen/deputy
+
 	outfit = /datum/outfit/job/den/f13deputy
 	access = list(ACCESS_BAR, ACCESS_GATEWAY)
 	minimal_access = list(ACCESS_BAR, ACCESS_GATEWAY)
@@ -209,6 +214,8 @@ Mayor
 
 	outfit = /datum/outfit/job/den/f13farmer
 
+	skills_type = /datum/skill_list_bay/citizen
+
 	access = list(ACCESS_BAR,  ACCESS_KITCHEN)
 	minimal_access = list(ACCESS_BAR,  ACCESS_KITCHEN)
 	matchmaking_allowed = list(
@@ -263,6 +270,8 @@ Mayor
 
 	outfit = /datum/outfit/job/den/f13prospector
 
+	skills_type = /datum/skill_list_bay/citizen/prospector
+
 	access = list(ACCESS_BAR, ACCESS_MINING)
 	minimal_access = list(ACCESS_BAR, ACCESS_MINING)
 	matchmaking_allowed = list(
@@ -307,7 +316,6 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 
 /*--------------------------------------------------------------*/
@@ -324,6 +332,9 @@ Mayor
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/den/f13dendoc
+
+	skills_type = /datum/skill_list_bay/medical
+
 	access = list(ACCESS_BAR, ACCESS_CLINIC, ACCESS_CLONING)
 	minimal_access = list(ACCESS_BAR, ACCESS_CLINIC, ACCESS_CLONING)
 	matchmaking_allowed = list(
@@ -338,7 +349,6 @@ Mayor
 /datum/outfit/job/den/f13dendoc
 	name = "Doctor"
 	jobtype = /datum/job/oasis/f13dendoc
-	chemwhiz = TRUE
 	uniform = /obj/item/clothing/under/f13/medic
 	glasses = /obj/item/clothing/glasses/hud/health
 	ears = /obj/item/radio/headset/headset_town
@@ -376,6 +386,8 @@ Mayor
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/den/f13preacher
+
+	skills_type = /datum/skill_list_bay/citizen
 
 	loadout_options = list(
 		/datum/outfit/loadout/standardpreacher, //Robes, Book
@@ -541,6 +553,8 @@ Mayor
 
 	outfit = /datum/outfit/job/den/f13barkeep
 
+	skills_type = /datum/skill_list_bay/culinary
+
 	loadout_options = list(
 	/datum/outfit/loadout/rugged,
 	/datum/outfit/loadout/frontier,
@@ -622,6 +636,8 @@ Mayor
 
 	outfit = /datum/outfit/job/den/f13settler
 
+	skills_type = /datum/skill_list_bay/citizen
+
 	loadout_options = list(
 		/datum/outfit/loadout/provisioner,
 		/datum/outfit/loadout/bum,
@@ -652,7 +668,7 @@ Mayor
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	r_pocket = /obj/item/flashlight/flare
-	r_hand = /obj/item/book/granter/trait/selection
+	r_hand = /obj/item/book/granter/skill/basic/selection
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/settler = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1,
@@ -718,6 +734,8 @@ Mayor
 	supervisors = "paying clients"
 	selection_color = "#dcba97"
 	outfit = /datum/outfit/job/wasteland/f13detective
+
+	skills_type = /datum/skill_list_bay/citizen/deputy
 
 	access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
 	minimal_access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
@@ -856,6 +874,8 @@ Mayor
 	selection_color = "#dcba97"
 	exp_requirements = 600
 
+	skills_type = /datum/skill_list_bay/citizen/shopkeeper
+
 	outfit = /datum/outfit/job/den/f13shopkeeper
 	access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
@@ -888,7 +908,6 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_MASTER_GUNSMITH, src)
 

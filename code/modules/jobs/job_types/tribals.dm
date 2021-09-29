@@ -5,8 +5,9 @@
 	forbids = "The use of pre-collapse technology, especially pre-collapse weapons of war."
 	enforces = "The tribe operate as if they are a part of a singular clan. Any harm dealt upon another member is likened to harm placed upon your brother or sister. Above all things, the tribe comes first."
 	objectivesList = list("Leadership recommends the following goal for this week: Recruit worthy outlanders into the tribe","Leadership recommends the following goal for this week: Hunt dangerous creatures to improve the clan's standing", "Leadership recommends the following goal for this week: Preserve dangerous technology to prevent it from falling into the wrong hands.")
+	skills_type = /datum/skill_list_bay/tribal
 
-/datum/outfit/job/tribal/
+/datum/outfit/job/tribal
 	name = "TRIBALdatums"
 	jobtype = /datum/job/tribal/
 	shoes = 		/obj/item/clothing/shoes/sandal
@@ -54,6 +55,8 @@ Tribal Chief
 	outfit = /datum/outfit/job/tribal/f13chief
 	exp_requirements = 2400
 
+	skills_type = /datum/skill_list_bay/tribal/chief
+
 	access = list(ACCESS_TRIBE)
 	minimal_access = list(ACCESS_TRIBE)
 
@@ -62,7 +65,6 @@ Tribal Chief
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/tribal/f13chief
 	name = "Chief"
@@ -96,6 +98,8 @@ Tribal Shaman
 	description = "The spiritual leader and cultural core of the Wayfarer Tribe. You aid villagers in their day to day lives by offering guidance and advice, while also acting as the direct aid to the chief. You are the guardian of the tribe's customs, their health, and knowledge."
 	selection_color = "#006666"
 	exp_requirements = 1800
+
+	skills_type = /datum/skill_list_bay/tribal/druid/shaman
 
 	outfit = /datum/outfit/job/tribal/f13shaman
 
@@ -172,6 +176,8 @@ Tribal Head Hunter
 	selection_color = "#006666"
 	exp_requirements = 1800
 
+	skills_type = /datum/skill_list_bay/tribal/hunter/head
+
 	outfit = /datum/outfit/job/tribal/f13Hhunter
 	access = list(ACCESS_TRIBE)
 	minimal_access = list(ACCESS_TRIBE)
@@ -192,7 +198,6 @@ Tribal Head Hunter
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/tribal/f13Hhunter
 	name = "Hunter"
@@ -225,6 +230,8 @@ Druid
 	description = "You are a Druid in the tribe; you perform rituals, and bless pre-collapse relics and other artifacts for the tribe to use. You also are the spiritual guides of the tribe, and work with the Shaman during rituals or other spiritual matters."
 	selection_color = "#006666"
 	exp_requirements = 600
+
+	skills_type = /datum/skill_list_bay/tribal/druid
 
 	outfit = /datum/outfit/job/tribal/f13druid
 	access = list(ACCESS_TRIBE)
@@ -282,6 +289,8 @@ Villager
 	description = "A proud member of the Wayfarer tribe, you do what needs to be done to ensure the survival of yourself and your people while following the laws of the tribe. While it is common to venture out into the wasteland, do not tread far or without informing your kin."
 	selection_color = "#006666"
 	exp_requirements = 300
+
+	skills_type = /datum/skill_list_bay/tribal/villager
 
 	outfit = /datum/outfit/job/tribal/f13villager
 
@@ -378,6 +387,8 @@ Hunter
 	selection_color = "#006666"
 	exp_requirements = 900
 
+	skills_type = /datum/skill_list_bay/tribal/hunter
+
 	outfit = /datum/outfit/job/tribal/f13hunter
 
 	access = list(ACCESS_TRIBE)
@@ -408,7 +419,6 @@ Hunter
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/tribal/f13hunter
 	name = "Hunter"
@@ -496,6 +506,9 @@ Guardian
 	selection_color = "#006666"
 	exp_requirements = 900
 
+
+	skills_type = /datum/skill_list_bay/tribal/guardian
+
 	outfit = /datum/outfit/job/tribal/f13guardian
 
 	access = list(ACCESS_TRIBE)
@@ -506,7 +519,6 @@ Guardian
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/tribal/f13guardian
 	name = "Guardian"
