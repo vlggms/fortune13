@@ -16811,8 +16811,7 @@
 /area/f13/vault)
 "viI" = (
 /obj/structure/table,
-/obj/item/book/granter/trait/chemistry{
-	name = "Chemistry for Vault Dwellers";
+/obj/item/book/granter/skill/basic/chemistry{
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,

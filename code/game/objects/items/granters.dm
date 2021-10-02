@@ -986,6 +986,7 @@
 	name = "basic salvaging guide"
 	desc = "This guide tells you how to disassemble wrecks."
 	greet = "You now understand how to get more salvage out of wrecks."
+	skill_type = "salvaging"
 	remarks = list("Oh, so that's why we can't use explosives for it.", "Welding tool should be on..?", "Wait, what the fuck is plasteel?", "So that's why there are so many knives in the cars...", "I can find a fusion reactor if I try well enough..?")
 
 /obj/item/book/granter/skill/basic/medical

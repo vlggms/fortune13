@@ -2282,7 +2282,7 @@
 /area/f13/den)
 "sp" = (
 /obj/structure/table,
-/obj/item/book/granter/trait/chemistry,
+/obj/item/book/granter/skill/basic/chemistry,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -4578,7 +4578,7 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/book/granter/trait/chemistry{
+/obj/item/book/granter/skill/basic/chemistry{
 	pixel_x = -2
 	},
 /turf/open/floor/f13/wood,

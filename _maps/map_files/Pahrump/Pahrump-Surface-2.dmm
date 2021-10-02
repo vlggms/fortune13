@@ -45364,7 +45364,7 @@
 	},
 /area/f13/village)
 "vhE" = (
-/obj/item/book/granter/trait/chemistry,
+/obj/item/book/granter/skill/basic/chemistry,
 /obj/item/circuitboard/machine/sleeper,
 /obj/structure/rack,
 /turf/open/floor/f13{
