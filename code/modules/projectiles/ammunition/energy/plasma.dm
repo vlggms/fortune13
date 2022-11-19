@@ -48,6 +48,10 @@
 /obj/item/ammo_casing/energy/plasma/pistol/glock/extended
 	e_cost = 80 //20 shots
 
+/obj/item/ammo_casing/energy/plasma/mounted_caster
+	projectile_type = /obj/item/projectile/f13plasma/plasmacaster/repeater
+	e_cost = 100
+
 /obj/item/ammo_casing/energy/plasma/pistol/alien
 	projectile_type = /obj/item/projectile/f13plasma/pistol/alien
 	select_name = "alien projectile"

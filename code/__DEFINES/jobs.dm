@@ -153,15 +153,12 @@
 
 #define ENCLAVE			(1<<9)
 
-#define F13USCPT		(1<<0)
-#define F13USLT			(1<<1)
-#define F13USGYSGT		(1<<2)
-#define F13USSGT		(1<<3)
-#define F13USSCIENTIST	(1<<4)
-#define F13USSPECIALIST	(1<<5)
-#define F13USPRIVATE	(1<<6)
-#define F13USBDUTY      (1<<7)
-#define F13USAI			(1<<8)
+#define F13ENCLAVELT		(1<<0)
+#define F13ENCLAVEDRILL		(1<<1)
+#define F13ENCLAVESGT		(1<<2)
+#define F13ENCLAVESCIENTIST	(1<<3)
+#define F13ENCLAVEPRIVATE	(1<<4)
+#define F13ENCLAVERECRUIT	(1<<5)
 
 #define TRIBAL			(1<<10)
 

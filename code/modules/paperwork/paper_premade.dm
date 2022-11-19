@@ -247,11 +247,59 @@
 	Aquire Xander root,broc flowers,barrel cactii and bottles of Sarsaparilla.
 	<br>
 	Step 2
-	<br> 
-	Ferment Xander root,barrel cactii and broc flowers seperate. 
+	<br>
+	Ferment Xander root,barrel cactii and broc flowers seperate.
 	<br>
 	<b>Step 3
 	<br>
 	Mix the fermented results of Xander root, barrel cactii,broc flowers and Sarsaparilla together in a large glass beaker.</b>
 	<br>
 	Bitter drink should be the result which can then be bottled by crafting. It is a very potent drink, so more than two should not be consumed."}
+
+/* Enclave */
+/obj/item/paper/enclave_password
+	name = "official information"
+	icon_state = "paper_usa"
+	var/truth_chance = 100
+
+/obj/item/paper/enclave_password/Initialize(mapload)
+	. = ..()
+	var/passcode
+	if(prob(truth_chance))
+		passcode = GLOB.enclavepassword
+	else
+		passcode = pick(GLOB.word_passwords)
+		if(passcode == GLOB.enclavepassword)
+			passcode = "\[REDACTED\]"
+	set_info(passcode)
+
+/obj/item/paper/enclave_password/proc/set_info(passcode)
+	info = {"Welcome and congratulations on becoming a soldier of the Enclave!"
+	<br>
+	To enter the nearest outpost, however, you'll need a special passcode.
+	<br>
+	Once you have gained attention of any Enclave officer, tell them this phrase: <b>[passcode]</b>"}
+
+/obj/item/paper/enclave_password/old
+	name = "old notification"
+	icon_state = "paper_words"
+	truth_chance = 5
+
+/obj/item/paper/enclave_password/report
+	name = "intelligence report"
+	icon_state = "paper_words"
+	truth_chance = 35
+
+/obj/item/paper/enclave_password/report/set_info(passcode)
+	info = {"On our lattest operation we have found out that the Enclave forces are using some sort of a pass-code at the entrance to the Navarro camp."
+	<br>
+	We've been listening in for a long time now, and we're pretty sure that the phrase they've been consistently using is: <b>[passcode]</b>.
+	<br>
+	We know that this password is issued to all recruits sent from somewhere else, so we would be able to infiltrate the base with ease."}
+
+/obj/item/paper/enclave_password/at_base/set_info(passcode)
+	info = {"We have been notified of recent enemy activities in the region. Colonel has ordered to elevate security level to Red - Attack is probably imminent, be on lookout at all times."
+	<br>
+	We've also found out that there might have been spies operating in your area, so we are changing the password to: <b>[passcode]</b>.
+	<br>
+	We will be sending more recruits your way, make sure all of them know the correct password. If you have doubts about any recruits keep in mind that they might be an enemy infiltrator."}

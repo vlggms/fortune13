@@ -13,12 +13,17 @@ Format:
 	disabled (disables the map)
 endmap
 
-map pahrump
+map navarro
 	default
 endmap
+
+map pahrump
+endmap
+
 map stjeromesvalley
 	disabled
 endmap
+
 map sunnyvale
 	voteweight 0
 endmap

@@ -32,7 +32,13 @@
 							  /obj/item/stack/f13Cash/random/ncr/ncrpay_basic,
 							  /obj/item/stack/f13Cash/random/ncr/ncrpay_veteran,
 							  /obj/item/stack/f13Cash/random/ncr/ncrpay_officer,
-							  /obj/item/stack/f13Cash/random/ncr)
+							  /obj/item/stack/f13Cash/random/ncr,
+							  /obj/item/stack/f13Cash/random/enclave/low,
+							  /obj/item/stack/f13Cash/random/enclave/med,
+							  /obj/item/stack/f13Cash/random/enclave/high,
+							  /obj/item/stack/f13Cash/random/enclave/vhigh,
+							  /obj/item/stack/f13Cash/random/enclave,
+							  )
 
 	var/list/paths = subtypesof(/obj/item/stack) - blacklist
 

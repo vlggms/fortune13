@@ -450,6 +450,12 @@
 			icon_state = "mfc-empty"
 	. = ..()
 
+/obj/item/stock_parts/cell/ammo/internal // For use in arm-mounted plasma-caster
+	name = "internal power cell"
+	desc = "An advanced power cell that is used for powering up the plasma-caster. How did you get it out of it anyway..?"
+	icon_state = "ultracite"
+	maxcharge = 4000
+
 /obj/item/stock_parts/cell/ammo/ultracite
 	name = "ultracite cell"
 	desc = "An advanced ultracite cell, used as ammunition for special energy weapons."

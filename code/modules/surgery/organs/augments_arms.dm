@@ -14,6 +14,10 @@
 	var/obj/item/holder = null
 	// You can use this var for item path, it would be converted into an item on New()
 
+	var/retract_sound = 'sound/mecha/mechmove03.ogg'
+	var/extend_sound = 'sound/mecha/mechmove03.ogg'
+	var/snd_volume = 50
+
 /obj/item/organ/cyberimp/arm/Initialize()
 	. = ..()
 	if(ispath(holder))
@@ -99,7 +103,7 @@
 
 	owner.transferItemToLoc(holder, src, TRUE)
 	holder = null
-	playsound(get_turf(owner), 'sound/mecha/mechmove03.ogg', 50, 1)
+	playsound(get_turf(owner), retract_sound, snd_volume, 1)
 
 /obj/item/organ/cyberimp/arm/proc/Extend(obj/item/item)
 	if(!(item in src))
@@ -131,7 +135,7 @@
 	owner.visible_message("<span class='notice'>[owner] extends [holder] from [owner.p_their()] [zone == BODY_ZONE_R_ARM ? "right" : "left"] arm.</span>",
 		"<span class='notice'>You extend [holder] from your [zone == BODY_ZONE_R_ARM ? "right" : "left"] arm.</span>",
 		"<span class='italics'>You hear a short mechanical noise.</span>")
-	playsound(get_turf(owner), 'sound/mecha/mechmove03.ogg', 50, 1)
+	playsound(get_turf(owner), extend_sound, snd_volume, 1)
 	return TRUE
 
 /obj/item/organ/cyberimp/arm/ui_action_click()
@@ -268,6 +272,14 @@
 	name = "arm-mounted energy blade"
 	desc = "An illegal and highly dangerous cybernetic implant that can project a deadly blade of concentrated energy."
 	contents = newlist(/obj/item/melee/transforming/energy/blade/hardlight)
+
+/obj/item/organ/cyberimp/arm/gun/plasma_caster
+	name = "arm-mounted plasma-caster implant"
+	desc = "A variant of the arm cannon implant that fires lethal laser beams. The cannon emerges from the subject's arm and remains inside when not in use."
+	icon_state = "arm_laser"
+	contents = newlist(/obj/item/gun/energy/laser/plasma/mounted)
+	extend_sound = 'sound/f13weapons/equipsounds/plasequip.ogg'
+	snd_volume = 85 // Scary, ooo
 
 //removed
 /obj/item/organ/cyberimp/arm/shield

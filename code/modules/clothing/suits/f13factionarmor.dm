@@ -910,9 +910,9 @@
 	icon_state = "enclave_seva"
 	item_state = "enclave_seva"
 
-/obj/item/clothing/suit/armor/f13/combat/swat/enclave
+/obj/item/clothing/suit/armor/f13/combat/mk2/enclave
 	name = "enclave combat armor"
-	desc = "A set of standard issue combat armor used by the Enclave. Looks Cheaply made."
+	desc = "A set of standard issue combat armor used by the Enclave."
 	icon_state = "Enclave_combatarmor"
 	item_state = "Enclave_combatarmor"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS

@@ -817,42 +817,29 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Detective"
 
 // Enclave
+/obj/effect/landmark/start/f13/enclave_recruit
+	name = "Enclave Recruit"
+	icon_state = "Settler"
 
-/obj/effect/landmark/start/f13/uscpt
-	name = "Enclave Captain"
-	icon_state = "usgunnery"
-
-/obj/effect/landmark/start/f13/uslt
-	name = "Enclave Lieutenant"
-	icon_state = "uslt"
-
-/obj/effect/landmark/start/f13/usgysgt
-	name = "Enclave Gunnery Sergeant"
-	icon_state = "usgunnery"
-
-/obj/effect/landmark/start/f13/ussgt
-	name = "Enclave Sergeant"
-	icon_state = "ussgt"
-
-/obj/effect/landmark/start/f13/usai
-	name = "Enclave Armored Infantry"
-	icon_state = "ussgt"
-
-/obj/effect/landmark/start/f13/usspecialist
-	name = "Enclave Specialist"
-	icon_state = "usoffduty"
-
-/obj/effect/landmark/start/f13/usspy
+/obj/effect/landmark/start/f13/enclave_private
 	name = "Enclave Private"
-	icon_state = "uspvt"
+	icon_state = "Enclave Private"
 
-/obj/effect/landmark/start/f13/usscientist
+/obj/effect/landmark/start/f13/enclave_scientist
 	name = "Enclave Scientist"
-	icon_state = "usscientist"
+	icon_state = "Enclave Scientist"
 
-/obj/effect/landmark/start/f13/uslightduty
-	name = "Enclave Bunker Duty"
-	icon_state = "usoffduty"
+/obj/effect/landmark/start/f13/enclave_sergeant
+	name = "Enclave Sergeant"
+	icon_state = "Enclave Sergeant"
+
+/obj/effect/landmark/start/f13/enclave_drill_instructor
+	name = "Enclave Drill Instructor"
+	icon_state = "Enclave Drill Instructor"
+
+/obj/effect/landmark/start/f13/enclave_lieutenant
+	name = "Enclave Lieutenant"
+	icon_state = "Enclave Lieutenant"
 
 //Tribal
 

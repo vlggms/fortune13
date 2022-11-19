@@ -80,6 +80,15 @@
 	// ~75 worth of ncr money
 	new /obj/item/stack/f13Cash/random/ncr/med(src)
 
+// Enclave
+/obj/item/storage/bag/money/small/enclave/PopulateContents()
+	new /obj/item/stack/f13Cash/random/enclave/med(src)
+	new /obj/item/stack/f13Cash/random/enclave/med(src)
+
+/obj/item/storage/bag/money/small/enclave/officer/PopulateContents()
+	new /obj/item/stack/f13Cash/random/enclave/vhigh(src)
+	new /obj/item/stack/f13Cash/random/enclave/vhigh(src)
+
 // Den reserves. Spawns with the Sheriff.
 /obj/item/storage/bag/money/small/den/PopulateContents()
 	// ~225 worth of assorted money

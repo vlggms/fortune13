@@ -1284,6 +1284,26 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "state_trooper"
 	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
+//Chinese Army
+
+/obj/item/clothing/head/f13/chinese_soldier
+	name = "chinese side cap"
+	desc = "A pre-war People's Liberation Army side cap, worn enlisted and NCOs"
+	icon_state = "chinese_soldier"
+	item_state = "chinese_soldier"
+
+/obj/item/clothing/head/f13/chinese_officer
+	name = "chinese officer cap"
+	desc = "A pre-war People's Liberation Army cap, worn by low rankedi officers."
+	icon_state = "chinese_officer"
+	item_state = "chinese_officer"
+
+/obj/item/clothing/head/f13/chinese_general
+	name = "chinese peaked cap"
+	desc = "A pre-war People's Liberation Army peaked cap, worn by high ranked officers and generals."
+	icon_state = "chinese_general"
+	item_state = "chinese_general"
+
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
 //IF PUT BACK INTO USE, PLEASE FILE IT BACK SOMEWHERE ABOVE
@@ -1384,9 +1404,8 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "enclave_cap"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 40) // On par with BoS Initiate
 
-/obj/item/clothing/head/helmet/f13/combat/enclave
+/obj/item/clothing/head/helmet/f13/combat/mk2/enclave
 	name = "enclave combat helmet"
 	desc = "An intimidating helmet that is issued with it's corresponding suit."
 	icon_state = "enclave_new"
 	item_state = "enclave_new"
-	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)

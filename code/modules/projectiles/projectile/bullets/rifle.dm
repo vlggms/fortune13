@@ -314,6 +314,11 @@ heavy rifle calibers (12.7, 14mm, 7.62): Uranium, Contaminated, Incin
 	damage = 19
 	armour_penetration = 0.5
 
+// Turrets at Navarro use it
+/obj/item/projectile/bullet/c5mm/turret
+	damage = 14
+	armour_penetration = 0.35
+	pixels_per_second = TILES_TO_PIXELS(45)
 
 /////////////////////////
 //2 MM ELECTROMAGNETIC //

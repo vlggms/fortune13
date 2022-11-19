@@ -182,6 +182,13 @@
 	item_state = "legionflag"
 	faction = FACTION_LEGION
 
+/obj/item/flag/enclave
+	name = "Enclave flag"
+	desc = "A grey flag with a big \"E\" in the center with stars surrounding it."
+	icon_state = "enclaveflag"
+	item_state = "enclaveflag"
+	faction = FACTION_ENCLAVE
+
 /obj/item/flag/oasis
 	name = "Oasis flag"
 	desc = "A flag depicting a stylised pink flower on a green background. It's the symbol of the town of Oasis."

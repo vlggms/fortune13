@@ -783,6 +783,31 @@
 		addtimer(CALLBACK(src, .proc/shootAt, target), 15)
 		return TRUE
 
+/obj/machinery/porta_turret/syndicate/navarro
+	name = "minigun turret"
+	faction = list("Enclave")
+	max_integrity = 250
+	scan_range = 8
+	shot_delay = 2
+	mode = TURRET_LETHAL
+	stun_projectile = /obj/item/projectile/bullet/c5mm/turret
+	lethal_projectile = /obj/item/projectile/bullet/c5mm/turret
+	nonlethal_projectile = /obj/item/projectile/bullet/c5mm/turret
+	armor = list("melee" = 30, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 80, "bio" = 0, "rad" = 0, "fire" = 90, "acid" = 90)
+
+/obj/machinery/porta_turret/syndicate/navarro/target(atom/movable/target)
+	if(target)
+		setDir(get_dir(base, target))
+		shootAt(target)
+		addtimer(CALLBACK(src, .proc/shootAt, target), 2)
+		addtimer(CALLBACK(src, .proc/shootAt, target), 4)
+		addtimer(CALLBACK(src, .proc/shootAt, target), 6)
+		addtimer(CALLBACK(src, .proc/shootAt, target), 8)
+		return TRUE
+
+/obj/machinery/porta_turret/syndicate/navarro/interact(mob/user)
+	return
+
 /obj/machinery/porta_turret/ai
 	faction = list("silicon")
 	nonlethal_projectile = /obj/item/projectile/beam/disabler
