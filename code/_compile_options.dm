@@ -16,9 +16,9 @@
 
 */
 
-//#define TESTING				
+//#define TESTING
 //By using the testing("message") proc you can create debug-feedback for people with this
-								//uncommented, but not visible in the release version) 
+								//uncommented, but not visible in the release version)
 //#define DATUMVAR_DEBUGGING_MODE	//Enables the ability to cache datum vars and retrieve later for debugging which vars changed.
 
 // Comment this out if you are debugging problems that might be obscured by custom error handling in world/Error
@@ -34,13 +34,13 @@
 *
 * * Requires TESTING to be defined to work.
 */
-//#define REFERENCE_TRACKING  
+//#define REFERENCE_TRACKING
 
 //#define REFERENCE_TRACKING_DEBUG
 
-///Method of tracking references without using extools. Slower, kept to avoid over-reliance on extools.
-//#define LEGACY_REFERENCE_TRACKING
-#ifdef LEGACY_REFERENCE_TRACKING
+///Used to find the sources of harddels, quite laggy, don't be surpised if it freezes your client for a good while
+//#define REFERENCE_TRACKING
+#ifdef REFERENCE_TRACKING
 
 ///Use the legacy reference on things hard deleting by default.
 //#define GC_FAILURE_HARD_LOOKUP
@@ -48,7 +48,7 @@
 #define FIND_REF_NO_CHECK_TICK
 #endif //ifdef GC_FAILURE_HARD_LOOKUP
 
-#endif //ifdef LEGACY_REFERENCE_TRACKING
+#endif //ifdef REFERENCE_TRACKING
 
 //#define VISUALIZE_ACTIVE_TURFS	//Highlights atmos active turfs in green
 
@@ -70,7 +70,12 @@
 #if DM_VERSION < MIN_COMPILER_VERSION || DM_BUILD < MIN_COMPILER_BUILD
 //Don't forget to update this part
 #error Your version of BYOND is too out-of-date to compile this project. Go to https://secure.byond.com/download and update.
-#error You need version 513.1508 or higher
+#error You need version 513.1514 or higher
+#endif
+
+//Don't load extools on 514 and 513.1539+
+#if DM_VERSION < 514 && DM_BUILD < 1540
+#define USE_EXTOOLS
 #endif
 
 //Additional code for the above flags.
