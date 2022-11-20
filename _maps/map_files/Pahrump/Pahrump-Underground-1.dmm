@@ -2035,7 +2035,7 @@
 /area/f13/tunnel)
 "buz" = (
 /obj/structure/chair/office/dark,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "neutralrustyfull"
 	},
@@ -7713,11 +7713,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/enclave)
-"fcS" = (
-/obj/effect/landmark/start/f13/uslightduty,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/grimy,
-/area/f13/enclave)
 "fcV" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag{
@@ -7984,10 +7979,6 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
-"flZ" = (
-/obj/effect/landmark/start/f13/uscpt,
-/turf/open/floor/carpet/black,
-/area/f13/enclave)
 "fmg" = (
 /obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood{
@@ -11459,10 +11450,6 @@
 	icon_state = "tunnelrusty"
 	},
 /area/f13/enclave)
-"hBY" = (
-/obj/effect/landmark/start/f13/uslightduty,
-/turf/open/floor/wood/f13/old,
-/area/f13/enclave)
 "hCA" = (
 /obj/machinery/button/door{
 	id = "okay";
@@ -11879,7 +11866,7 @@
 "hTU" = (
 /obj/structure/chair/f13foldupchair,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -12049,13 +12036,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/bunker)
-"ibb" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/start/f13/usspecialist,
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
-/area/f13/enclave)
 "ibg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -15509,13 +15489,6 @@
 	icon_state = "casino"
 	},
 /area/f13/enclave)
-"kQN" = (
-/obj/effect/landmark/start/f13/usspecialist,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/enclave)
 "kQO" = (
 /obj/item/storage/trash_stack{
 	icon_state = "trash_2"
@@ -15600,7 +15573,7 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "kVA" = (
-/obj/effect/landmark/start/f13/ussgt,
+/obj/effect/landmark/start/f13/enclave_sergeant,
 /obj/item/radio/intercom{
 	frequency = 1367;
 	name = "Vault Intercom";
@@ -16969,7 +16942,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood)
 "mcD" = (
-/obj/effect/landmark/start/f13/ussgt,
+/obj/effect/landmark/start/f13/enclave_sergeant,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/enclave)
 "mcL" = (
@@ -17344,7 +17317,7 @@
 /area/f13/caves)
 "mvM" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -21685,7 +21658,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/bunker)
 "qgb" = (
-/obj/effect/landmark/start/f13/usspecialist,
 /obj/structure/chair/folding,
 /turf/open/floor/f13{
 	icon_state = "bluerustyfull"
@@ -24393,7 +24365,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "sgP" = (
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/enclave)
@@ -25715,7 +25687,7 @@
 /turf/open/floor/carpet/red,
 /area/f13/den)
 "tpy" = (
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /obj/structure/fans/tiny{
 	pixel_y = 32
 	},
@@ -26298,7 +26270,7 @@
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "tNP" = (
-/obj/effect/landmark/start/f13/uslt,
+/obj/effect/landmark/start/f13/enclave_lieutenant,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "casino"
 	},
@@ -28578,7 +28550,7 @@
 	},
 /area/f13/clinic)
 "vHR" = (
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /obj/item/radio/intercom{
 	frequency = 1367;
 	name = "Vault Intercom";
@@ -28777,7 +28749,7 @@
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood)
 "vMX" = (
-/obj/effect/landmark/start/f13/usgysgt,
+/obj/effect/landmark/start/f13/enclave_drill_instructor,
 /turf/open/floor/plating/tunnel,
 /area/f13/enclave)
 "vNj" = (
@@ -28973,11 +28945,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/rust,
 /area/f13/den)
-"vUa" = (
-/obj/effect/landmark/start/f13/usai,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/enclave)
 "vVx" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/water,
@@ -33638,7 +33605,7 @@ mES
 xQW
 ijw
 uqc
-kQN
+wHP
 jtf
 dpO
 wHP
@@ -33655,7 +33622,7 @@ uKd
 snF
 ijw
 uGQ
-vUa
+ycB
 lkf
 blI
 lFd
@@ -36204,7 +36171,7 @@ uxZ
 jNF
 ijw
 cWk
-flZ
+pbW
 pbW
 pbW
 pbW
@@ -38006,13 +37973,13 @@ ulY
 mRt
 eFp
 ijw
-ibb
+xQW
 mES
 mES
 ijw
 ijw
 iqQ
-fcS
+xvk
 xvk
 xvk
 xvk
@@ -38788,7 +38755,7 @@ xvk
 ijw
 lJQ
 skD
-hBY
+skD
 vGE
 uQR
 fAE

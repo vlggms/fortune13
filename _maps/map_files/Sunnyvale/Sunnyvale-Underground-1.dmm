@@ -651,12 +651,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/freezer,
 /area/f13/enclave)
-"aPt" = (
-/obj/effect/landmark/start/f13/uslightduty,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/enclave)
 "aPS" = (
 /turf/closed/wall/f13/wood/house/broken,
 /area/f13/building)
@@ -2333,7 +2327,7 @@
 "cRy" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 9
 	},
@@ -2357,7 +2351,6 @@
 "cTp" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/uslightduty,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 1
 	},
@@ -2679,7 +2672,7 @@
 "dpr" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /turf/open/floor/plasteel/dark,
 /area/f13/enclave)
 "dpW" = (
@@ -3143,7 +3136,7 @@
 "dRP" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 8
 	},
@@ -3586,7 +3579,6 @@
 "err" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/uslightduty,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 5
 	},
@@ -4575,7 +4567,7 @@
 "fEw" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /turf/open/floor/plasteel/darkyellow/side,
 /area/f13/enclave)
 "fEL" = (
@@ -4929,7 +4921,7 @@
 /area/f13/enclave)
 "fXQ" = (
 /obj/structure/bed/pod,
-/obj/effect/landmark/start/f13/uslt,
+/obj/effect/landmark/start/f13/enclave_lieutenant,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "fYu" = (
@@ -6201,7 +6193,7 @@
 /area/f13/bunker)
 "hya" = (
 /obj/structure/chair/office/dark,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/enclave)
 "hyh" = (
@@ -7199,14 +7191,6 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
-"iFp" = (
-/obj/structure/bed/pod,
-/obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/uslightduty,
-/turf/open/floor/plasteel/darkyellow/side{
-	dir = 4
-	},
-/area/f13/enclave)
 "iFA" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -10176,7 +10160,7 @@
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
-/obj/effect/landmark/start/f13/ussgt,
+/obj/effect/landmark/start/f13/enclave_sergeant,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "lYS" = (
@@ -11832,7 +11816,7 @@
 /area/f13/building)
 "nSa" = (
 /obj/structure/chair/office/dark,
-/obj/effect/landmark/start/f13/ussgt,
+/obj/effect/landmark/start/f13/enclave_sergeant,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "nSc" = (
@@ -13629,7 +13613,6 @@
 "pNw" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspecialist,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 6
 	},
@@ -15002,10 +14985,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"rpY" = (
-/obj/effect/landmark/start/f13/uscpt,
-/turf/open/floor/plasteel/grimy,
-/area/f13/enclave)
 "rpZ" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/indestructible/ground/inside/mountain,
@@ -15474,7 +15453,6 @@
 "rMa" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspecialist,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 4
 	},
@@ -15902,7 +15880,6 @@
 "sjK" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/uslightduty,
 /turf/open/floor/plasteel/dark,
 /area/f13/enclave)
 "sjZ" = (
@@ -16665,7 +16642,7 @@
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/enclave)
 "tco" = (
@@ -16810,7 +16787,7 @@
 "tjx" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 8
 	},
@@ -17088,7 +17065,7 @@
 /area/f13/building)
 "tuM" = (
 /obj/structure/bed/pod,
-/obj/effect/landmark/start/f13/usgysgt,
+/obj/effect/landmark/start/f13/enclave_drill_instructor,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
@@ -17738,7 +17715,7 @@
 /area/f13/tunnel)
 "uls" = (
 /obj/structure/chair/office/dark,
-/obj/effect/landmark/start/f13/usscientist,
+/obj/effect/landmark/start/f13/enclave_scientist,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "ulH" = (
@@ -20626,7 +20603,7 @@
 "xeU" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/usspy,
+/obj/effect/landmark/start/f13/enclave_private,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 10
 	},
@@ -95612,7 +95589,7 @@ fUC
 fUC
 sZM
 cjT
-rpY
+gUI
 jqN
 gUI
 xbH
@@ -104074,7 +104051,7 @@ lBK
 sZM
 err
 gIz
-iFp
+rMa
 vus
 rMa
 bZr
@@ -105275,8 +105252,8 @@ hWo
 oOR
 mxg
 sZM
-aPt
-aPt
+lBK
+lBK
 sZM
 sZM
 fUC
@@ -105677,8 +105654,8 @@ tmb
 not
 sZM
 sZM
-aPt
-aPt
+lBK
+lBK
 sZM
 sZM
 fUC

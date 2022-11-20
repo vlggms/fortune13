@@ -2359,6 +2359,13 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
+"kI" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrtrooper,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "kK" = (
 /turf/closed/indestructible/f13/matrix,
 /area/f13/caves)
@@ -3092,6 +3099,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/ncr)
+"nU" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrtrooper,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
 "nV" = (
 /obj/machinery/light{
 	dir = 1
@@ -3568,6 +3585,13 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/village)
+"qd" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrtrooper,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
 "qf" = (
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/structure/closet/fridge,
@@ -5701,6 +5725,14 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"zY" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrtrooper,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/ncr)
 "zZ" = (
 /obj/structure/car/rubbish4,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -6279,6 +6311,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
+/obj/effect/landmark/start/f13/ncrtrooper,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "Cp" = (
@@ -9091,6 +9124,10 @@
 	icon_state = "verticalrightborderright2bottom"
 	},
 /area/f13/wasteland)
+"OV" = (
+/obj/effect/landmark/start/f13/ncrtrooper,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "OW" = (
 /obj/machinery/light,
 /obj/effect/landmark/latejoin,
@@ -17524,11 +17561,11 @@ TU
 TU
 XT
 kr
-LW
+nU
 Wo
 Wo
 Wo
-YC
+zY
 kr
 hf
 zb
@@ -18038,11 +18075,11 @@ YV
 kr
 kr
 YV
+qd
 Wo
 Wo
 Wo
-Wo
-Wo
+qd
 YV
 hf
 zb
@@ -19316,10 +19353,10 @@ kr
 Aa
 Aa
 Aa
+OV
 Bx
 Bx
-Bx
-Aa
+kI
 Aa
 sl
 kr
@@ -19830,7 +19867,7 @@ YV
 Bx
 Aa
 Aa
-Bx
+OV
 Bx
 Aa
 Cn
