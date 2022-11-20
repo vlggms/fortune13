@@ -12,7 +12,7 @@
 "aaK" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/greenglow,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier7,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier6,
 /obj/machinery/light/broken{
 	dir = 1
 	},
@@ -132,16 +132,13 @@
 	dir = 4
 	},
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/armor/random_high,
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
 /obj/effect/spawner/lootdrop/f13/medical/vault/equipment,
 /turf/open/floor/plating/tunnel,
 /area/f13/bunker)
 "aKA" = (
-/obj/effect/mine/stun{
-	layer = 2
-	},
 /obj/structure/stone_tile/block/cracked,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
@@ -182,7 +179,7 @@
 /area/f13/bunker)
 "bKx" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
@@ -192,9 +189,6 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/bunker)
 "bXs" = (
-/obj/effect/mine/stun{
-	layer = 2
-	},
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
@@ -538,7 +532,7 @@
 /area/f13/bunker)
 "iSZ" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/bunker)
@@ -936,16 +930,6 @@
 /obj/item/reagent_containers/glass/bottle/FEV_solution,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
 /area/f13/bunker)
-"qlY" = (
-/obj/effect/mine/stun{
-	layer = 2
-	},
-/obj/structure/stone_tile/block{
-	dir = 1
-	},
-/obj/structure/stone_tile/block,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
 "qnU" = (
 /mob/living/simple_animal/hostile/fireant,
 /turf/open/floor/plating/tunnel,
@@ -979,8 +963,8 @@
 /area/f13/bunker)
 "rhh" = (
 /obj/structure/closet/crate/large,
-/obj/item/gun/ballistic/automatic/tribalbow,
-/obj/item/gun/ballistic/automatic/tribalbow,
+/obj/item/gun/ballistic/bow/tribal,
+/obj/item/gun/ballistic/bow/tribal,
 /obj/effect/decal/remains/human,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
@@ -1166,18 +1150,6 @@
 /obj/structure/stone_tile/slab/burnt,
 /obj/structure/necropolis_gate{
 	name = "temple gate"
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/bunker)
-"tvt" = (
-/obj/effect/mine/stun{
-	layer = 2
-	},
-/obj/structure/stone_tile/block/cracked{
-	dir = 4
-	},
-/obj/structure/stone_tile/block/cracked{
-	dir = 8
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
@@ -1584,22 +1556,6 @@
 	speed = 1.2
 	},
 /turf/open/floor/plating/tunnel,
-/area/f13/bunker)
-"xHR" = (
-/obj/effect/mine/stun{
-	layer = 2
-	},
-/obj/structure/stone_tile{
-	dir = 4
-	},
-/obj/structure/stone_tile/burnt,
-/obj/structure/stone_tile/cracked{
-	dir = 1
-	},
-/obj/structure/stone_tile{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
 "xNL" = (
 /obj/structure/stone_tile/block{
@@ -13260,7 +13216,7 @@ uRH
 tNf
 nWu
 bIl
-xHR
+ugF
 tGp
 sSy
 wkT
@@ -13519,7 +13475,7 @@ eRJ
 dxL
 qLO
 dNe
-tvt
+sKI
 qLO
 feo
 sKI
@@ -13773,7 +13729,7 @@ kfb
 qLO
 lCa
 dVP
-qlY
+ebW
 eRJ
 sXH
 jjO
